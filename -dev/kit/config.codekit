@@ -70,7 +70,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/index.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/pchc\/index.html",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/index.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -91,7 +91,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "pchc-kit",
+	"displayValue": "tnmp-kit",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_blue"
 	},

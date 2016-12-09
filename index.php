@@ -19,7 +19,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
   <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css"><!--my additions-->
+  <link rel="stylesheet" href="css/style.css?v=1"><!--my additions-->
 
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -52,7 +52,7 @@
       <!--Header begin--><div class="twelve columns" id="header">
 
         <div class="twelve columns">
-          <h1 id="header-title">St. Andrew's Church</h1>
+          <h1 id="header-title">The New Montessori Pre-school</h1>
         </div>
 
       </div><!--Header ends-->
@@ -69,44 +69,24 @@
         <div class="five columns">
           <p id="right">Church Lane, Ferring, West Sussex, BN12 5HN</p>
         </div>
-        <!--Navigation links begin #nav--><div class="centre">
-          <ul>
-            <li><a href="">Home</a></li><li><a href="contacts">Contacts</a></li><li><a href="about">About Us</a></li><li><a href="services">Services &amp; Dates</a></li><li><a href="clubs">Clubs/Activities</a></li><li><a href="photos">Photos</a></li><li><a href="stewardship">Stewardship</a></li><li><a href="links">Links</a></li>
-          </ul>
-        </div><!--Navigation links end-->
+        <div class="twelve columns" id="navbuttons">
+          <div id="home">Home</div>
+          <div>About Us</div>
+          <div>Fees &amp; Dates</div>
+          <div>My Montessori Child</div>
+          <div>Contact Us</div>
+          <div>Facebook</div>
+        </div>
       </div><!--Navigation area ends-->
 
     </div><!--Row ends-->
 
     <!--Row begins--><div class="row">
 
-      <!--Side navigation/info begin #side--><div class="four columns" id="sidebarBox">
-        <h3 class="list-title">Services Update</h3>
 
-        <ul>
-          <li><strong>Next Family Service</strong><br />
-              Sunday 4th September 2016 at 9.30 am<br />
-              (Pet thanksgiving service)</li>
-        </ul>
 
-        <h3 class="list-title">Other Dates</h3>
+      <!--Content begins #content--><div class="twelve columns nomargin" id="contentBox">
 
-        <ul>
-          <li>Julian Meetings in Church,<br />
-          first Wednesday of the month 7:30 - 8:10 pm</li>
-        </ul>
-
-        <ul>
-          <li><a href="http://www.standrewsferring.org.uk/Documents/Easter%20St%20Andrew's%202015.pdf">Easter Flower arrangements in St Andrew's</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="docs/PewSheet.pdf">Current Pew Sheet</a></li>
-        </ul>
-
-      </div><!--Side navigation/info ends-->
-
-      <!--Content begins #content--><div class="eight columns nomargin" id="contentBox">
         <p>Welcome to the St Andrew's Church, Ferring, website, we hope that this site will be of interest to you.</p>
 
         <p>If you live or are visiting the area of Ferring, you will find a very warm welcome at our church. We are a friendly village
@@ -123,9 +103,7 @@
 
         <br /><br />
 
-        <!--CofE JavaScript for news box #cofe-->
-        <script type="text/javascript" src="http://www.churchofengland.org/cofe-rss.js?feed=news&amp;n=3&amp;showdescription=0"></script>
-        <noscript><h2 class="cofe-rss-alternate-content"><a href="http://www.churchofengland.org/news/">News from the Church of England</a></h2></noscript>
+
       </div><!--Content ends-->
 
     </div><!--Row ends-->

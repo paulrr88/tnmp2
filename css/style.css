@@ -112,46 +112,6 @@ ul.sitemap {
 /* Classes and IDs - customisations for individual elements/groups of
 elements */
 
-/* CofE id selectors for JavaScript imported elements for news box on home page */
-
-#cofe-rss-box {
-  background: #fff9d5;
-  margin: 0 40px 2em 20px;
-}
-
-#cofe-rss-box h2 a {
-  color: #000;
-  text-decoration: none;
-}
-
-#cofe-rss-box h2  {
-  background: #ffdb30;
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 0;
-  padding: 0.5em;
-}
-
-#cofe-rss-box ul li {
-  list-style: none;
-  margin-left: 1.5rem;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-#cofe-rss-box p {
-  text-align: center;
-}
-
-/*#cofe-rss-box { border: 1px solid #A891C0; padding: 0; font-size: 90%; margin-bottom: 1em; }
-#cofe-rss-box h2 a { text-decoration: none; color: white;  }
-#cofe-rss-box h2 a:hover   { text-decoration: underline; color: white; }
-
-#cofe-rss-box ul { margin: 0; padding: 0; color: #333; }
-#cofe-rss-box ul li  { list-style-type: none; margin: 0; border-top: 1px solid #A891C0; padding: 0.5em;   }
-#cofe-rss-box p { background: white url('/images/rss/cofe-siterss-purple-logo.gif') no-repeat right; border-top: 1px solid #A891C0; margin: 0; padding: 0.5em 0.5em 0 0.5em;  height: 23px; }
-#cofe-rss-box .rss-description { padding-top: 5px; display: block; }*/
-
 #table {                                                  /* table on contacts page etc */
   margin: 0 auto;
   table-layout: fixed;
@@ -226,7 +186,7 @@ elements */
                                                           navigation */
 }
 #header-title {                                           /* St. Andrew's Church text at top */
-  color: #fff;
+  color: #0f0;
   font-size: 3rem;
   margin: 0;                                              /* removes margin that skeleton.css adds to h1; this
                                                           allows other elements to be flush against it */
@@ -241,7 +201,8 @@ elements */
 }
 
 #nav {                                                    /* navigation links at top of each page */
-  background: #6f97bc;
+  background: url("../images/navigation-400.png") no-repeat center;         /* navigation background at mobile size */
+  background-size: 300px;
   color: #fff;
   font-size: 1.75rem;
   text-align: center;
@@ -290,6 +251,25 @@ elements */
   *display: inline;                                       /* IE7 */
   *zoom: 1;
   width: 95%;
+}
+#navbuttons {                                             /* container for nav buttons */
+  background-color: blue; /* #testing */
+  height: 100px;
+}
+#navbuttons div {
+  display: inline-block;                                  /* overrides div defaults, makes it display all links in line */
+}
+#home {                                                   /* box for home text in navigation box */
+  /*background-image: url(images/navigation-1000.png);
+  background-position: 40% 0%;*/
+  background: url("../images/navigation-1000.png") #FFEE99 1em -200% no-repeat;
+  background-size: 800px;
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+}
+.exampletwo {
+
 }
 
 #sidebarBox {
@@ -468,6 +448,7 @@ elements */
     padding: 0;
     text-align: right;
   }
+
   #sidebarBox {
     min-height: 500px;                                    /* assures it's always the same min height as content,
                                                           has to change with breakpoints so when it goes horizontal
@@ -516,7 +497,8 @@ elements */
     margin: 0 auto;
   }
   #header {                                               /* resize header for tablet */
-    background: url(../images/header-750.jpg) no-repeat center;
+    background: url("../images/navigation-750.png") no-repeat center;
+    background-size: 600px;
     height: 277px;
   }
   #header-title {
@@ -538,7 +520,8 @@ elements */
   }
 
   #nav {
-    background: url(../images/nav-1000.jpg);
+    background: url("../images/navigation-1000.png") no-repeat center;
+    background-size: 800px;
     height: 113px;
   }
   #nav ul {
