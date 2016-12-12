@@ -186,7 +186,7 @@ elements */
                                                           navigation */
 }
 #header-title {                                           /* St. Andrew's Church text at top */
-  color: #0f0;
+  color: #0ff;
   font-size: 3rem;
   margin: 0;                                              /* removes margin that skeleton.css adds to h1; this
                                                           allows other elements to be flush against it */
@@ -201,22 +201,22 @@ elements */
 }
 
 #nav {                                                    /* navigation links at top of each page */
-  background: url("../images/navigation-400.png") no-repeat center;         /* navigation background at mobile size */
-  background-size: 300px;
+  /*background: url("../images/navigation-400.png") no-repeat center;         /* navigation background at mobile size */
+  /*background-size: 300px; commented out as not relevant while trying to work with z-index buttons*/
   color: #fff;
   font-size: 1.75rem;
   text-align: center;
   width: 100%;                                            /* helps with centring navigation */
 }
-#nav a:link {
+/*#nav a:link {
   border-right: 0;                                        /* gets rid of the dividing line to the right of
-                                                          each nav link on mobile */
+                                                          each nav link on mobile
   color: #fff;
   padding-right: 20px;
 }
 #nav a:visited {
   color: #fff;
-}
+}*/
 #nav ul {
   margin: 20px 0 0 0;                                       /* removes margin so aligns with bottom of box better
                                                           - keeps margin on top to space from other text*/
@@ -252,25 +252,160 @@ elements */
   *zoom: 1;
   width: 95%;
 }
+
+
+
+
+
+/* #test area */
+
+
+
+/* trying to get nav buttons to display and rearrange nicely with mobile */
+
 #navbuttons {                                             /* container for nav buttons */
-  background-color: blue; /* #testing */
-  height: 100px;
+  position: relative;
 }
 #navbuttons div {
   display: inline-block;                                  /* overrides div defaults, makes it display all links in line */
 }
-#home {                                                   /* box for home text in navigation box */
-  /*background-image: url(images/navigation-1000.png);
-  background-position: 40% 0%;*/
-  background: url("../images/navigation-1000.png") #FFEE99 1em -200% no-repeat;
-  background-size: 800px;
-  display: inline-block;
-  width: 150px;
-  height: 100px;
-}
-.exampletwo {
 
+#home {                                                   /* box for home text in navigation box */
+  position: absolute;
+  top: 20px;
+  left: 38px;
+  background: url(../images/nav-blue.png) no-repeat 0 0;
+  width: 131px;
+  height: 65px;
+  z-index: 90;
 }
+#about {
+  position: absolute;
+  top: 10px;
+  left: 167px;
+  background: url(../images/nav-green.png) no-repeat 0 0;
+  width: 131px;
+  height: 65px;
+  z-index: 100;
+}
+#dates {
+  position: absolute;
+  top: 40px;
+  left: 300px;
+  background: url(../images/nav-yellow.png) no-repeat 0 0;
+  width: 131px;
+  height: 65px;
+  z-index: 100;
+}
+#child {
+  position: absolute;
+  top: 0px;
+  left: 428px;
+  background: url(../images/nav-blue-big.png) no-repeat 0 0;
+  width: 229px;
+  height: 65px;
+  z-index: 100;
+}
+#contact {
+  position: absolute;
+  top: 10px;
+  left: 653px;
+  background: url(../images/nav-yellow.png) no-repeat 0 0;
+  width: 131px;
+  height: 65px;
+  z-index: 100;
+}
+#facebook {
+  position: absolute;
+  top: 0px;
+  left: 782px;
+  background: url(../images/nav-purple.png) no-repeat 0 0;
+  width: 131px;
+  height: 65px;
+  z-index: 100;
+}
+
+@media screen and (max-width: 1100px) {
+  #navbuttons {
+    margin-bottom: 20px;
+  }
+  #contact {
+    top: 120px;
+    left: 210px;
+    z-index: 100;
+  }
+  #facebook {
+    top: 110px;
+    left: 338px;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #home {
+    left: 70px;
+  }
+  #about {
+    left: 197px;
+  }
+  #dates {
+    left: 330px;
+  }
+  #child {
+    top: 100px;
+    left: 50px;
+    z-index: 100;
+  }
+  #contact {
+    top: 120px;
+    left: 275px;
+    z-index: 100;
+  }
+  #facebook {
+    top: 110px;
+    left: 405px;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+    left: 30px;
+
+  }
+  #about {
+    left: 157px;
+  }
+  #dates {
+    top: 30px;
+    left: 285px;
+  }
+  #child {
+    top: 100px;
+    left: 50px;
+    z-index: 100;
+  }
+  #contact {
+    top: 120px;
+    left: 275px;
+    z-index: 100;
+  }
+  #facebook {
+    top: 170px;
+    left: 150px;
+    z-index: 100;
+  }
+}
+
+
+
+
+/* end of #test area */
+
+
+
+
+
 
 #sidebarBox {
   background: #587793;
@@ -520,8 +655,8 @@ elements */
   }
 
   #nav {
-    background: url("../images/navigation-1000.png") no-repeat center;
-    background-size: 800px;
+    /*background: url("../images/navigation-1000.png") no-repeat center;
+    background-size: 800px; commented out due to working with z-index buttons */
     height: 113px;
   }
   #nav ul {
