@@ -85,7 +85,7 @@
 
 
 
-      <!--Content begins #content--><div class="twelve columns nomargin" id="contentBox">
+      <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
         <p>Welcome to the St Andrew's Church, Ferring, website, we hope that this site will be of interest to you.</p>
 
