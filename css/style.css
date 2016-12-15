@@ -1,13 +1,18 @@
 /* N.B. desktop first, mobile breakpoints are further down the sheet.
 Everything up here is >1100px max-width */
 
+/* Hashtags
+#test - any test stuff that needs removing later
+#weird - any weird stuff I don't understand but don't have time to look up/doesn't matter
+*/
+
 
 /* -------------------------
 Basic element customisations - body, font faces, paragraph layout etc
 ------------------------- */
 
 body {
-  background-color: #fef0d9;
+  background: url(../images/background.jpg) #ffeac7 no-repeat 0% 0%/100%;
   font-family: "Verdana", sans-serif;
   font-size: 1.6rem;
 }
@@ -94,7 +99,7 @@ IDs and classes
 
 #content {
   background: #fff;
-  padding: 2em;
+  padding: 6em 2em 2em 2em;
 }
 #content p {                                            /* better margins for text on desktop */
   width: 60%;
@@ -105,16 +110,31 @@ IDs and classes
   margin: 0 auto;
 }
 
-#header {                                               /* resize header for desktop */
-  background: url(../images/header.jpg) no-repeat center;
-  height: 443px;
+#header {
+  height: 373px;
+  position: relative;                                  /* allows for positioning of header-title below */
 }
-#header-title {
-  font-size: 6rem;
-  padding: 0;
-  text-align: center;
-  text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
-}
+  #header-title-container {                            /* allows for centring of header-title despite absolute positioning */
+    width: 830px;                                      /* for some reason this scales for mobile without having to add breakpoints with smaller pixel values below, could be due to Skeleton? #weird I think it's because of text-align center below, when you add background colour this element behaves as I'd expect, not centred at all */
+    margin: 0 auto;
+  }
+  #header-title {
+    font-size: 6rem;
+    padding: 0;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;                                        /* aligns along bottom to line up with tagline text and navigation */
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+  }
+  #header-logo {
+    background: url(../images/logo.png) no-repeat center/263px;
+    height: 171px;
+    position: absolute;                               /* aligns well until first breakpoint, then needs fixing, see below! */
+    top: 100px;
+    left: 300px;
+    width: 263px;
+  }
 
 
 
@@ -150,9 +170,6 @@ IDs and classes
     text-align: center;
     width: 100%;          /* helps with centring */
   }
-    #nav ul {
-      margin-top: 30px;
-    }
     #nav p {
       font-size: 1.5rem;
     }
@@ -164,31 +181,54 @@ IDs and classes
       width: 95%;
     }
 
-    #nav #left {                                             /* aligns tagline text under header to the left and sizes
-                                                              down so it doesn't wrap too much on max res */
+    /* taglines for phone number, email and mobile, scaling etc, appear within nav area hence why they're here */
+    #tagline-phone p {
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 2.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    #tagline-email p {
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 1.75rem;
+      margin: 0;
+      padding: 0;
+      wo
+    }
+    #tagline-phone-mobile p {
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 2.5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    /*#nav #left {                                             /* aligns tagline text under header to the left and sizes
+                                                              down so it doesn't wrap too much on max res
       margin-bottom: 0;
       margin-left: 20px;
       padding: 0;
       text-align: left;
     }
-    #nav #right {                                            /* similar but for right hand address text */
+    #nav #right {                                            /* similar but for right hand address text
       margin-bottom: 0;
       margin-right: 20px;
       padding: 0;
       text-align: right;
-    }
+    }*/
 
     #navbuttons {                                             /* container for nav buttons */
       position: relative;
     }
-    #navbuttons div {
-      display: inline-block;                                  /* overrides div defaults, makes it display all links in line */
-    }
+      #navbuttons-aligner {                                   /* helps to centre absolutely positioned buttons below, when resized in breakpoints for smaller resolutions. Stops them from just sitting off-centre at in-between window sizes or resolutions! */
+        margin: 20px auto 0 auto;
+        position: relative;
+        width: 880px;
+      }
 
       #home {                                                   /* box for home text in navigation box */
         position: absolute;
         top: 20px;
-        left: 38px;
+        left: 0;
         background: url(../images/nav-blue.png) no-repeat 0 0;
         width: 131px;
         height: 65px;
@@ -197,7 +237,7 @@ IDs and classes
       #about {
         position: absolute;
         top: 10px;
-        left: 167px;
+        left: 129px;
         background: url(../images/nav-green.png) no-repeat 0 0;
         width: 131px;
         height: 65px;
@@ -206,7 +246,7 @@ IDs and classes
       #dates {
         position: absolute;
         top: 40px;
-        left: 300px;
+        left: 262px;
         background: url(../images/nav-yellow.png) no-repeat 0 0;
         width: 131px;
         height: 65px;
@@ -215,7 +255,7 @@ IDs and classes
       #child {
         position: absolute;
         top: 0px;
-        left: 428px;
+        left: 390px;
         background: url(../images/nav-blue-big.png) no-repeat 0 0;
         width: 229px;
         height: 65px;
@@ -224,7 +264,7 @@ IDs and classes
       #contact {
         position: absolute;
         top: 10px;
-        left: 653px;
+        left: 615px;
         background: url(../images/nav-yellow.png) no-repeat 0 0;
         width: 131px;
         height: 65px;
@@ -233,7 +273,7 @@ IDs and classes
       #facebook {
         position: absolute;
         top: 0px;
-        left: 782px;
+        left: 744px;
         background: url(../images/nav-purple.png) no-repeat 0 0;
         width: 131px;
         height: 65px;
@@ -297,19 +337,38 @@ IDs and classes
   float: right;
 }
 
+
+
+
+
+
+
 /* -------------------------
 Breakpoints for smaller screen sizes
 ------------------------- */
 
 @media screen and (max-width: 1100px) {
 
+  #content {
+    margin-top: 30px;
+    padding-top: 12em;
+  }
   #content p {
     width: 90%;               /* reduces extent of margins on paragraph text for smaller resolutions */
+  }
+
+  #header-logo {
+    top: 50px;
+    left: 200px;
   }
 
   #navbuttons {
     margin-bottom: 20px;
   }
+  #navbuttons-aligner {
+    width: 630px;
+  }
+
   #contact {
     top: 120px;
     left: 210px;
@@ -323,81 +382,86 @@ Breakpoints for smaller screen sizes
 }
 
 @media screen and (max-width: 750px) {
+
+  body {
+    background-size: 1050px;
+    background-position: 40% top;
+    font-size: 1.4rem;
+  }
+
+  #content {
+    padding-top: 16em;
+  }
+
   #header {                                               /* resize header for tablet */
     height: 277px;
   }
-  #header-title {
-    font-size: 4.5rem;
-  }
+    #header-title {
+      font-size: 4.5rem;
+    }
+    #header-logo {
+      top: 0px;
+      left: 100px;
+    }
 
   #nav ul {
     margin-top: 20px;
   }
-
-  #home {
-    left: 70px;
-  }
-  #about {
-    left: 197px;
-  }
-  #dates {
-    left: 330px;
-  }
-  #child {
-    top: 100px;
-    left: 50px;
-    z-index: 100;
-  }
-  #contact {
-    top: 120px;
-    left: 275px;
-    z-index: 100;
-  }
-  #facebook {
-    top: 110px;
-    left: 405px;
-    z-index: 100;
-  }
+    #navbuttons-aligner {
+      width: 400px;
+    }
+      #about {
+        left: 127px;
+      }
+      #dates {
+        top: 30px;
+        left: 255px;
+      }
+      #child {
+        top: 100px;
+        left: 20px;
+        z-index: 100;
+      }
+      #contact {
+        top: 120px;
+        left: 245px;
+        z-index: 100;
+      }
+      #facebook {
+        top: 170px;
+        left: 120px;
+        z-index: 100;
+      }
 }
 
 @media screen and (max-width: 600px) {
 
-
-
   #header-title {
     font-size: 3.5rem;
+  }
+  #header-logo {
+    background-size: 213px;
+    height: 131px;
+    top: 50px;
+    left: 100px;
+    width: 213px;
   }
 
   #nav p {
     font-size: 1.2rem;
   }
 
-  #home {
-    left: 30px;
+    #tagline-phone p {
+      font-size: 2.5rem;
+    }
+    #tagline-email p {
+      font-size: 1.75rem;
+    }
+    #tagline-phone-mobile p {
+      font-size: 2.5rem;
+    }
 
-  }
-  #about {
-    left: 157px;
-  }
-  #dates {
-    top: 30px;
-    left: 285px;
-  }
-  #child {
-    top: 100px;
-    left: 50px;
-    z-index: 100;
-  }
-  #contact {
-    top: 120px;
-    left: 275px;
-    z-index: 100;
-  }
-  #facebook {
-    top: 170px;
-    left: 150px;
-    z-index: 100;
-  }
+
 
   #top ul li {
     display: block;                                         /* vertical list on mobile, changed to horizontal below */
@@ -408,6 +472,8 @@ Breakpoints for smaller screen sizes
 @media screen and (max-width: 500px) {
 
   body {
+    background-size: 900px;
+    background-position: 20% top;
     font-size: 1.4rem;
   }
 
@@ -428,58 +494,67 @@ Breakpoints for smaller screen sizes
     font-size: 1.4rem;
   }
 
+  #content {
+    margin-top: 10px;
+    padding-top: 18em;
+  }
+
   #header {                                                 /* header image background etc - set for mobile */
     height: 197px;
   }
-  #header-title {                                           /* St. Andrew's Church text at top */
-    font-size: 3rem;
+  #header-logo {
+    background-size: 183px;
+    height: 121px;
+    top: 0;
+    left: 70px;
+    width: 183px;
+  }
+  #header-title {
+    font-size: 3.2rem;
   }
 
-  #nav p {
-    font-size: 1.0rem;
+  #nav {
+    margin-top: 20px;
   }
 
-  #nav #left {                                             /* realigns tagline text in header for mobile */
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 0;
-    text-align: center;
-  }
-  #nav #right {                                            /* realigns tagline text in header for mobile */
-    margin-bottom: 0;
-    margin-right: 0;
-    padding: 0;
-    text-align: center;
-  }
+    #tagline-phone p {
+      font-size: 2rem;
+    }
+    #tagline-email p {
+      font-size: 1.5rem;
+    }
+    #tagline-phone-mobile p {
+      font-size: 2rem;
+    }
 
-  #navbuttons {
-    margin-bottom: 40px;
-  }
-  #home {
-    left: 30px;
-  }
-  #about {
-    left: 157px;
-  }
-  #dates {
-    top: 80px;
-    left: 105px;
-  }
-  #child {
-    top: 145px;
-    left: 50px;
-    z-index: 100;
-  }
-  #contact {
-    top: 210px;
-    left: 30px;
-    z-index: 100;
-  }
-  #facebook {
-    top: 205px;
-    left: 170px;
-    z-index: 100;
-  }
+    #navbuttons {
+      margin-bottom: 40px;
+    }
+      #navbuttons-aligner {
+        width: 280px;
+      }
+        #about {
+          left: 127px;
+        }
+        #dates {
+          top: 80px;
+          left: 75px;
+        }
+        #child {
+          top: 145px;
+          left: 20px;
+          z-index: 100;
+        }
+        #contact {
+          top: 210px;
+          left: 0;
+          z-index: 100;
+        }
+        #facebook {
+          top: 205px;
+          left: 140px;
+          z-index: 100;
+        }
 
   #tableBig {                                                  /* tables with more columns, needs smaller font */
     font-size: 1.2rem;

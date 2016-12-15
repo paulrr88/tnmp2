@@ -19,7 +19,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
   <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css?v=2"><!--my additions-->
+  <link rel="stylesheet" href="css/style.css?v=1"><!--my additions-->
 
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
@@ -52,7 +52,11 @@
       <!--Header begin--><div class="twelve columns" id="header">
 
         <div class="twelve columns">
-          <h1 id="header-title">The New Montessori Pre-school</h1>
+          <div id="header-logo"></div>
+
+          <div id="header-title-container">
+            <h1 id="header-title">The New Montessori Pre-school</h1>
+          </div>
         </div>
 
       </div><!--Header ends-->
@@ -63,19 +67,33 @@
     <!--Row begins--><div id="row">
 
       <!--Navigation area begins--><div class="twelve columns" id="nav">
-        <!--Taglines at bottom of header--><div class="seven columns">
+        <!--Taglines at bottom of header-->
+
+        <div class="three columns" id="tagline-phone">
+          <p>01903 535412</p>
+        </div>
+        <div class="six columns" id="tagline-email">
+          <p>info@thenewmontessoripreschool.org.uk</p>
+        </div>
+        <div class="three columns" id="tagline-phone-mobile">
+          <p>07939 264728</p>
+        </div>
+
+        <!--<div class="seven columns">
           <p id="left">In the Anglican Diocese of Chichester, and Worthing Deanery</p>
         </div>
         <div class="five columns">
           <p id="right">Church Lane, Ferring, West Sussex, BN12 5HN</p>
-        </div>
+        </div>-->
         <div class="twelve columns" id="navbuttons">
-          <div id="home"><a href="home">Home</a></div>
-          <div id="about">About Us</div>
-          <div id="dates">Fees &amp; Dates</div>
-          <div id="child">My Montessori Child</div>
-          <div id="contact">Contact Us</div>
-          <div id="facebook">Facebook</div>
+          <div id="navbuttons-aligner">
+            <div id="home"><a href="home">Home</a></div>
+            <div id="about">About Us</div>
+            <div id="dates">Fees &amp; Dates</div>
+            <div id="child">My Montessori Child</div>
+            <div id="contact">Contact Us</div>
+            <div id="facebook">Facebook</div>
+          </div>
         </div>
       </div><!--Navigation area ends-->
 
@@ -111,7 +129,8 @@
     <!--Row begins--><div class="row">
 
       <!--Footer begins #footer--><div class="twelve columns" id="footer">
-        <p><strong>&copy; 2016 St. Andrew's Church, Ferring | Designed by Paul Robinson</strong></p>
+        <p><strong>&copy; 2016 The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
+        <p>Registered charity no. 1086853</p>
         <a href="http://www.facebook.com/standrewsferring"><img src="images/facebook.png" alt="St. Andrew's Church Ferring Facebook" /></a>
 
         <a href=""><img src="images/diocese.png" /></a>
