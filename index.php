@@ -6,9 +6,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Home &mdash; St. Andrew's Church, Ferring</title>
-  <meta name="description" content="Welcome to the St Andrew's Church, Ferring, website, we hope that this site will be of interest to you. If you live or are visiting the area of Ferring, you will find a very warm welcome at our church.">
-  <meta name="keywords" content="andrew, anglican, church, coast, england, ferring, parish, saint, south, st, sussex, west, worthing, village, communion, family, pets, services, sunday">
+  <title>Home &mdash; The New Montessori Pre-school</title>
+  <meta name="description" content="nil TBD">
+  <meta name="keywords" content="TBD, TBD">
   <meta name="author" content="St. Andrew's Church, Ferring">
 
   <!-- Mobile Specific Metas
@@ -21,8 +21,7 @@
   <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="css/style.css?v=1"><!--my additions-->
 
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-
+  
   
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -99,11 +98,14 @@
 
     </div><!--Row ends-->
 
+
     <!--Row begins--><div class="row">
 
 
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
+
+
 
         <p>Welcome to the St Andrew's Church, Ferring, website, we hope that this site will be of interest to you.</p>
 
@@ -122,9 +124,12 @@
         <br /><br />
 
 
+
+
       </div><!--Content ends-->
 
     </div><!--Row ends-->
+
 
     <!--Row begins--><div class="row">
 
@@ -158,55 +163,6 @@
 
   </div><!--Container ends-->
 
-  <script>
-    // Script to make content and sidebar same height no matter what!
-    // placing objects inside variables
-
-    //#added the below if statement to make sure this doesn't run on mobile
-
-    if ($(window).width() > 550){
-      var content = $('#contentBox');
-      var sidebar = $('#sidebarBox');
-      var count = 0;
-      var myTimer;
-
-      function setEqualContainer() {
-        // get content and sidebar height in variables
-        var getContentHeight = content.outerHeight();
-        var getSidebarHeight = sidebar.outerHeight();
-
-        // check if content height is bigger than sidebar
-        if ( getContentHeight > getSidebarHeight ) {
-          sidebar.css('min-height', getContentHeight);
-        }
-
-        // check if sidebar height is bigger than content
-        if ( getSidebarHeight > getContentHeight ) {
-          content.css('min-height', getSidebarHeight);
-        }
-      }
-
-      // creating the timer which will run every 500 milliseconds
-      // and will stop after the container will be loaded
-      // ...or after 15 seconds to not eat a lot of memory
-      myTimer = setInterval( function() {
-        count++;
-
-        if ( $('.testContainer').length == 0 ) {
-          setEqualContainer();
-        } else {
-          setEqualContainer();
-          clearInterval(myTimer);
-        }
-
-        if ( count == 15) {
-          clearInterval(myTimer);
-        }
-      }, 500);
-    }
-  </script>
-
-  
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
