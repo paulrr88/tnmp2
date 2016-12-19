@@ -20,48 +20,12 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/about-history.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/about-history.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/standrews\/about\/history\/index.html",
-		"outputPathIsOutsideProject": 1,
-		"outputPathIsSetByUser": 1
-		},
-	"\/about-priests.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/about-priests.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/standrews\/about\/priests\/index.html",
-		"outputPathIsOutsideProject": 1,
-		"outputPathIsSetByUser": 1
-		},
-	"\/about-wardens.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/about-wardens.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/standrews\/about\/wardens\/index.html",
-		"outputPathIsOutsideProject": 1,
-		"outputPathIsSetByUser": 1
-		},
 	"\/about.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/about.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/standrews\/about\/index.html",
-		"outputPathIsOutsideProject": 1,
-		"outputPathIsSetByUser": 1
-		},
-	"\/clubs.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/clubs.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/standrews\/clubs\/index.html",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
