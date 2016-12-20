@@ -90,7 +90,7 @@
           <div id="navbuttons-aligner">
             <div id="home"><a href="home">Home</a></div>
             <div id="about">About Us</div>
-            <div id="dates">Fees &amp; Dates</div>
+            <div id="dates">Dates &amp; Fees</div>
             <div id="child">My Montessori Child</div>
             <div id="contact">Contact Us</div>
             <div id="facebook">Facebook</div>
@@ -107,33 +107,31 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
-
         <ul>
           <li>What is Montessori?</li>
+          <li>Our Team</li>
           <li>Our Policies</li>
+          <li><a href="docs/new-montessori-letter.doc">Why is it called The NEW Montessori Pre-school? A letter from Travis’ Mum... (Download)</a></li>
+          <li>Additional Educational Information</li>
         </ul>
 
         <h1>What is Montessori?</h1>
 
-        <ul>
-          <li><a href="#intro">Introduction</a></li>
-          <li>Our Team</li>
-            <ul>
-              <li>Staff</li>
-              <li>Management Team</li>
-              <li>Fundraising Team</li>
-            </ul>
-          <li>History?</li>
-            <ul>
-              <li>Why is it called The NEW Montessori Pre-school? A letter from Travis’ Mum...</li>
-            </ul>
+        <ul class="contents">
+          <li><a href="#intro">Maria Montessori</a></li>
+          <li><a href="#intromethod">The Montessori Method</a></li>
+          <li><a href="#introdev">Developmental Areas</a></li>
+          <li><a href="#introread">Further reading</a></li>
         </ul>
+
+        <p>The New Montessori Pre-School is non-profit organisation providing Montessori education for pre-school children in the Worthing area. We are a registered charity (number 1086853), and you are welcome to view our <a href="http://apps.charitycommission.gov.uk/Showcharity/RegisterOfCharities/CharityWithoutPartB.aspx?RegisteredCharityNumber=1086853&SubsidiaryNumber=0">Charity Commission register entry</a>.</p>
+
+        <p>We are also a registered company (number 3908382); details available from <a href="https://beta.companieshouse.gov.uk/company/03908382">Companies House</a>.</p>
+
 
         <a name="intro"></a>
 
-        <h2>Introduction</h2>
-
-        <h3 class="title">Maria Montessori</h3>
+        <h2>Maria Montessori</h2>
 
         <p>Maria Montessori lived from 1870 to 1952, the first woman doctor of medicine in Italy. Her observations of the way children learn naturally by investigating their environment led her to develop a new system of education in which various aspects of development are stimulated by special pieces of equipment. </p>
 
@@ -142,6 +140,11 @@
         <p>Giving up her medical practice to pursue educational reform, Montessori opened her first school in 1906 called the 'Casa dei Bambini' or 'The Children's House'. Her success in teaching children from deprived and neglected backgrounds there earned her international fame, and later in her life she travelled extensively giving lectures about her methods.</p>
 
         <p>Montessori schools and colleges can be found today all around the world, embracing children of every age and background.</p>
+
+        <p class="backtotop"><a href="#top">Back to top</a></p>
+
+
+        <a name="intromethod"></a>
 
         <h3 class="title">The Montessori Method</h3>
 
@@ -154,6 +157,11 @@
         <p>The Montessori method is not just to do with the physical equipment though. It encompasses everything from our tone of voice in the classroom, to how we interact with with the children, and giving them responsibility for getting out and putting away their work. Developing independence is a vital part of education and we go to great lengths to ensure that everything in the classroom is on a "child scale". Because of this, the children see the classroom as "their" space, not ours.</p>
 
         <p>If this all sounds a bit nebulous, the results can best be appreciated by a personal visit to the classroom - seeing is believing! We also have some booklets describing the Montessori Method in more detail which you are welcome to take. (Sorry, we can't publish it here for copyright reasons!)</p>
+
+        <p class="backtotop"><a href="#top">Back to top</a></p>
+
+
+        <a name="introdev"></a>
 
         <h3 class="title">Developmental Areas</h3>
 
@@ -181,6 +189,11 @@
 
         <p>Of course the children don't know any of this, they just enjoy the activities!</p>
 
+        <p class="backtotop"><a href="#top">Back to top</a></p>
+
+
+        <a name="introread"></a>
+
         <h3 class="title">Further reading</h3>
 
         <p>There are many books available on Montessori Method, and many of Maria Montessori's own works are still available. Here's a short list of suggested titles for the curious. Clicking the links will take you to Amazon's UK store if you would like to buy them.</p>
@@ -197,7 +210,6 @@
         <p><a href="http://www.montessori.org">Montessori.org</a> might also be helpful.</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
-
 
 
 

@@ -62,6 +62,15 @@ img.right {
   float: right;
 }
 
+ol {
+  margin: 1.5em auto;
+  width: 60%;
+}
+
+ol li {
+  padding: 0.5em 0;
+}
+
 p {
   margin: 0;
   padding: 1.5rem;
@@ -71,23 +80,33 @@ p.backtotop {
   padding: 2em 0 2em 0;
   text-align: center;
 }
+p.centre {
+  text-align: center;
+}
 
 table {
   font-size: 1.6rem;
 }
 
-ul.nostyle {                                             /* removes styling from lists as needed */
-  list-style: none;
-  margin-left: 1.5rem;
+ul li {
+  padding: 0.5em 0;
 }
-
+ul.body {
+  padding-left: 6em;
+}
 ul.contents {
   list-style: none;
   margin: 20px auto;
   text-align: center;
   width: 70%;
 }
-
+ul.contents li {
+  padding: 0;
+}
+ul.nostyle {                                             /* removes styling from lists as needed */
+  list-style: none;
+  margin-left: 1.5rem;
+}
 ul.sitemap {
   margin: 20px auto;
   width: 70%;
@@ -348,6 +367,10 @@ Breakpoints for smaller screen sizes
 ------------------------- */
 
 @media screen and (max-width: 1100px) {
+
+  ul.body {
+    padding-left: 0;          /* gets rid of padding as it causes ridiculous misalign */
+  }
 
   #content {
     margin-top: 30px;

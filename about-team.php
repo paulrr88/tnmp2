@@ -107,24 +107,59 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
+        <ul>
+          <li>What is Montessori?</li>
+          <li>Our Team</li>
+          <li>Our Policies</li>
+          <li><a href="docs/new-montessori-letter.doc">Why is it called The NEW Montessori Pre-school? A letter from Travis’ Mum... (Download)</a></li>
+          <li>Additional Educational Information</li>
+        </ul>
+
+        <h1>Our Team</h1>
+
+        <ul class="contents">
+          <li><a href="#staff">Staff</a></li>
+          <li><a href="#manage">Management Committee</a></li>
+          <li><a href="#fund">Fundraising Team</a></li>
+        </ul>
 
 
-        <p>Welcome to the St Andrew's Church, Ferring, website, we hope that this site will be of interest to you.</p>
+        <a name="staff"></a>
 
-        <p>If you live or are visiting the area of Ferring, you will find a very warm welcome at our church. We are a friendly village
-        church on the sunny South Coast. It's a bit of a squeeze on a Sunday morning, but there is room for you.</p>
+        <h2>Staff</h2>
 
-        <p>Try the 9:30 on Sundays for the Parish Communion.</p>
+        <p>The day-to-day running of the school is carried out by the Principal and the School Manager, both of whom hold Montessori Diplomas. Responsible to them is one Classroom manager and their teams of dedicated teaching assistants who direct the children through the Early Years curriculum firmly based on Montessori principles. For educational sessions we maintain a staff:child ratio of 1:6 for 3/4 year olds and 1:3 for 2 year olds. This meets the Ofsted and government requirements. </p>
 
-        <p>On the first Sunday of each month there is a Family Service in the Church at 9:30, in place of the Parish Communion.
-        Our Uniformed Organisations attend this service.</p>
+        <p>Please <a href="docs/new-montessori-staff.doc">download our full staff list</a> for more details.</p>
 
-        <p>Seasonal Services will be shown on the Weekly Pew sheets, on the Notice boards, in the Parish Magazine, and on this website.</p>
+        <img src="images/nav-purple.png" />
 
-        <p>See the <a href="services">Services page</a> for details of all services, and notification of any changes.</p>
+        <p class="backtotop"><a href="#top">Back to top</a></p>
 
-        <br /><br />
 
+
+        <a name="manage"></a>
+
+        <h2>Management Committee</h2>
+
+        <p>The school is a limited company run by a Management Committee comprising a Chairperson, Vice-Chairperson, Secretary and additional members. The Management Committee of the charity	and Directors of the company. All are non-remunerated volunteers drawn mainly from the ranks of parents of children at the school. We are always looking for additional members so if you think you may be able to help please <a href="">contact us</a>.</p>
+
+        <img src="images/nav-purple.png" />
+
+        <p class="backtotop"><a href="#top">Back to top</a></p>
+
+
+        <a name="fund"></a>
+
+        <h2>Fundraising Team</h2>
+
+        <p>Our fundraising team is vital because it provides extra income, allowing us to buy specialised Montessori equipment for the classroom as well as other play equipment for the children. Made up of parents from the school the team does a tremendous job, organising all sorts of events where parents and children can enjoy themselves while raising money for us. Nonetheless they always welcome fresh ideas so if you can help please ask at the school.</p>
+
+        <p>The fundraising team also publish our occasional magazine Monti's News which aims to keep parents in touch with what's happening at the school, and contains articles of general interest on the Montessori method written by the school staff. If you have a business or service that you would like to advertise in Monti's News please <a href="">contact us via our contacts page</a>.</p>
+
+        <img src="images/nav-purple.png" />
+
+        <p class="backtotop"><a href="#top">Back to top</a></p>
 
 
 
