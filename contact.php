@@ -118,66 +118,28 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
-        <h1>Dates &amp; Fees</h1>
+        <h1>Contact Us</h1>
 
-        <ul class="contents">
-          <li><a href="#fees">Fees</a></li>
-          <li><a href="#times">Times</a></li>
-          <li><a href="docs/new-montessori-terms.doc">Term Dates (Download)</a></li>
-          <li>Information on Free Entitlement</li>
-        </ul>
+        <p class="centre"><strong>Our Address:</strong></p>
 
+        <p class="centre">The School Manager<br />
+        The New Montessori Pre-School<br />
+        The Methodist Church<br />
+        Tarring Road<br />
+        Worthing<br />
+        BN11 4ET</p>
 
-        <a name="fees"></a>
+        <p class="centre"><strong>Telephone</strong>: 01903 535412<br />
+          <strong>Mobile</strong>: 07939 264728<br />
+          <strong>Email</strong>: info@thenewmontessoripreschool.org.uk</p>
 
-        <h2>Fees</h2>
+        <p class="centre">Or visit us in person (by appointment only).</p><br />
 
-        <p>School fees are <strong>£5.75 per hour</strong>, and for <strong>every half hour is (£2.88)</strong>.</p>
+        <p class="centre"><strong>Map of our location:</strong></p><br />
 
-        <p>There is a <strong>registration fee of £50</strong>, payable when you enrol your child at the school.</p>
-
-        <h3 class="title">Payments</h3>
-
-        <p>Fees are payable in advance and may be paid weekly, monthly or termly. All sick days and absent days, including holidays taken in term time, must be paid for and cannot be exchanged for other days.</p>
-
-        <p>You can make payments by cash, cheque or bank standing order. If you would like to set up a standing order, please ask the classroom manager for the school's bank details. We regret that we cannot accept payment by credit/debit card or by Direct Debit at present.</p>
-
-        <p>If your employer offers Childcare Vouchers as part of a salary sacrifice scheme, you can use these to pay your fees. We are registered with various voucher schemes so please discuss your requirements with the the School Manager. You can find more information about voucher schemes and how they work with <a href="https://www.gov.uk/child-tax-credit">Tax Credits on the web site of HM Revenue and Customs</a>.</p>
-
-        <p>West Sussex County Council (WSCC) will fund up to fifteen hours per week for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
-
-        <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school.</p>
-
-        <p class="backtotop"><a href="#top">Back to top</a></p>
-
-        <hr />
-
-
-        <a name="times"></a>
-
-        <h2 class="title">Times</h2>
-
-        <p>We are open every weekday during the school terms including half-term holidays, but we do not open on bank holidays. Full day-care is available, or children can attend one morning or afternoon session each day, either with or without Lunch Club.</p>
-
-        <br />
-
-        <ul>
-          <li><strong>"Early Birds"</strong> may arrive <strong>from 8.00am*</strong></li>
-          <li><strong>Morning sessions</strong> run from <strong>9.30am to 12.30pm</strong></li>
-          <li><strong>Afternoon sessions</strong> run from <strong>1.30pm to 4.30pm</strong></li>
-          <li><strong>"Night Owls"</strong> may stay <strong>until 6.00pm*</strong></li>
-        </ul>
-
-        <p>* by prior arrangement with the School Manager</p>
-
-        <p>With 24 hours notice your child is more than welcome to do additional hours.</p>
-
-        <p>Children bring their own packed lunches to eat at Lunch Club, under the supervision of one member of staff for every six children.</p>
-
-        <p>All Lunches are stored in a cooler.</p>
-
-        <p class="backtotop"><a href="#top">Back to top</a></p>
-
+        <center><div id="streetview" style="width: 560px; height: 320px; border: 0px solid black;">
+                <iframe width="570" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+         src="http://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=bn11+4et&amp;sll=53.800651,-4.064941&amp;sspn=13.052763,28.256836&amp;ie=UTF8&amp;hq=&amp;hnear=Worthing,+West+Sussex+BN11+4ET,+United+Kingdom&amp;ll=50.817771,-0.379457&amp;spn=0.000857,0.001725&amp;z=19&amp;layer=c&amp;cbll=50.81777,-0.379471&amp;panoid=9Eti5m7t5TxDPtfUuCsy8w&amp;cbp=12,0,,0,5&amp;output=svembed"></iframe><br /><small><a href="http://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=bn11+4et&amp;sll=53.800651,-4.064941&amp;sspn=13.052763,28.256836&amp;ie=UTF8&amp;hq=&amp;hnear=Worthing,+West+Sussex+BN11+4ET,+United+Kingdom&amp;ll=50.817771,-0.379457&amp;spn=0.000857,0.001725&amp;z=19&amp;layer=c&amp;cbll=50.81777,-0.379471&amp;panoid=9Eti5m7t5TxDPtfUuCsy8w&amp;cbp=1,0,,0,5" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
       </div><!--Content ends-->
 

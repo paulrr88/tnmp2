@@ -38,8 +38,8 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li><a href="sitemap">Sitemap</a></li>
-          <li><a href="docs/AEDnotice.pdf"><img src="images/aed.jpg" /></a></li>
+          <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
+          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="100" alt="Link to our MEAB accreditation document" /></a></li>
         </ul>
       </div><!--End of top information area-->
 
@@ -56,7 +56,12 @@
           <div id="header-logo"></div>
 
           <div id="header-title-container">
-            <h1 id="header-title">The New Montessori Pre-school</h1>
+            <h1 id="header-title">
+              <span id="header-the">The</span>
+              <span id="header-new">New</span>
+              <span id="header-montessori">Montessori</span>
+              <span id="header-preschool">Pre-school</span>
+            </h1>
           </div>
         </div>
 
@@ -104,6 +109,12 @@
     <!--Row begins--><div class="row">
 
 
+
+      <!--Content decoration, top of box begins--><div id="content-bg-top">
+        <div id="content-bg-top-l"></div>
+        <div id="content-bg-top-mid"></div>
+        <div id="content-bg-top-r"></div>
+      </div><!--Content decoration ends-->
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
@@ -215,12 +226,27 @@
 
       </div><!--Content ends-->
 
+
+
     </div><!--Row ends-->
+
+    <div class="row">
+
+
+
+    </div>
+
 
 
     <!--Row begins--><div class="row">
 
       <!--Footer begins #footer--><div class="twelve columns" id="footer">
+
+        <!--Content decoration, top of box begins--><div id="content-bg-bottom">
+          <div id="content-bg-bottom-l"></div>
+          <div id="content-bg-bottom-r"></div>
+        </div><!--Content decoration ends-->
+        
         <p><strong>&copy; 2016 The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
         <p>Registered charity no. 1086853</p>
         <a href="http://www.facebook.com/standrewsferring"><img src="images/facebook.png" alt="St. Andrew's Church Ferring Facebook" /></a>

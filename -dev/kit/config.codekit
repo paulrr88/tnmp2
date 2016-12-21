@@ -56,6 +56,15 @@
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
+	"\/contact.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contact.kit",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/contact.php",
+		"outputPathIsOutsideProject": 1,
+		"outputPathIsSetByUser": 1
+		},
 	"\/datesandfees.html": {
 		"fileType": 8192,
 		"ignore": 1,
