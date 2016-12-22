@@ -8,8 +8,8 @@
   <meta charset="utf-8">
   <title>Home &mdash; The New Montessori Pre-school</title>
   <meta name="description" content="nil TBD">
-  <meta name="keywords" content="TBD, TBD">
-  <meta name="author" content="St. Andrew's Church, Ferring">
+  <meta name="keywords" content="active, activity, care, charity, childcare, children, daycare, development, educate, education, evening, flexible, kids, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -19,7 +19,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
   <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css?v=1"><!--my additions-->
+  <link rel="stylesheet" href="css/style.css"><!--my additions-->
 
   
   
@@ -39,7 +39,9 @@
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
           <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
-          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="100" alt="Link to our MEAB accreditation document" /></a></li>
+          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+
         </ul>
       </div><!--End of top information area-->
 
@@ -200,12 +202,11 @@
           <div id="content-bg-bottom-l"></div>
           <div id="content-bg-bottom-r"></div>
         </div><!--Content decoration ends-->
-        
-        <p><strong>&copy; 2016 The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
-        <p>Registered charity no. 1086853</p>
-        <a href="http://www.facebook.com/standrewsferring"><img src="images/facebook.png" alt="St. Andrew's Church Ferring Facebook" /></a>
 
-        <a href=""><img src="images/diocese.png" /></a>
+        <br />
+
+        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
+        <p>Registered charity no. 1086853</p>
 
         <br />
 

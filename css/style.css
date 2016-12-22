@@ -239,19 +239,17 @@ IDs and classes
 
 
 #footer {
-  background: #233341;
-  color: #fff;
   font-size: 0.75em;
   text-align: center;
 }
 #footer a:link {
-  color: #fff;
+  color: #000;
 }
 #footer a:visited {
-  color: #fff;
+  color: #000;
 }
 #footer ul li {
-  border-right: #fff solid 1px;                           /* adds the line effect to right of each link in footer */
+  border-right: #000 solid 1px;                           /* adds the line effect to right of each link in footer */
   display: inline-block;                                  /* displays everything horizontal instead of vertical */
   margin-right: 20px;
   padding-right: 20px;
@@ -416,6 +414,7 @@ IDs and classes
 #top img {
   margin: 0;
   padding: 0;
+  vertical-align: top;                                    /* fixes images wanting to stick to bottom of tallest image, like the accredited logo! */
 }
 #top ul {
   margin: 20px 0 0 0;                                       /* removes margin so aligns with bottom of box better
@@ -553,8 +552,10 @@ Breakpoints for smaller screen sizes
       }
   #top ul li {
     font-size: 1.5rem;                                    /* fixes top logos etc so they don't interfere with design on lower resolutions; forces them to align centre-ish and out of the way of top graphics */
-    width: 50%;
-    margin: 0 auto;
+    display: inline;
+  }
+  #top img {
+    width: 70px;
   }
 }
 
