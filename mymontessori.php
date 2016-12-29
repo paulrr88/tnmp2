@@ -120,6 +120,17 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
+      <p>Temporary nav</p>
+
+      <a href="index.php">Home |</a>
+      <a href="about.php">About |</a>
+      <a href="about-team.php">About Team |</a>
+      <a href="about-method.php">About Method |</a>
+      <a href="about-policies.php">About Policies |</a>
+      <a href="contact.php">Contact |</a>
+      <a href="datesandfees.php">Dates and Fees |</a>
+      <a href="mymontessori.php">MMC</a>
+
         <h1>My Montessori Child</h1>
 
         <ul class="contents">
