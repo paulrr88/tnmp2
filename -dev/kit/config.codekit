@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/about-history.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about-history.kit",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-history.php",
+		"outputPathIsOutsideProject": 1,
+		"outputPathIsSetByUser": 1
+		},
 	"\/about-method.kit": {
 		"fileType": 2048,
 		"ignore": 0,

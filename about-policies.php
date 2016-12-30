@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <title>Home &mdash; The New Montessori Pre-school</title>
   <meta name="description" content="nil TBD">
-  <meta name="keywords" content="active, activity, care, charity, childcare, children, daycare, development, educate, education, evening, flexible, kids, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <meta name="keywords" content="active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -126,10 +126,13 @@
       <a href="about.php">About |</a>
       <a href="about-team.php">About Team |</a>
       <a href="about-method.php">About Method |</a>
+      <a href="about-history.php">About History |</a>
       <a href="about-policies.php">About Policies |</a>
       <a href="contact.php">Contact |</a>
       <a href="datesandfees.php">Dates and Fees |</a>
       <a href="mymontessori.php">MMC</a>
+
+        <h1>About Us</h1>
 
         <ul>
           <li>What is Montessori?</li>

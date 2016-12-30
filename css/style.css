@@ -103,6 +103,9 @@ ul.contents {
 ul.contents li {
   padding: 0;
 }
+ul.lesspadding {
+  padding-left: 3em;
+}
 ul.nostyle {                                             /* removes styling from lists as needed */
   list-style: none;
   margin-left: 1.5rem;
@@ -181,11 +184,11 @@ IDs and classes
   padding: 6em 2em 2em 2em;
 }
 #content p {                                            /* better margins for text on desktop */
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 #content ul {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -466,6 +469,9 @@ Breakpoints for smaller screen sizes
   ul.body {
     padding-left: 0;          /* gets rid of padding as it causes ridiculous misalign */
   }
+  ul.lesspadding {
+    padding-left: 0;
+  }
 
   #content {
     margin-top: 30px;
@@ -473,6 +479,9 @@ Breakpoints for smaller screen sizes
   }
   #content p {
     width: 90%;               /* reduces extent of margins on paragraph text for smaller resolutions */
+  }
+  #content ul {
+    width: 90%;               /* matches p */
   }
 
   #header-logo {
@@ -614,6 +623,10 @@ Breakpoints for smaller screen sizes
 
   table {
     font-size: 1.4rem;
+  }
+
+  ul.lesspadding {
+    padding-left: 0;
   }
 
   #content {
