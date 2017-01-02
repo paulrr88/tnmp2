@@ -127,6 +127,7 @@
       <a href="about-team.php">About Team |</a>
       <a href="about-method.php">About Method |</a>
       <a href="about-history.php">About History |</a>
+      <a href="about-events.php">About Sponsored Events |</a>
       <a href="about-policies.php">About Policies |</a>
       <a href="contact.php">Contact |</a>
       <a href="datesandfees.php">Dates and Fees |</a>
@@ -166,6 +167,8 @@
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
+        <hr />
+
 
 
         <a name="manage"></a>
@@ -193,6 +196,38 @@
         Road.</li>
         	<li> Worked with local Council to ensure road safety signage on Tarring Road.</li>
         </ul>
+
+        <p class="backtotop"><a href="#top">Back to top</a></p>
+
+        <hr />
+
+
+
+        <a name="fund"></a>
+
+        <h2>Fundraising Team</h2>
+
+        <p>The Montessori way of teaching is a unique method that requires very specific and expensive equipment, but we aim to help keep the school’s fees at an affordable rate. The Pre-school is a non-profit making organisation (with charity status) and raises funds through events arranged by the Fundraising Team. This enables the school to purchase additional Montessori equipment without charging enhanced fees.</p>
+
+        <p>The Fundraising Team meets every 6-8 weeks, dependent on the events that need to be discussed and arranged. There is always a member of staff at the meetings, so you also get to meet your child’s teachers informally. New parents are always needed as we are constantly brainstorming for new fundraising ideas!</p>
+
+        <p>Details of the next meetings arranged for both the Committee and the Fundraising Team will be displayed on our notice board, as well as being highlighted in our newsletters.</p>
+
+        <p>The Fundraising Team organises:</p>
+
+        <ul class="lesspadding">
+          <li>Tubes of Bubbles: Tubes are given out to the children; the children then fill the tube with coins and return to the Pre-school near to Easter.</li>
+          <li>Sponsored wheels: Held in Victoria Park in May/June</li>
+          <li>Teddy bear’s picnic: Held in Victoria Park in June/July</li>
+          <li>An Annual Raffle: Held at our Pre-schools Annual General Meeting in October/November</li>
+          <li>Christmas gifts: Cards made by your child, calendars of your child, letters to Santa, Handprint Bags</li>
+        </ul>
+
+        <p>All these activities enable the Fundraising Team to provide extra curriculum events for the children at the end of each term, as well as contributing towards the costs of the Montessori Materials.</p>
+
+        <p>The fundraising team also publish our occasional magazine Monti's News which aims to keep parents in touch with what's happening at the school, and contains articles of general interest on the Montessori method written by the school staff. If you have a business or service that you would like to advertise in Monti's News please <a href="">contact us via our contacts page</a>.</p>
+
+        <p>If you're interested in learning more about how our school is run, our history, and perhaps joining our team, <a href="docs/new-montessori-letter.pdf">have a look at this letter from one of our mums</a>! (PDF)</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 

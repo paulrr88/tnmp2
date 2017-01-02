@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/about-events.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about-events.kit",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-events.php",
+		"outputPathIsOutsideProject": 1,
+		"outputPathIsSetByUser": 1
+		},
 	"\/about-history.kit": {
 		"fileType": 2048,
 		"ignore": 0,

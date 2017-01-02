@@ -114,6 +114,10 @@ ul.sitemap {
   margin: 20px auto;
   width: 70%;
 }
+ul.compact li {
+  padding: 0;
+  margin: 0;
+}
 
 /* -------------------------
 IDs and classes

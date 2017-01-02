@@ -127,6 +127,7 @@
       <a href="about-team.php">About Team |</a>
       <a href="about-method.php">About Method |</a>
       <a href="about-history.php">About History |</a>
+      <a href="about-events.php">About Sponsored Events |</a>
       <a href="about-policies.php">About Policies |</a>
       <a href="contact.php">Contact |</a>
       <a href="datesandfees.php">Dates and Fees |</a>
@@ -135,60 +136,106 @@
         <h1>Dates &amp; Fees</h1>
 
         <ul class="contents">
-          <li><a href="#fees">Fees</a></li>
-          <li><a href="#times">Times</a></li>
-          <li><a href="docs/new-montessori-terms.doc">Term Dates (Download)</a></li>
-          <li>Information on Free Entitlement</li>
+          <li><a href="#fees">Fees &amp; Opening Hours</a></li>
+          <li><a href="docs/new-montessori-terms.pdf">Term Dates (PDF download)</a></li>
+          <li><a href="#reg">Register Your Child</a></li>
+          <li><a href="#pay">Payments &amp; Information on Free Entitlement</a></li>
         </ul>
 
 
         <a name="fees"></a>
 
-        <h2>Fees</h2>
+        <h2>Fees &amp; Opening Hours</h2>
 
         <p>School fees are <strong>£5.75 per hour</strong>, and for <strong>every half hour is (£2.88)</strong>.</p>
 
         <p>There is a <strong>registration fee of £50</strong>, payable when you enrol your child at the school.</p>
 
-        <h3 class="title">Payments</h3>
+        <p>Our pre-school has <strong>places for 52 children a session from 2- 8 years of age</strong>. We are open every weekday during the school terms including half-term holidays, but we do not open on bank holidays. <strong>Full day-care is available</strong>, or children can attend one morning or afternoon session each day, either with or without Lunch Club. Times can always be arranged to suit the parent's/child's needs.</p>
 
-        <p>Fees are payable in advance and may be paid weekly, monthly or termly. All sick days and absent days, including holidays taken in term time, must be paid for and cannot be exchanged for other days.</p>
+        <br />
 
-        <p>You can make payments by cash, cheque or bank standing order. If you would like to set up a standing order, please ask the classroom manager for the school's bank details. We regret that we cannot accept payment by credit/debit card or by Direct Debit at present.</p>
+        <table id="table" summary="St. Andrew's Church list of contacts">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Morning Sessions</th>
+              <th scope="col">Lunch Club</th>
+              <th scope="col">Afternoon Sessions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row"><strong>Early Birds</strong> from 8am (* **)</td>
+            </tr>
+            <tr>
+              <td scope="row"><strong>Hall Class:</strong></td>
+              <td scope="row">9:30am-12:30pm</td>
+              <td scope="row">12:30pm-1:30pm</td>
+              <td scope="row">--</td>
+            </tr>
+            <tr>
+              <td scope="row"><strong>Chapel Class:</strong></td>
+              <td scope="row">9:30am-12:30pm</td>
+              <td scope="row">12:30pm-1:30pm</td>
+              <td scope="row">1:30pm-4:30pm</td>
+            </tr>
+            <tr>
+              <td scope="row"><strong>Night Owls</strong> from 4:30-6:00pm (**)</td>
+            </tr>
+          </tbody>
+        </table>
 
-        <p>If your employer offers Childcare Vouchers as part of a salary sacrifice scheme, you can use these to pay your fees. We are registered with various voucher schemes so please discuss your requirements with the the School Manager. You can find more information about voucher schemes and how they work with <a href="https://www.gov.uk/child-tax-credit">Tax Credits on the web site of HM Revenue and Customs</a>.</p>
+        <br />
 
-        <p>West Sussex County Council (WSCC) will fund up to fifteen hours per week for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
-
-        <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school.</p>
+        <ul class="compact">
+          <li>* by prior arrangement with the School Manager.</li>
+          <li>** Charged at 30 minute intervals.</li>
+          <li>With 24 hours notice your child is more than welcome to do additional hours.</li>
+          <li><strong>Staff ratios</strong>: 1:6 for 3 &amp; 4 year-olds, 1:3 for 2 year-olds</li>
+          <li><strong>Lunch Club</strong>: Children bring their own packed lunches to eat at Lunch Club, under the supervision of one member of staff for every six children. All lunches are stored in a cooler. Healthy eating and good manners are further encouraged!</li>
+          <li><strong>After School Club</strong>: Our pre-school is registered with OFSTED to be able to take children up until they are eight years old. Should you have any requests to access this provision of after school or half term attendance please put them in writing.</li>
+        </ul>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
         <hr />
 
 
-        <a name="times"></a>
 
-        <h2 class="title">Times</h2>
+        <a name="reg"></a>
 
-        <p>We are open every weekday during the school terms including half-term holidays, but we do not open on bank holidays. Full day-care is available, or children can attend one morning or afternoon session each day, either with or without Lunch Club.</p>
+        <h2 class="title">Register Your Child</h2>
 
-        <br />
+        <p>Please <a href="docs/new-montessori-register.pdf">click here to download a PDF of our child registration form</a>, or <a href="">get in contact with us</a> about registering your child. Once our pre-school receives your child registration form we offer our parents:</p>
 
-        <ul>
-          <li><strong>"Early Birds"</strong> may arrive <strong>from 8.00am*</strong></li>
-          <li><strong>Morning sessions</strong> run from <strong>9.30am to 12.30pm</strong></li>
-          <li><strong>Afternoon sessions</strong> run from <strong>1.30pm to 4.30pm</strong></li>
-          <li><strong>"Night Owls"</strong> may stay <strong>until 6.00pm*</strong></li>
+        <ul class="compact">
+          <li>Four free sessions at Heuristic Play prior to your child starting</li>
+          <li>Four free settling in visits for your child to ensure the transition goes smoothly</li>
+          <li>Six free parenting classes to scaffold our parents through parenting</li>
         </ul>
 
-        <p>* by prior arrangement with the School Manager</p>
+        <p>You can also <a href="docs/new-montessori-order.pdf">download a standing order form</a> if you require it (this includes our bank details). See below for more details of how to make payments and any government funding you may be entitled to.</p>
 
-        <p>With 24 hours notice your child is more than welcome to do additional hours.</p>
+        <p class="backtotop"><a href="#top">Back to top</a></p>
 
-        <p>Children bring their own packed lunches to eat at Lunch Club, under the supervision of one member of staff for every six children.</p>
+        <hr />
 
-        <p>All Lunches are stored in a cooler.</p>
+
+
+        <a name="pay"></a>
+
+        <h2 class="title">Payments &amp; Information on Free Entitlement</h2>
+
+        <p>Fees are payable in advance and may be paid weekly, monthly or termly. All sick days and absent days, including holidays taken in term time, must be paid for and cannot be exchanged for other days.</p>
+
+        <p><strong>You can make payments by cash, cheque or bank standing order</strong>. If you would like to set up a standing order, please ask the classroom manager for the school's bank details. We regret that we cannot accept payment by credit/debit card or by Direct Debit at present.</p>
+
+        <p>If your employer offers Childcare Vouchers as part of a salary sacrifice scheme, you can use these to pay your fees. We are registered with various voucher schemes so please discuss your requirements with the the School Manager. You can find more information about voucher schemes and how they work with <a href="https://www.gov.uk/child-tax-credit">Tax Credits on the web site of HM Revenue and Customs</a>.</p>
+
+        <p><strong>West Sussex County Council (WSCC) will fund up to fifteen hours per week</strong> for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
+
+        <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school. <a href="docs/new-montessori-eypp.pdf">See also our PDF on Early Years Pupil Premium</a>.</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
