@@ -1,4 +1,5 @@
 
+<?php include('../perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +18,9 @@
 
   <!-- CSS & JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
-  <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css"><!--my additions-->
+  <link rel="stylesheet" href="../css/normalize.css"><!-- reset file do not change -->
+  <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
+  <link rel="stylesheet" href="../css/style.css"><!--my additions-->
 
   
   
@@ -38,9 +39,9 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+          <li class="vertical-top"><a href="../sitemap">Sitemap</a></li>
+          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="../docs/new-montessori-accreditation.pdf"><img src="../images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -122,16 +123,16 @@
 
       <p>Temporary nav</p>
 
-      <a href="index.php">Home |</a>
-      <a href="about.php">About |</a>
-      <a href="about-team.php">About Team |</a>
-      <a href="about-method.php">About Method |</a>
-      <a href="about-history.php">About History |</a>
-      <a href="about-events.php">About Sponsored Events |</a>
-      <a href="about-policies.php">About Policies |</a>
-      <a href="contact.php">Contact |</a>
-      <a href="datesandfees.php">Dates and Fees |</a>
-      <a href="mymontessori.php">MMC</a>
+      <a href="../">Home |</a>
+      <a href="../about/">About |</a>
+      <a href="../about/team/">About Team |</a>
+      <a href="../about/method/">About Method |</a>
+      <a href="../about/history/">About History |</a>
+      <a href="../about/events/">About Sponsored Events |</a>
+      <a href="../about/policies/">About Policies |</a>
+      <a href="../contact/">Contact |</a>
+      <a href="../datesandfees/">Dates and Fees |</a>
+      <a href="../mymontessorichild/">MMC</a>
 
         <h1>Dates &amp; Fees</h1>
 
@@ -207,7 +208,7 @@
 
         <h2 class="title">Register Your Child</h2>
 
-        <p>Please <a href="docs/new-montessori-register.pdf">click here to download a PDF of our child registration form</a>, or <a href="">get in contact with us</a> about registering your child. Once our pre-school receives your child registration form we offer our parents:</p>
+        <p>Please <a href="../docs/new-montessori-register.pdf">click here to download a PDF of our child registration form</a>, or <a href="">get in contact with us</a> about registering your child. Once our pre-school receives your child registration form we offer our parents:</p>
 
         <ul class="compact">
           <li>Four free sessions at Heuristic Play prior to your child starting</li>
@@ -215,7 +216,7 @@
           <li>Six free parenting classes to scaffold our parents through parenting</li>
         </ul>
 
-        <p>You can also <a href="docs/new-montessori-order.pdf">download a standing order form</a> if you require it (this includes our bank details). See below for more details of how to make payments and any government funding you may be entitled to.</p>
+        <p>You can also <a href="../docs/new-montessori-order.pdf">download a standing order form</a> if you require it (this includes our bank details). See below for more details of how to make payments and any government funding you may be entitled to.</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
@@ -235,7 +236,7 @@
 
         <p><strong>West Sussex County Council (WSCC) will fund up to fifteen hours per week</strong> for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
 
-        <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school. <a href="docs/new-montessori-eypp.pdf">See also our PDF on Early Years Pupil Premium</a>.</p>
+        <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school. <a href="../docs/new-montessori-eypp.pdf">See also our PDF on Early Years Pupil Premium</a>.</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
@@ -271,18 +272,18 @@
         <br />
 
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="contacts">Contacts</a></li>
-          <li><a href="about">Who's Who</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="../contacts">Contacts</a></li>
+          <li><a href="../about">Who's Who</a></li>
           <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="about/history">History</a></li>
-          <li><a href="services">Services &amp; Dates</a></li>
-          <li><a href="clubs">Clubs &amp; Activities</a></li>
-          <li><a href="clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="clubs/#transport">Church Transport</a></li>
-          <li><a href="photos">Photo Gallery</a></li>
-          <li><a href="stewardship">Stewardship</a></li>
-          <li><a href="links">Links</a></li>
+          <li><a href="../about/history">History</a></li>
+          <li><a href="../services">Services &amp; Dates</a></li>
+          <li><a href="../clubs">Clubs &amp; Activities</a></li>
+          <li><a href="../clubs/#social">Social Life at St. Andrew's</a></li>
+          <li><a href="../clubs/#transport">Church Transport</a></li>
+          <li><a href="../photos">Photo Gallery</a></li>
+          <li><a href="../stewardship">Stewardship</a></li>
+          <li><a href="../links">Links</a></li>
         </ul>
 
       </div><!--Footer ends-->

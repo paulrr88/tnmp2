@@ -92,15 +92,6 @@
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
-	"\/datesandfees.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/datesandfees.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/datesandfees.kit": {
 		"fileType": 2048,
 		"ignore": 0,

@@ -1,4 +1,5 @@
 
+<?php include('../../perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +18,9 @@
 
   <!-- CSS & JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
-  <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css"><!--my additions-->
+  <link rel="stylesheet" href="../../css/normalize.css"><!-- reset file do not change -->
+  <link rel="stylesheet" href="../../css/skeleton.css"><!-- framework CSS -->
+  <link rel="stylesheet" href="../../css/style.css"><!--my additions-->
 
   
   
@@ -38,9 +39,9 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+          <li class="vertical-top"><a href="../../sitemap">Sitemap</a></li>
+          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="../../docs/new-montessori-accreditation.pdf"><img src="../../images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -122,16 +123,16 @@
 
       <p>Temporary nav</p>
 
-      <a href="index.php">Home |</a>
-      <a href="about.php">About |</a>
-      <a href="about-team.php">About Team |</a>
-      <a href="about-method.php">About Method |</a>
-      <a href="about-history.php">About History |</a>
-      <a href="about-events.php">About Sponsored Events |</a>
-      <a href="about-policies.php">About Policies |</a>
-      <a href="contact.php">Contact |</a>
-      <a href="datesandfees.php">Dates and Fees |</a>
-      <a href="mymontessori.php">MMC</a>
+      <a href="../../">Home |</a>
+      <a href="../../about/">About |</a>
+      <a href="../../about/team/">About Team |</a>
+      <a href="../../about/method/">About Method |</a>
+      <a href="../../about/history/">About History |</a>
+      <a href="../../about/events/">About Sponsored Events |</a>
+      <a href="../../about/policies/">About Policies |</a>
+      <a href="../../contact/">Contact |</a>
+      <a href="../../datesandfees/">Dates and Fees |</a>
+      <a href="../../mymontessorichild/">MMC</a>
 
         <h1>About Us</h1>
 
@@ -165,13 +166,13 @@
 
         <p>The Montessori Method aims essentially to help children develop themselves by directing their natural curiosity and thirst for knowledge. We use unique equipment originally developed by Maria Montessori to let them explore colour, texture, shape, length, area, volume, letters, words and numbers. And of course we encourage more traditional expressive activities like painting, drawing and craftwork.</p>
 
-        <img src="" />
+        <img src="../../" />
 
         <p>In the main, the children themselves choose what activities to do and when, so that during what Montessori calls their "sensitive periods" they will naturally maximise their learning. One of the key roles of the Montessori teacher is to ensure that children are helped through these particularly receptive times.</p>
 
         <p>The Montessori method is not just to do with the physical equipment though. It encompasses everything from our tone of voice in the classroom, to how we interact with with the children, and giving them responsibility for getting out and putting away their work. Developing independence is a vital part of education and we go to great lengths to ensure that everything in the classroom is on a "child scale". Because of this, the children see the classroom as "their" space, not ours.</p>
 
-        <img src="" />
+        <img src="../../" />
 
         <p>If this all sounds a bit nebulous, the results can best be appreciated by a personal visit to the classroom - seeing is believing! We also have some booklets describing the Montessori Method in more detail which you are welcome to take. (Sorry, we can't publish it here for copyright reasons!)</p>
 
@@ -187,23 +188,23 @@
 
         <p>The method focuses on five developmental areas:</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p><strong>Practical life skills</strong> which includes task organisation, personal care, care for the environment, grace, courtesy and physical movement.</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p><strong>Sensorial</strong> which covers ordering, classification and description of sensory impressions in relation to length, width, temperature, mass, colour, pitch, etc.</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p><strong>Mathematics</strong> makes use of manipulative materials to enable the child to internalise concepts of number, symbols, sequence, operations and memorisation of basic facts.</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p><strong>Language arts</strong> includes oral language development, written expression, reading, the study of grammar, creative dramatics, and children's literature.</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p><strong>Cultural activities</strong> expose the child to basics in geography, history and life sciences. Music, art and movement education are part of the integrated cultural curriculum.</p>
 
@@ -250,18 +251,18 @@
         <br />
 
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="contacts">Contacts</a></li>
-          <li><a href="about">Who's Who</a></li>
+          <li><a href="../../">Home</a></li>
+          <li><a href="../../contacts">Contacts</a></li>
+          <li><a href="../../about">Who's Who</a></li>
           <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="about/history">History</a></li>
-          <li><a href="services">Services &amp; Dates</a></li>
-          <li><a href="clubs">Clubs &amp; Activities</a></li>
-          <li><a href="clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="clubs/#transport">Church Transport</a></li>
-          <li><a href="photos">Photo Gallery</a></li>
-          <li><a href="stewardship">Stewardship</a></li>
-          <li><a href="links">Links</a></li>
+          <li><a href="../../about/history">History</a></li>
+          <li><a href="../../services">Services &amp; Dates</a></li>
+          <li><a href="../../clubs">Clubs &amp; Activities</a></li>
+          <li><a href="../../clubs/#social">Social Life at St. Andrew's</a></li>
+          <li><a href="../../clubs/#transport">Church Transport</a></li>
+          <li><a href="../../photos">Photo Gallery</a></li>
+          <li><a href="../../stewardship">Stewardship</a></li>
+          <li><a href="../../links">Links</a></li>
         </ul>
 
       </div><!--Footer ends-->

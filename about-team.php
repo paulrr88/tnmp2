@@ -1,4 +1,5 @@
 
+<?php include('../../perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +18,9 @@
 
   <!-- CSS & JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
-  <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css"><!--my additions-->
+  <link rel="stylesheet" href="../../css/normalize.css"><!-- reset file do not change -->
+  <link rel="stylesheet" href="../../css/skeleton.css"><!-- framework CSS -->
+  <link rel="stylesheet" href="../../css/style.css"><!--my additions-->
 
   
   
@@ -38,9 +39,9 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+          <li class="vertical-top"><a href="../../sitemap">Sitemap</a></li>
+          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="../../docs/new-montessori-accreditation.pdf"><img src="../../images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -122,16 +123,16 @@
 
       <p>Temporary nav</p>
 
-      <a href="index.php">Home |</a>
-      <a href="about.php">About |</a>
-      <a href="about-team.php">About Team |</a>
-      <a href="about-method.php">About Method |</a>
-      <a href="about-history.php">About History |</a>
-      <a href="about-events.php">About Sponsored Events |</a>
-      <a href="about-policies.php">About Policies |</a>
-      <a href="contact.php">Contact |</a>
-      <a href="datesandfees.php">Dates and Fees |</a>
-      <a href="mymontessori.php">MMC</a>
+      <a href="../../">Home |</a>
+      <a href="../../about/">About |</a>
+      <a href="../../about/team/">About Team |</a>
+      <a href="../../about/method/">About Method |</a>
+      <a href="../../about/history/">About History |</a>
+      <a href="../../about/events/">About Sponsored Events |</a>
+      <a href="../../about/policies/">About Policies |</a>
+      <a href="../../contact/">Contact |</a>
+      <a href="../../datesandfees/">Dates and Fees |</a>
+      <a href="../../mymontessorichild/">MMC</a>
 
         <h1>About Us</h1>
 
@@ -161,9 +162,9 @@
 
         <p>The day-to-day running of the school is carried out by the Principal and the School Manager, both of whom hold Montessori Diplomas. Responsible to them is one Classroom manager and their teams of dedicated teaching assistants who direct the children through the Early Years curriculum firmly based on Montessori principles. For educational sessions we maintain a staff:child ratio of 1:6 for 3/4 year olds and 1:3 for 2 year olds. This meets the OFSTED and government requirements. </p>
 
-        <p>Please <a href="docs/new-montessori-staff.pdf">download our full staff list</a> for more details.</p>
+        <p>Please <a href="../../docs/new-montessori-staff.pdf">download our full staff list</a> for more details.</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
@@ -175,7 +176,7 @@
 
         <h2>Management Committee</h2>
 
-        <p>The New Montessori Pre-school is a limited company run by a Management Committee comprising a Chairperson, Vice-Chairperson, Secretary and additional members. The Committee is made up of non-remunerated volunteers; parents and local professional people who work together with the Pre-school to ensure the best for our children. The Committee meets every 6-8 weeks to discuss various matters relating to the running of the school and to make important decisions with regard to the school’s future. Every July the Management Committee meet to agree the fee raise for the September. We are always looking for additional members so if you think you may be able to help please <a href="">contact us</a>.</p>
+        <p>The New Montessori Pre-school is a limited company run by a Management Committee comprising a Chairperson, Vice-Chairperson, Secretary and additional members. The Committee is made up of non-remunerated volunteers; parents and local professional people who work together with the Pre-school to ensure the best for our children. The Committee meets every 6-8 weeks to discuss various matters relating to the running of the school and to make important decisions with regard to the school’s future. Every July the Management Committee meet to agree the fee raise for the September. We are always looking for additional members so if you think you may be able to help please <a href="../../">contact us</a>.</p>
 
         <p>The Principal and School Manager attend every meeting and as a parent you are welcome to attend Management Committee meetings at any time. You can only be involved in the decision making process if you are a Committee Member. Details of meetings are posted on the school doors and notified in Newsletters. Copies of the Annual General Meetings and the minutes of the meeting are available from your Classroom Manager.</p>
 
@@ -227,7 +228,7 @@
 
         <p>The fundraising team also publish our occasional magazine Monti's News which aims to keep parents in touch with what's happening at the school, and contains articles of general interest on the Montessori method written by the school staff. If you have a business or service that you would like to advertise in Monti's News please <a href="">contact us via our contacts page</a>.</p>
 
-        <p>If you're interested in learning more about how our school is run, our history, and perhaps joining our team, <a href="docs/new-montessori-letter.pdf">have a look at this letter from one of our mums</a>! (PDF)</p>
+        <p>If you're interested in learning more about how our school is run, our history, and perhaps joining our team, <a href="../../docs/new-montessori-letter.pdf">have a look at this letter from one of our mums</a>! (PDF)</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
@@ -264,18 +265,18 @@
         <br />
 
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="contacts">Contacts</a></li>
-          <li><a href="about">Who's Who</a></li>
+          <li><a href="../../">Home</a></li>
+          <li><a href="../../contacts">Contacts</a></li>
+          <li><a href="../../about">Who's Who</a></li>
           <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="about/history">History</a></li>
-          <li><a href="services">Services &amp; Dates</a></li>
-          <li><a href="clubs">Clubs &amp; Activities</a></li>
-          <li><a href="clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="clubs/#transport">Church Transport</a></li>
-          <li><a href="photos">Photo Gallery</a></li>
-          <li><a href="stewardship">Stewardship</a></li>
-          <li><a href="links">Links</a></li>
+          <li><a href="../../about/history">History</a></li>
+          <li><a href="../../services">Services &amp; Dates</a></li>
+          <li><a href="../../clubs">Clubs &amp; Activities</a></li>
+          <li><a href="../../clubs/#social">Social Life at St. Andrew's</a></li>
+          <li><a href="../../clubs/#transport">Church Transport</a></li>
+          <li><a href="../../photos">Photo Gallery</a></li>
+          <li><a href="../../stewardship">Stewardship</a></li>
+          <li><a href="../../links">Links</a></li>
         </ul>
 
       </div><!--Footer ends-->

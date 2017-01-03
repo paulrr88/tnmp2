@@ -1,4 +1,5 @@
 
+<?php include('../perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +18,9 @@
 
   <!-- CSS & JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
-  <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css"><!--my additions-->
+  <link rel="stylesheet" href="../css/normalize.css"><!-- reset file do not change -->
+  <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
+  <link rel="stylesheet" href="../css/style.css"><!--my additions-->
 
   
   
@@ -38,9 +39,9 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+          <li class="vertical-top"><a href="../sitemap">Sitemap</a></li>
+          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="../docs/new-montessori-accreditation.pdf"><img src="../images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -122,16 +123,16 @@
 
       <p>Temporary nav</p>
 
-      <a href="index.php">Home |</a>
-      <a href="about.php">About |</a>
-      <a href="about-team.php">About Team |</a>
-      <a href="about-method.php">About Method |</a>
-      <a href="about-history.php">About History |</a>
-      <a href="about-events.php">About Sponsored Events |</a>
-      <a href="about-policies.php">About Policies |</a>
-      <a href="contact.php">Contact |</a>
-      <a href="datesandfees.php">Dates and Fees |</a>
-      <a href="mymontessori.php">MMC</a>
+      <a href="../">Home |</a>
+      <a href="../about/">About |</a>
+      <a href="../about/team/">About Team |</a>
+      <a href="../about/method/">About Method |</a>
+      <a href="../about/history/">About History |</a>
+      <a href="../about/events/">About Sponsored Events |</a>
+      <a href="../about/policies/">About Policies |</a>
+      <a href="../contact/">Contact |</a>
+      <a href="../datesandfees/">Dates and Fees |</a>
+      <a href="../mymontessorichild/">MMC</a>
 
         <h1>About Us</h1>
 
@@ -154,13 +155,13 @@
 
         <p>The New Montessori Pre-school provides an holistic approach to children's education so as to develop the whole child, physically, socially, intellectually, spiritually and emotionally. We celebrate each child's individuality and have a deep understanding of their development needs. Our aim is to help the child develop life skills including confidence, independence and liberty. We encourage and foster respect for others through positive role models, lessons in grace and courtesy and by child initiated ground rules. With you, we can ensure the best start by building solid foundations for your child to possess a life-long love of learning.</p>
 
-        <img src="" />
+        <img src="../" />
 
         <p>This school is the only Montessori accredited pre-school in Worthing and it is accredited as 'Outstanding'. It is the only Montessori pre-school in the country that is a registered charity - no one owns TNMP and no one is making any money from it (other than staff salaries). In most areas of the country, Montessori trained staff earn more than the average pre-school practitioner. That is not the case at TNMP, staff salaries match any other standard pre-school in the area.</p>
 
         <p>The Pre-school's aim is to provide Montessori education to all children at an affordable cost. We strive not to raise fees to ensure the pre-school stays accessible to as many of the local community as possible. For no extra salary, the pre-school provides Parent Courses and Heuristic Play Classes. This is all completely free for all parents and staff receive no extra pay. </p>
 
-        <img src="" />
+        <img src="../" />
 
         <p>For more details about how we educate your child, see our other information in this section and <a href="">Our Policies</a>.</p>
 
@@ -170,15 +171,15 @@
 
         <p>Our pre-school has places for 52 children per session from 2- 8 years of age. We use the Chapel and the Hall as our two main classrooms. The Chapel can accommodate 28 children at any one time and the Hall accommodates 24 children. Both classrooms have two fire exits. The staff ratio is 1:6 for 3 &amp; 4 year olds and 1:3 for 2 year olds. There is also a kitchen for supervised use with the children.</p>
 
-        <img src="" />
+        <img src="../" />
 
         <p>The cloakroom provides both classes with child height pegs for children’s coats and bags which are named to assist with the settling in process. There are three toilets and two urinals situated near the classrooms. All visits to the toilets are supervised. At the side of the building is a private small garden, which is regularly changed according to the term. The garden is always supervised.</p>
 
         <p>For more details about our day to day running please see our <a href="">Fees & Dates page</a>.</p>
 
         <ul>
-          <li><a href="docs/new-montessori-accreditation.pdf">Our Montessori Accreditation details (PDF download)</a></li>
-          <li><a href="docs/new-montessori-ofsted.pdf">Our latest OFSTED report (PDF download)</a></li>
+          <li><a href="../docs/new-montessori-accreditation.pdf">Our Montessori Accreditation details (PDF download)</a></li>
+          <li><a href="../docs/new-montessori-ofsted.pdf">Our latest OFSTED report (PDF download)</a></li>
         </ul>
 
 
@@ -218,18 +219,18 @@
         <br />
 
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="contacts">Contacts</a></li>
-          <li><a href="about">Who's Who</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="../contacts">Contacts</a></li>
+          <li><a href="../about">Who's Who</a></li>
           <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="about/history">History</a></li>
-          <li><a href="services">Services &amp; Dates</a></li>
-          <li><a href="clubs">Clubs &amp; Activities</a></li>
-          <li><a href="clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="clubs/#transport">Church Transport</a></li>
-          <li><a href="photos">Photo Gallery</a></li>
-          <li><a href="stewardship">Stewardship</a></li>
-          <li><a href="links">Links</a></li>
+          <li><a href="../about/history">History</a></li>
+          <li><a href="../services">Services &amp; Dates</a></li>
+          <li><a href="../clubs">Clubs &amp; Activities</a></li>
+          <li><a href="../clubs/#social">Social Life at St. Andrew's</a></li>
+          <li><a href="../clubs/#transport">Church Transport</a></li>
+          <li><a href="../photos">Photo Gallery</a></li>
+          <li><a href="../stewardship">Stewardship</a></li>
+          <li><a href="../links">Links</a></li>
         </ul>
 
       </div><!--Footer ends-->

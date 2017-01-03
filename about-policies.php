@@ -1,4 +1,5 @@
 
+<?php include('../../perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,9 +18,9 @@
 
   <!-- CSS & JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css"><!-- reset file do not change -->
-  <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="css/style.css"><!--my additions-->
+  <link rel="stylesheet" href="../../css/normalize.css"><!-- reset file do not change -->
+  <link rel="stylesheet" href="../../css/skeleton.css"><!-- framework CSS -->
+  <link rel="stylesheet" href="../../css/style.css"><!--my additions-->
 
   
   
@@ -38,9 +39,9 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><a href="docs/new-montessori-accreditation.pdf"><img src="images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+          <li class="vertical-top"><a href="../../sitemap">Sitemap</a></li>
+          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="../../docs/new-montessori-accreditation.pdf"><img src="../../images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -122,16 +123,16 @@
 
       <p>Temporary nav</p>
 
-      <a href="index.php">Home |</a>
-      <a href="about.php">About |</a>
-      <a href="about-team.php">About Team |</a>
-      <a href="about-method.php">About Method |</a>
-      <a href="about-history.php">About History |</a>
-      <a href="about-events.php">About Sponsored Events |</a>
-      <a href="about-policies.php">About Policies |</a>
-      <a href="contact.php">Contact |</a>
-      <a href="datesandfees.php">Dates and Fees |</a>
-      <a href="mymontessori.php">MMC</a>
+      <a href="../../">Home |</a>
+      <a href="../../about/">About |</a>
+      <a href="../../about/team/">About Team |</a>
+      <a href="../../about/method/">About Method |</a>
+      <a href="../../about/history/">About History |</a>
+      <a href="../../about/events/">About Sponsored Events |</a>
+      <a href="../../about/policies/">About Policies |</a>
+      <a href="../../contact/">Contact |</a>
+      <a href="../../datesandfees/">Dates and Fees |</a>
+      <a href="../../mymontessorichild/">MMC</a>
 
         <h1>About Us</h1>
 
@@ -154,39 +155,39 @@
 
         <ul class="contents">
           <li><strong>Admissions</strong></li>
-          <li><a href="">Admissions Policy (PDF)</a></li>
+          <li><a href="../../">Admissions Policy (PDF)</a></li>
           <li><a href="#settling">Settling In Policy</a></li>
         </ul>
 
         <br />
 
         <ul class="contents">
-          <li><a href="docs/new-montessori-curriculum.pdf">Curriculum Planning Policy (PDF)</a></li>
-          <li><a href="docs/new-montessori-disasters.pdf">Disaster Policy (PDF)</a></li>
-          <li><a href="docs/new-montessori-eyfs.pdf">Early Years Foundation Stage (EYFS) (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-curriculum.pdf">Curriculum Planning Policy (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-disasters.pdf">Disaster Policy (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-eyfs.pdf">Early Years Foundation Stage (EYFS) (PDF)</a></li>
           <li><a href="#equal">Equal Opportunities</a></li>
-          <li><a href="docs/new-montessori-healthandsafety.pdf">Health &amp; Safety (PDF)</a></li>
-          <li><a href="docs/new-montessori-healthyeating.pdf">Healthy Eating (PDF)</a></li>
-          <li><a href="docs/new-montessori-mmc.pdf">My Montessori Child Info/Policy (PDF)</a></li>
-          <li><a href="docs/new-montessori-pip.pdf">Parents in Partnership (PDF)</a></li>
-          <li><a href="docs/new-montessori-payment.pdf">Payment and Debtors (PDF)</a></li>
-          <li><a href="docs/new-montessori-records.pdf">Record Keeping Procedures (PDF)</a></li>
-          <li><a href="docs/new-montessori-safeguarding-2017-18.pdf">Safeguarding, Child Protection &amp; Equal Opportunities (PDF)</a></li>
-          <li><a href="docs/new-montessori-smoking.pdf">Smoke Free Policy (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-healthandsafety.pdf">Health &amp; Safety (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-healthyeating.pdf">Healthy Eating (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-mmc.pdf">My Montessori Child Info/Policy (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-pip.pdf">Parents in Partnership (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-payment.pdf">Payment and Debtors (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-records.pdf">Record Keeping Procedures (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-safeguarding-2017-18.pdf">Safeguarding, Child Protection &amp; Equal Opportunities (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-smoking.pdf">Smoke Free Policy (PDF)</a></li>
         </ul>
 
         <br />
 
         <ul class="contents">
           <li><strong>Special Educational Needs &amp; Disability</strong></li>
-          <li><a href="docs/new-montessori-sencoinco.pdf">Special Educational Needs &amp; Inclusion (SENCO/INCO) (PDF)</a></li>
-          <li><a href="docs/new-montessori-localoffer.pdf">Local Offer (SEND) (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-sencoinco.pdf">Special Educational Needs &amp; Inclusion (SENCO/INCO) (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-localoffer.pdf">Local Offer (SEND) (PDF)</a></li>
         </ul>
 
         <br />
 
         <ul class="contents">
-          <li><a href="docs/new-montessori-terms.pdf">Terms and Conditions (PDF)</a></li>
+          <li><a href="../../docs/new-montessori-terms.pdf">Terms and Conditions (PDF)</a></li>
         </ul>
 
         <!--
@@ -207,7 +208,7 @@
 
         <p>We want our children to feel safe and happy in the absence of their parents, to recognise other adults as a source of authority, help and friendship and to be able to share with their parents afterwards the new learning experiences enjoyed in the pre-school.</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p>In order to accomplish this, we will:</p>
 
@@ -234,7 +235,7 @@
 
         <p>The pre-school is open to every family in the community and any family joining will be made aware of our policy on equal opportunities.</p>
 
-        <img src="images/nav-purple.png" />
+        <img src="../../images/nav-purple.png" />
 
         <p><strong>Employment</strong>: The pre-school will appoint the best person for each job and will treat fairly all applications for jobs and all those appointed.</p>
 
@@ -293,18 +294,18 @@
         <br />
 
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="contacts">Contacts</a></li>
-          <li><a href="about">Who's Who</a></li>
+          <li><a href="../../">Home</a></li>
+          <li><a href="../../contacts">Contacts</a></li>
+          <li><a href="../../about">Who's Who</a></li>
           <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="about/history">History</a></li>
-          <li><a href="services">Services &amp; Dates</a></li>
-          <li><a href="clubs">Clubs &amp; Activities</a></li>
-          <li><a href="clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="clubs/#transport">Church Transport</a></li>
-          <li><a href="photos">Photo Gallery</a></li>
-          <li><a href="stewardship">Stewardship</a></li>
-          <li><a href="links">Links</a></li>
+          <li><a href="../../about/history">History</a></li>
+          <li><a href="../../services">Services &amp; Dates</a></li>
+          <li><a href="../../clubs">Clubs &amp; Activities</a></li>
+          <li><a href="../../clubs/#social">Social Life at St. Andrew's</a></li>
+          <li><a href="../../clubs/#transport">Church Transport</a></li>
+          <li><a href="../../photos">Photo Gallery</a></li>
+          <li><a href="../../stewardship">Stewardship</a></li>
+          <li><a href="../../links">Links</a></li>
         </ul>
 
       </div><!--Footer ends-->

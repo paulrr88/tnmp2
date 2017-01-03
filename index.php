@@ -1,4 +1,5 @@
 
+<?php include('perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -122,17 +123,18 @@
 
       <p>Temporary nav</p>
 
-      <a href="index.php">Home |</a>
-      <a href="about.php">About |</a>
-      <a href="about-team.php">About Team |</a>
-      <a href="about-method.php">About Method |</a>
-      <a href="about-history.php">About History |</a>
-      <a href="about-events.php">About Sponsored Events |</a>
-      <a href="about-policies.php">About Policies |</a>
-      <a href="contact.php">Contact |</a>
-      <a href="datesandfees.php">Dates and Fees |</a>
-      <a href="mymontessori.php">MMC</a>
+      <a href="">Home |</a>
+      <a href="about/">About |</a>
+      <a href="about/team/">About Team |</a>
+      <a href="about/method/">About Method |</a>
+      <a href="about/history/">About History |</a>
+      <a href="about/events/">About Sponsored Events |</a>
+      <a href="about/policies/">About Policies |</a>
+      <a href="contact/">Contact |</a>
+      <a href="datesandfees/">Dates and Fees |</a>
+      <a href="mymontessorichild/">MMC</a>
 
+        <p>So this could be a sentence and then have the link do this: <a href="<?php perch_content('MCI link'); ?>">Montessori Centre International</a></p>
 
 
         <p>Welcome to the St Andrew's Church, Ferring, website, we hope that this site will be of interest to you.</p>
