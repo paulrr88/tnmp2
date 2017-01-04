@@ -1,5 +1,6 @@
 
-<?php include('../perch/runtime.php'); ?>
+
+<?php include('perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -155,7 +156,7 @@
 
         <p>The New Montessori Pre-school provides an holistic approach to children's education so as to develop the whole child, physically, socially, intellectually, spiritually and emotionally. We celebrate each child's individuality and have a deep understanding of their development needs. Our aim is to help the child develop life skills including confidence, independence and liberty. We encourage and foster respect for others through positive role models, lessons in grace and courtesy and by child initiated ground rules. With you, we can ensure the best start by building solid foundations for your child to possess a life-long love of learning.</p>
 
-        <img src="../" />
+        <?php perch_content('Image 1'); ?> 
 
         <p>This school is the only Montessori accredited pre-school in Worthing and it is accredited as 'Outstanding'. It is the only Montessori pre-school in the country that is a registered charity - no one owns TNMP and no one is making any money from it (other than staff salaries). In most areas of the country, Montessori trained staff earn more than the average pre-school practitioner. That is not the case at TNMP, staff salaries match any other standard pre-school in the area.</p>
 
@@ -178,8 +179,7 @@
         <p>For more details about our day to day running please see our <a href="">Fees & Dates page</a>.</p>
 
         <ul>
-          <li><a href="../docs/new-montessori-accreditation.pdf">Our Montessori Accreditation details (PDF download)</a></li>
-          <li><a href="../docs/new-montessori-ofsted.pdf">Our latest OFSTED report (PDF download)</a></li>
+          <?php perch_content('Links to documents at bottom of page'); ?>
         </ul>
 
 

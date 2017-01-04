@@ -1,4 +1,5 @@
 
+
 <?php include('perch/runtime.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -134,8 +135,7 @@
       <a href="datesandfees/">Dates and Fees |</a>
       <a href="mymontessorichild/">MMC</a>
 
-        <p>So this could be a sentence and then have the link do this: <a href="<?php perch_content('MCI link'); ?>">Montessori Centre International</a></p>
-
+        <p>So this could be a sentence and then have the link do this: <a href="<?php perch_content('Link to MCI'); ?>">Montessori Centre International</a></p>
 
         <p>Welcome to the St Andrew's Church, Ferring, website, we hope that this site will be of interest to you.</p>
 
