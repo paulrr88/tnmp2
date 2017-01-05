@@ -144,8 +144,6 @@
           <li>Our Team</li>
           <li>Sponsored Events</li>
           <li>Our Policies</li>
-          <li><a href="docs/new-montessori-letter.doc">Why is it called The NEW Montessori Pre-school? A letter from Travis’ Mum... (Download)</a></li>
-          <li>Additional Educational Information</li>
         </ul>
 
         <h1>Sponsored Events</h1>

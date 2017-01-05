@@ -1,1 +1,46 @@
-<a href="<perch:content id="file" type="file" label="File" order="2" />"><perch:content type="text" id="desc" label="Title" order="1" required="true" title="true" /></a>
+<perch:help>
+
+<p><strong>Instructions:</strong></p>
+
+<p>- <strong>"Text to display in link to file" field:</strong> this is what the link will say, for instance "OFSTED report document", which would then output a link saying just that, which the user can then click to be taken to the download in question.<br />
+<p>- <strong>"File" field:</strong> this area is where you can select your file. To do this you will need to:<br />
+<span style="padding-left: 20px">- Click "Select or upload a file"<br />
+<span style="padding-left: 20px">- In the resulting Select an Asset area that pops up, either:<br />
+  <span style="padding-left: 40px"> - Click an existing item that you want to link to and then click "Use Selected", or<br />
+  <span style="padding-left: 40px"> - Click the "+Add Asset" button in the top right, and then either drop a file into the indicated box area or click the box area to select the file from your computer.<br />
+  <span style="padding-left: 60px">- Click the file that you just added, now in a little box in the "Select an Asset" area<br />
+  <span style="padding-left: 60px">- Click "Use Selected" in the top right of the "Select an Asset" section ("Use Selected" should be highlighted green if you've correctly clicked a file to be used, if not just try clicking again or "Use Selected" won't do anything)<br />
+
+<span style="padding-left: 20px">- <strong>N.B. if you enter this area by accident and want to go back</strong>, click the grey (X) icon in the far top right of the screen.<br />
+<span style="padding-left: 20px">- PDF format for documents is preferable if you can manage it as more people can read this format than items created in Word etc!
+
+  <br /><br />
+
+  - <strong>"Download type" field:</strong> this is the file type in question which is displayed after the link to tell the user what it is that they are downloading. For instance, PDF or Word Document.
+
+
+</p>
+
+</perch:help>
+
+<a href="<perch:content id="file" type="file" label="File" order="2" />">
+
+  <perch:content
+    type="text"
+    id="desc"
+    label="Text to display in link to file"
+    order="1"
+    required="true"
+    title="true"
+  />
+
+</a>
+
+(<perch:content
+    type="text"
+    id="custom-file-type"
+    label="Download type (PDF/Word Document/etc)"
+    order="2"
+    required="true"
+    title="true"
+  />)
