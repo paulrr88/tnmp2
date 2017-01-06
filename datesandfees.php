@@ -139,7 +139,7 @@
 
         <ul class="contents">
           <li><a href="#fees">Fees &amp; Opening Hours</a></li>
-          <li><a href="docs/new-montessori-terms.pdf">Term Dates (PDF download)</a></li>
+          <li><?php perch_content('Link to term dates'); ?></li>
           <li><a href="#reg">Register Your Child</a></li>
           <li><a href="#pay">Payments &amp; Information on Free Entitlement</a></li>
         </ul>
@@ -209,7 +209,7 @@
 
         <h2 class="title">Register Your Child</h2>
 
-        <p>Please <a href="../docs/new-montessori-register.pdf">click here to download a PDF of our child registration form</a>, or <a href="">get in contact with us</a> about registering your child. Once our pre-school receives your child registration form we offer our parents:</p>
+        <p><strong>Please <?php perch_content('Link to registration form'); ?>, or <a href="../contact/">get in contact with us</a> about registering your child</strong>. Once our pre-school receives your child registration form we offer our parents:</p>
 
         <ul class="compact">
           <li>Four free sessions at Heuristic Play prior to your child starting</li>
@@ -217,7 +217,7 @@
           <li>Six free parenting classes to scaffold our parents through parenting</li>
         </ul>
 
-        <p>You can also <a href="../docs/new-montessori-order.pdf">download a standing order form</a> if you require it (this includes our bank details). See below for more details of how to make payments and any government funding you may be entitled to.</p>
+        <p><strong>You can also <?php perch_content('Link to standing order form'); ?> if you require it</strong> (this includes our bank details). See below for more details of how to make payments and any government funding you may be entitled to.</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
@@ -233,11 +233,11 @@
 
         <p><strong>You can make payments by cash, cheque or bank standing order</strong>. If you would like to set up a standing order, please ask the classroom manager for the school's bank details. We regret that we cannot accept payment by credit/debit card or by Direct Debit at present.</p>
 
-        <p>If your employer offers Childcare Vouchers as part of a salary sacrifice scheme, you can use these to pay your fees. We are registered with various voucher schemes so please discuss your requirements with the the School Manager. You can find more information about voucher schemes and how they work with <a href="https://www.gov.uk/child-tax-credit">Tax Credits on the web site of HM Revenue and Customs</a>.</p>
+        <p>If your employer offers Childcare Vouchers as part of a salary sacrifice scheme, you can use these to pay your fees. We are registered with various voucher schemes so please discuss your requirements with the the School Manager. You can find more information about voucher schemes and how they work with <a href="<?php perch_content('Link to Child Tax Credits gov website'); ?>">Tax Credits on the web site of HM Revenue and Customs</a>.</p>
 
-        <p><strong>West Sussex County Council (WSCC) will fund up to fifteen hours per week</strong> for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
+        <p><strong>West Sussex County Council (WSCC) will fund up to fifteen hours per week</strong> for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="../about/policies/">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
 
-        <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school. <a href="../docs/new-montessori-eypp.pdf">See also our PDF on Early Years Pupil Premium</a>.</p>
+        <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school. <?php perch_content('Link to EYPP document'); ?>.</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 

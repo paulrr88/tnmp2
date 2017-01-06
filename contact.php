@@ -146,9 +146,9 @@
         Worthing<br />
         BN11 4ET</p>
 
-        <p class="centre"><strong>Telephone</strong>: 01903 535412<br />
-          <strong>Mobile</strong>: 07939 264728<br />
-          <strong>Email</strong>: info@thenewmontessoripreschool.org.uk</p>
+        <p class="centre"><strong>Telephone</strong>: <?php perch_content('Telephone number'); ?><br />
+          <strong>Mobile</strong>: <?php perch_content('Mobile number'); ?><br />
+          <strong>Email</strong>: <?php perch_content('Email address'); ?></p>
 
         <p class="centre">Or visit us in person (by appointment only).</p><br />
 

@@ -447,6 +447,12 @@ IDs and classes
   margin: 0 auto;
 }
 
+.centre-400 {                                             /* centres images with 400px width */
+  max-width: 100%;
+  width: 400px;
+  margin: 0 auto;
+}
+
 .left {
   float: left;
 }

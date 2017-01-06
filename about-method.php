@@ -150,7 +150,7 @@
 
         <ul class="contents">
           <li><a href="#method">Montessori Method Summary</a></li>
-          <li><a href="#develop">Developmental Areas</a></li>
+          <li><a href="#develop">Development Areas</a></li>
           <li><a href="">Equipment and Learning Activity Details</a></li>
         </ul>
 
@@ -197,7 +197,7 @@
 
         <p class="centre">The method focuses on five developmental areas:</p>
 
-        <div class="centre-600">
+        <div class="centre-400">
 
           <?php perch_content('Image 3'); ?>
 
@@ -205,7 +205,7 @@
 
         <p class="centre"><strong>Practical life skills</strong> which includes task organisation, personal care, care for the environment, grace, courtesy and physical movement.</p>
 
-        <div class="centre-600">
+        <div class="centre-400">
 
           <?php perch_content('Image 4'); ?>
 
@@ -213,7 +213,7 @@
 
         <p class="centre"><strong>Sensorial</strong> which covers ordering, classification and description of sensory impressions in relation to length, width, temperature, mass, colour, pitch, etc.</p>
 
-        <div class="centre-600">
+        <div class="centre-400">
 
           <?php perch_content('Image 5'); ?>
 
@@ -221,7 +221,7 @@
 
         <p class="centre"><strong>Mathematics</strong> makes use of manipulative materials to enable the child to internalise concepts of number, symbols, sequence, operations and memorisation of basic facts.</p>
 
-        <div class="centre-600">
+        <div class="centre-400">
 
           <?php perch_content('Image 6'); ?>
 
@@ -229,7 +229,7 @@
 
         <p class="centre"><strong>Language arts</strong> includes oral language development, written expression, reading, the study of grammar, creative dramatics, and children's literature.</p>
 
-        <div class="centre-600">
+        <div class="centre-400">
 
           <?php perch_content('Image 7'); ?>
 
