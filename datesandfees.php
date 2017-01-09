@@ -23,11 +23,11 @@
   <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="../css/style.css"><!--my additions-->
 
-  
-  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 
@@ -88,6 +88,9 @@
         <div class="three columns" id="tagline-phone-mobile">
           <p>07939 264728</p>
         </div>
+        <div class="twelve columns" id="tagline-email">
+          <p>The Methodist Church, Tarring Road, Worthing, BN11 4ET</p>
+        </div>
 
         <!--<div class="seven columns">
           <p id="left">In the Anglican Diocese of Chichester, and Worthing Deanery</p>
@@ -122,19 +125,6 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
-      <p>Temporary nav</p>
-
-      <a href="../">Home |</a>
-      <a href="../about/">About |</a>
-      <a href="../about/team/">About Team |</a>
-      <a href="../about/method/">About Method |</a>
-      <a href="../about/history/">About History |</a>
-      <a href="../about/events/">About Sponsored Events |</a>
-      <a href="../about/policies/">About Policies |</a>
-      <a href="../contact/">Contact |</a>
-      <a href="../datesandfees/">Dates and Fees |</a>
-      <a href="../mymontessorichild/">MMC</a>
-
         <h1>Dates &amp; Fees</h1>
 
         <ul class="contents">
@@ -157,7 +147,7 @@
 
         <br />
 
-        <table id="table" summary="St. Andrew's Church list of contacts">
+        <table id="table" summary="Table of opening hours">
           <thead>
             <tr>
               <th scope="col"></th>
@@ -267,11 +257,6 @@
 
         <br />
 
-        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
-        <p>Registered charity no. 1086853</p>
-
-        <br />
-
         <ul>
           <li><a href="../">Home</a></li>
           <li><a href="../contacts">Contacts</a></li>
@@ -287,11 +272,41 @@
           <li><a href="../links">Links</a></li>
         </ul>
 
+        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
+        <p>Registered charity no. 1086853<br />
+        Company Number 3908382</p>
+
+        <p><a href="../perch/">Perch Login</a></p>
+
       </div><!--Footer ends-->
 
     </div><!--Row ends-->
 
   </div><!--Container ends-->
+
+  <script>
+    // fix for mobile table layout from http://sitesforprofit.com/responsive-tables-in-wordpress
+
+    var headertext = [];
+    var headers = document.querySelectorAll("thead");
+    var tablebody = document.querySelectorAll("tbody");
+
+    for (var i = 0; i < headers.length; i++) {
+      headertext[i]=[];
+      for (var j = 0, headrow; headrow = headers[i].rows[0].cells[j]; j++) {
+        var current = headrow;
+        headertext[i].push(current.textContent);
+        }
+    }
+
+    for (var h = 0, tbody; tbody = tablebody[h]; h++) {
+      for (var i = 0, row; row = tbody.rows[i]; i++) {
+        for (var j = 0, col; col = row.cells[j]; j++) {
+          col.setAttribute("data-th", headertext[h][j]);
+        }
+      }
+    }
+  </script>
 
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

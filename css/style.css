@@ -37,29 +37,9 @@ h4 {
   font-size: 2.4rem;
 }
 
-h1,h2,h3.title {                                                /* title at top of all content pages */
-  padding: 1em 0 1.5em 0;
-  text-align: center;
-}
-h3.contents {
-  padding: 1.5em 0 0 0;
-}
-
 img {
   margin: 0;
   padding: 2rem;
-}
-img.200 {
-  width: 200px;
-}
-img.fluid {
-  max-width: 90%;
-}
-img.left {
-  float: left;
-}
-img.right {
-  float: right;
 }
 
 ol {
@@ -75,14 +55,6 @@ p {
   margin: 0;
   padding: 1.5rem;
 }
-p.backtotop {
-  font-weight: bolder;
-  padding: 2em 0 2em 0;
-  text-align: center;
-}
-p.centre {
-  text-align: center;
-}
 
 table {
   font-size: 1.6rem;
@@ -90,33 +62,6 @@ table {
 
 ul li {
   padding: 0.5em 0;
-}
-ul.body {
-  padding-left: 6em;
-}
-ul.contents {
-  list-style: none;
-  margin: 20px auto;
-  text-align: center;
-  width: 70%;
-}
-ul.contents li {
-  padding: 0;
-}
-ul.lesspadding {
-  padding-left: 3em;
-}
-ul.nostyle {                                             /* removes styling from lists as needed */
-  list-style: none;
-  margin-left: 1.5rem;
-}
-ul.sitemap {
-  margin: 20px auto;
-  width: 70%;
-}
-ul.compact li {
-  padding: 0;
-  margin: 0;
 }
 
 /* -------------------------
@@ -187,13 +132,22 @@ IDs and classes
   background: #fff /*url(../images/nav-yellow.png) repeat-y right (for if/when 3D box design implemented)*/;
   padding: 6em 2em 2em 2em;
 }
-#content p {                                            /* better margins for text on desktop */
+#content p {                                           /* better margins for text on desktop */
   width: 70%;
   margin: 0 auto;
 }
-#content ul {
-  width: 70%;
-  margin: 0 auto;
+
+#diversity {                                           /* Elements of Diversity area */
+
+}
+#diversity .box {                                      /* Copied from skeleton.css, four columns without margin-left: 4%;, reduced to fit */
+  width: 30.6666666667%;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 2%;
+}
+#diversity .boxrow {
+  clear: left;                                         /* Let another row of boxes appear underneath; clear:left clears all the left aligned boxes */
 }
 
 
@@ -441,6 +395,94 @@ IDs and classes
   margin-right: 0;                                        /* prevents margin from throwing off last list item */
 }
 
+
+h1,h2,h3.title {                                                /* title at top of all content pages */
+  padding: 1em 0 1.5em 0;
+  text-align: center;
+}
+h1.pagenav {
+  font-size: 4.5rem;
+  margin: 0;
+  padding: 0 0 0.25em 0;
+}
+h3.contents {
+  padding: 1.5em 0 0 0;
+}
+
+img.200 {
+  width: 200px;
+}
+img.fluid {
+  max-width: 90%;
+}
+img.left {
+  float: left;
+}
+img.right {
+  float: right;
+}
+
+p.backtotop {
+  font-weight: bolder;
+  padding: 2em 0 2em 0;
+  text-align: center;
+}
+p.centre {
+  text-align: center;
+}
+
+ul.body {
+  padding-left: 6em;
+  margin: 0 auto;
+  width: 70%;
+}
+ul.compact {
+  margin: 0 auto;
+  width: 70%;
+}
+ul.compact li {
+  padding: 0;
+  margin: 0;
+}
+ul.contents {
+  list-style: none;
+  margin: 20px auto;
+  text-align: center;
+  width: 70%;
+}
+ul.contents li {
+  padding: 0;
+}
+ul.lesspadding {
+  padding-left: 3em;
+  width: 70%;
+}
+ul.nostyle {                                             /* removes styling from lists as needed */
+  list-style: none;
+  margin-left: 1.5rem;
+}
+ul.pagenav {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+ul.pagenav li {
+  border-right: #000 solid 1px;                           /* adds the line effect to right of each link in footer */
+  display: inline-block;                                  /* displays everything horizontal instead of vertical */
+  margin-right: 20px;
+  padding-right: 20px;
+}
+ul.pagenav li.noborder {
+  border-right: 0;                                        /* stops border on any link it's not wanted on */
+  margin-right: 0;
+}
+ul.sitemap {
+  margin: 20px auto;
+  width: 70%;
+}
+
+
 .centre-600 {                                             /* centres images with 600px width */
   max-width: 100%;
   width: 600px;
@@ -476,13 +518,6 @@ Breakpoints for smaller screen sizes
 
 @media screen and (max-width: 1100px) {
 
-  ul.body {
-    padding-left: 0;          /* gets rid of padding as it causes ridiculous misalign */
-  }
-  ul.lesspadding {
-    padding-left: 0;
-  }
-
   #content {
     margin-top: 30px;
     padding-top: 12em;
@@ -516,6 +551,13 @@ Breakpoints for smaller screen sizes
     left: 338px;
     z-index: 100;
   }
+
+  ul.body {
+    padding-left: 0;          /* gets rid of padding as it causes ridiculous misalign */
+  }
+  ul.lesspadding {
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -524,6 +566,18 @@ Breakpoints for smaller screen sizes
     background-size: 1050px;
     background-position: 40% top;
     font-size: 1.4rem;
+  }
+
+  /* CSS for table mobile fix JavaScript, from: http://sitesforprofit.com/responsive-tables-in-wordpress */
+  table {width:100%;}
+  thead {display: none;}
+  tr:nth-of-type(2n) {background-color: inherit;}
+  tr td:first-child {background: #f0f0f0; font-weight:bold;font-size:1.3em;}
+  tbody td {display: block;  text-align:center;}
+  tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align:center;
   }
 
   #content {
@@ -606,8 +660,6 @@ Breakpoints for smaller screen sizes
     }
 
 
-
-
 }
 
 @media screen and (max-width: 500px) {
@@ -637,6 +689,12 @@ Breakpoints for smaller screen sizes
 
   ul.lesspadding {
     padding-left: 0;
+  }
+
+  ul.pagenav li {
+    border-right: 0;                           /* gets rid of all borders when list displays as block as it will at this res */
+    margin-right: 0;                           /* gets rid of unwanted padding and margin which throws it off when displayed block */
+    padding-right: 0;
   }
 
   #content {

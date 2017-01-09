@@ -1,9 +1,33 @@
 <!--$page-title Home-->
 <!--$description nil TBD-->
 <!--$dir ../-->
-<!--$jquery nil-->
+<!--$jquery <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+-->
 <!--$keywords TBD-->
-<!--$tablescript nil-->
+<!--$tablescript <script>
+    // fix for mobile table layout from http://sitesforprofit.com/responsive-tables-in-wordpress
+
+    var headertext = [];
+    var headers = document.querySelectorAll("thead");
+    var tablebody = document.querySelectorAll("tbody");
+
+    for (var i = 0; i < headers.length; i++) {
+      headertext[i]=[];
+      for (var j = 0, headrow; headrow = headers[i].rows[0].cells[j]; j++) {
+        var current = headrow;
+        headertext[i].push(current.textContent);
+        }
+    }
+
+    for (var h = 0, tbody; tbody = tablebody[h]; h++) {
+      for (var i = 0, row; row = tbody.rows[i]; i++) {
+        for (var j = 0, col; col = row.cells[j]; j++) {
+          col.setAttribute("data-th", headertext[h][j]);
+        }
+      }
+    }
+  </script>
+-->
 <!--$unitegallery nil-->
 
 <!--@import opening-->
@@ -30,7 +54,7 @@
 
         <br />
 
-        <table id="table" summary="St. Andrew's Church list of contacts">
+        <table id="table" summary="Table of opening hours">
           <thead>
             <tr>
               <th scope="col"></th>

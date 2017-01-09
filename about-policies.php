@@ -24,10 +24,9 @@
   <link rel="stylesheet" href="../../css/style.css"><!--my additions-->
 
   
-  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="../../images/favicon.png">
 
 </head>
 
@@ -88,6 +87,9 @@
         <div class="three columns" id="tagline-phone-mobile">
           <p>07939 264728</p>
         </div>
+        <div class="twelve columns" id="tagline-email">
+          <p>The Methodist Church, Tarring Road, Worthing, BN11 4ET</p>
+        </div>
 
         <!--<div class="seven columns">
           <p id="left">In the Anglican Diocese of Chichester, and Worthing Deanery</p>
@@ -122,22 +124,9 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
-      <p>Temporary nav</p>
+        <h1 class="pagenav">About Us</h1>
 
-      <a href="../../">Home |</a>
-      <a href="../../about/">About |</a>
-      <a href="../../about/team/">About Team |</a>
-      <a href="../../about/method/">About Method |</a>
-      <a href="../../about/history/">About History |</a>
-      <a href="../../about/events/">About Sponsored Events |</a>
-      <a href="../../about/policies/">About Policies |</a>
-      <a href="../../contact/">Contact |</a>
-      <a href="../../datesandfees/">Dates and Fees |</a>
-      <a href="../../mymontessorichild/">MMC</a>
-
-        <h1>About Us</h1>
-
-        <ul>
+        <ul class="pagenav">
           <li>What is Montessori?</li>
           <li>The Montessori Method</li>
           <li>History of Montessori and Our Pre-school</li>
@@ -275,11 +264,6 @@
 
         <br />
 
-        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
-        <p>Registered charity no. 1086853</p>
-
-        <br />
-
         <ul>
           <li><a href="../../">Home</a></li>
           <li><a href="../../contacts">Contacts</a></li>
@@ -295,12 +279,19 @@
           <li><a href="../../links">Links</a></li>
         </ul>
 
+        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
+        <p>Registered charity no. 1086853<br />
+        Company Number 3908382</p>
+
+        <p><a href="../../perch/">Perch Login</a></p>
+
       </div><!--Footer ends-->
 
     </div><!--Row ends-->
 
   </div><!--Container ends-->
 
+  
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
