@@ -165,62 +165,98 @@
           </ul>
         </div>
 
-        <div id="diversity" class="twelve columns" style="background: black; color: white;">
+        <div style="width: 100%; height: 3em; float: left;"></div>
+
+
+        <!--Elements of Diversity-->
+
+        <div id="diversity" class="twelve columns" style="">
           <h2>Elements of Diversity in a Montessori Classroom</h2>
 
-          <div class="boxrow">
-            <div class="box" style="background: purple; color: white;">
-              <p>Preparation</p>
+          <div>
+            <div class="one-third column" style="background: url(images/diversitybg-01.jpg) no-repeat; color: black;">
+              <p><strong>Preparation</strong></p>
 
-              <p>Ensuring the environment
-
-              is laid out in the correct order.
-
-              Leads to the environment being
-
-              a successful part of the child's
-
-              development. A happy friendly
-
-              place where children feel at
-
-              home.</p>
+              <p>Ensuring the environment is laid out in the correct order. Leads to the environment being a successful part of the child's development. A happy friendly place where children feel at home.</p>
             </div>
-            <div class="box" style="background: orange; color: white;">
-              <p>Preparation</p>
+            <div class="one-third column" style="background: url(images/diversitybg-02.jpg) no-repeat 50% 0%; color: black;">
+              <p><strong>Adult Teacher</strong></p>
+
+              <p>"Directress"</p>
+
+              <p>To observe the child develop and have a natural understanding of the child's requirements. To direct the natural energies of the child that they see emerging.</p>
             </div>
-            <div class="box" style="background: red; color: white;">
-              <p>Preparation</p>
+            <div class="one-third column" style="background: url(images/diversitybg-03.jpg) no-repeat 50% 0%; color: black;">
+              <p><strong>Absorbent Mind</strong></p>
+
+              <p>Children literally absorb the world around them, true discipline and harmony come from within the child and is not something that should be forced.</p>
+
+              <br />
+              <br />
+              <br />
             </div>
           </div>
-          <div class="boxrow">
-            <div class="box" style="background: purple; color: white;">
-              <p>Preparation</p>
 
-              <p>Ensuring the environment
+          <div style="width: 100%; height: 3em; float: left;"></div>
 
-              is laid out in the correct order.
+          <div class="u-cf">
+            <div class="one-third column" style="background: url(images/diversitybg-04.jpg) no-repeat 50% 0%; color: black;">
+              <p>Life Skills</p>
 
-              Leads to the environment being
-
-              a successful part of the child's
-
-              development. A happy friendly
-
-              place where children feel at
-
-              home.</p>
+              <p>Acquired through child sized equipment, which inspires the child to become independent and in control of his life. Areas include motor control, Care of the environment, Care of oneself, Grace and Courtesy</p>
             </div>
-            <div class="box" style="background: orange; color: white;">
-              <p>Preparation</p>
-            </div>
-            <div class="box" style="background: red; color: white;">
-              <p>Preparation</p>
-            </div>
+            <div class="one-third column" style="background: #a796f2; color: black;">
+              <p>Child Teacher</p>
 
+              <p>Natural way to learn to watch and listen to older/younger children. When one child teaches another it confirms the child's knowledge. By working as a group the children create a community.</p>
+            </div>
+            <div class="one-third column" style="background: #ffd890; color: black;">
+              <p>Child Size</p>
+
+              <p>All equipment and furniture is made to the size of the child. The classroom is the children's not the adult's. It needs to be clean, tidy, and complete to appeal to the child.</p>
+            </div>
           </div>
 
-        </div>
+          <div style="width: 100%; height: 3em; float: left;"></div>
+
+          <div class="u-cf">
+            <div class="one-third column" style="background: #87efcd; color: black;">
+              <p>Learning Through Senses</p>
+
+              <p>Directing the child to educate himself through all the senses experiencing everything fully. The sensorial equipment in the classroom is designed to refine the child's senses.</p>
+            </div>
+            <div class="one-third column" style="background: #91b9ef; color: black;">
+              <p>Sensitive Periods</p>
+
+              <p>If a child is left to follow these natural interests the child can achieve far more than would be normally expected. The Directress will observe the child to ensure the child is able to quench his thirst for knowledge.</p>
+            </div>
+            <div class="one-third column" style="background: #a796f2; color: black;">
+              <p>Joy of Learning</p>
+
+              <p>Each child works for themselves following their natural instincts. A child works to construct himself, an adult works to finish the job. The child receives great joy from finishing a task independently.</p>
+            </div>
+          </div>
+
+          <div style="width: 100%; height: 3em; float: left;"></div>
+
+          <div class="u-cf">
+            <div class="one-third column" style="background: #a796f2; color: black;">
+              <p>Montessori Equipment</p>
+
+              <p>Specifically designed equipment used to isolate information that moves the child from the unknown to the known through a sequence of events. Allowing the child to put order to his mind.</p>
+            </div>
+            <div class="one-third column" style="background: #ffd890; color: black;">
+              <p>Love of Order</p>
+
+              <p>To enable the child to place each object in relation to its environment. Provides the child with a freedom to move on intellectually and develop in the knowledge of a safe environment.</p>
+            </div>
+            <div class="one-third column" style="background: #87efcd; color: black;">
+              <p>Imagination</p>
+
+              <p>Activities based on the real world. Child sized equipment enables the child to explore everyday items and re live them through role-play.</p>
+            </div>
+          </div>
+        </div><!--Elements of Diversity ends-->
 
 
 

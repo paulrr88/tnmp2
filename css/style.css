@@ -130,6 +130,7 @@ IDs and classes
   }*/
 #content {
   background: #fff /*url(../images/nav-yellow.png) repeat-y right (for if/when 3D box design implemented)*/;
+  margin-top: 30px;
   padding: 6em 2em 2em 2em;
 }
 #content p {                                           /* better margins for text on desktop */
@@ -139,15 +140,6 @@ IDs and classes
 
 #diversity {                                           /* Elements of Diversity area */
 
-}
-#diversity .box {                                      /* Copied from skeleton.css, four columns without margin-left: 4%;, reduced to fit */
-  width: 30.6666666667%;
-  float: left;
-  box-sizing: border-box;
-  margin-left: 2%;
-}
-#diversity .boxrow {
-  clear: left;                                         /* Let another row of boxes appear underneath; clear:left clears all the left aligned boxes */
 }
 
 
@@ -516,7 +508,7 @@ ul.sitemap {
 Breakpoints for smaller screen sizes
 ------------------------- */
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) { /*Desktop*/
 
   #content {
     margin-top: 30px;
@@ -560,7 +552,7 @@ Breakpoints for smaller screen sizes
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) { /*Tablet*/
 
   body {
     background-size: 1050px;
@@ -581,6 +573,7 @@ Breakpoints for smaller screen sizes
   }
 
   #content {
+    margin-top: 60px;
     padding-top: 16em;
   }
 
@@ -632,8 +625,11 @@ Breakpoints for smaller screen sizes
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /*Phablet etc*/
 
+  #content {
+    margin-top: 80px;
+  }
   #header-title {
     font-size: 3.5rem;
   }
@@ -662,7 +658,7 @@ Breakpoints for smaller screen sizes
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { /*Mobile phones*/
 
   body {
     background-size: 900px;
@@ -698,19 +694,18 @@ Breakpoints for smaller screen sizes
   }
 
   #content {
-    margin-top: 40px;
+    margin-top: 80px;
     padding-top: 18em;
   }
 
   #header {                                                 /* header image background etc - set for mobile */
-    height: 197px;
+    height: 107px;
+    margin-top: 20px;
   }
   #header-logo {
-    background-size: 183px;
-    height: 121px;
-    top: 0;
-    left: 70px;
-    width: 183px;
+    visibility: hidden;
+    width: 0;
+    height: 0;
   }
   #header-title {
     font-size: 3.2rem;
@@ -761,6 +756,11 @@ Breakpoints for smaller screen sizes
 
   #tableBig {                                                  /* tables with more columns, needs smaller font */
     font-size: 1.2rem;
+  }
+
+  #top {
+    visibility: hidden;
+    height: 0;
   }
 
   .left {
