@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
+	"\/about-method-extra.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about-method-extra.kit",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-method-extra.php",
+		"outputPathIsOutsideProject": 1,
+		"outputPathIsSetByUser": 1
+		},
 	"\/about-method.kit": {
 		"fileType": 2048,
 		"ignore": 0,

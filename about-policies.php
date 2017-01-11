@@ -41,7 +41,7 @@
         <ul class="nostyle">
           <li class="vertical-top"><a href="../../sitemap">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><a href="../../docs/new-montessori-accreditation.pdf"><img src="../../images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+          <li><img src="../../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -124,6 +124,8 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
+        <a name="top2"></a>
+
         <h1 class="pagenav">About Us</h1>
 
         <ul class="pagenav">
@@ -132,10 +134,10 @@
           <li>History of Montessori and Our Pre-school</li>
           <li>Our Team</li>
           <li>Sponsored Events</li>
-          <li>Our Policies</li>
+          <li>Our Policies &amp; Documents</li>
         </ul>
 
-        <h1>Our Policies</h1>
+        <h1>Our Policies &amp; Documents</h1>
 
         <p>Welcome to our Policies section. We've included our various policies here for you, with download links for most of them. All of our downloadable leaflets are in PDF format, and you'll need an appropriate application in order to read them (most people use <a href="">Adobe Acrobat Reader</a>).</p>
 
@@ -146,6 +148,13 @@
 
           <li><?php perch_content('Admissions policy link'); ?></li>
           <li><a href="#settling">Settling In Policy</a></li>
+        </ul>
+
+        <br />
+
+        <ul class="contents">
+          <li><?php perch_content('Link to Accreditation document'); ?></li>
+          <li><?php perch_content('Link to OFSTED report'); ?></li>
         </ul>
 
         <br />

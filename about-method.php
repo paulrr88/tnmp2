@@ -41,7 +41,7 @@
         <ul class="nostyle">
           <li class="vertical-top"><a href="../../sitemap">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><a href="../../docs/new-montessori-accreditation.pdf"><img src="../../images/accredited.jpg" width="70" alt="Link to our MEAB accreditation document" /></a></li>
+          <li><img src="../../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -124,6 +124,8 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
+        <a name="top2"></a>
+
         <h1 class="pagenav">About Us</h1>
 
         <ul class="pagenav">
@@ -132,7 +134,7 @@
           <li>History of Montessori and Our Pre-school</li>
           <li>Our Team</li>
           <li>Sponsored Events</li>
-          <li>Our Policies</li>
+          <li>Our Policies &amp; Documents</li>
         </ul>
 
         <h1>The Montessori Method</h1>
@@ -140,7 +142,7 @@
         <ul class="contents">
           <li><a href="#method">Montessori Method Summary</a></li>
           <li><a href="#develop">Development Areas</a></li>
-          <li><a href="">Equipment and Learning Activity Details</a></li>
+          <li><a href="learning/">Equipment and Learning Activity Details</a></li>
         </ul>
 
         <br />
@@ -230,7 +232,7 @@
 
         <br />
 
-        <p>If you want to know more, please take a look at our additional page on <a href="">our equipment and learning activities</a>.</p>
+        <p>If you want to know more, please take a look at our additional page on <a href="learning/">our equipment and learning activities</a>.</p>
 
 
 
