@@ -388,7 +388,7 @@ IDs and classes
 }
 
 
-h1,h2,h3.title {                                                /* title at top of all content pages */
+h1,h2,h3,h4.title {                                                /* title at top of all content pages */
   padding: 1em 0 1.5em 0;
   text-align: center;
 }

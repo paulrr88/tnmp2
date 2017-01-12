@@ -129,12 +129,11 @@
         <h1 class="pagenav">About Us</h1>
 
         <ul class="pagenav">
-          <li>What is Montessori?</li>
-          <li>The Montessori Method</li>
-          <li>History of Montessori and Our Pre-school</li>
-          <li>Our Team</li>
-          <li>Sponsored Events</li>
-          <li>Our Policies &amp; Documents</li>
+          <li><a href="../../about/">What is Montessori?</a></li>
+          <li><a href="../../about/method/">The Montessori Method</a></li>
+          <li><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
+          <li class="noborder"><a href="../../about/team/">Our Team</a></li>
+          <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
         </ul>
 
         <h1>Our Policies &amp; Documents</h1>
@@ -175,6 +174,7 @@
         <br />
 
         <ul class="contents">
+          <li><?php perch_content('Link to Sponsorship Form'); ?></li>
           <li><?php perch_content('Link to Terms'); ?></li>
         </ul>
 
