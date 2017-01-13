@@ -99,12 +99,12 @@
         </div>-->
         <div class="twelve columns" id="navbuttons">
           <div id="navbuttons-aligner">
-            <div id="home"><a href="home">Home</a></div>
-            <div id="about">About Us</div>
-            <div id="dates">Dates &amp; Fees</div>
-            <div id="child">My Montessori Child</div>
-            <div id="contact">Contact Us</div>
-            <div id="facebook">Facebook</div>
+            <a class="nav" href="../"><div id="home">Home</div></a>
+            <a class="nav" href="../about/"><div id="about">About Us</div></a>
+            <a class="nav" href="../datesandfees/"><div id="dates">Dates &amp; Fees</div></a>
+            <a class="nav" href="../mymontessorichild/"><div id="child">My Montessori Child</div></a>
+            <a class="nav" href="../contact/"><div id="contact">Contact Us</div></a>
+            <a class="nav" href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/"><div id="facebook">Facebook</div></a>
           </div>
         </div>
       </div><!--Navigation area ends-->
@@ -136,11 +136,11 @@
           <li class="noborder"><a href="../about/policies/">Our Policies &amp; Documents</a></li>
         </ul>
 
-        <h1>What is Montessori?</h1>
+        <h1 class="pretty-purple less-space">What is Montessori?</h1>
 
 
 
-        <h2 class="title">Our School</h2>
+        <h2 class="title less-space-bottom width-small pretty-green">Our School</h2>
 
         <p>The New Montessori Pre-school provides an holistic approach to children's education so as to develop the whole child, <strong>physically, socially, intellectually, spiritually and emotionally</strong>. We celebrate each child's individuality and have a deep understanding of their development needs.</p>
 
@@ -152,7 +152,7 @@
 
         </div>
 
-        <p><strong>This school is the only Montessori accredited pre-school in Worthing and it is accredited as 'Outstanding'. It is the only Montessori pre-school in the country that is a registered charity</strong> - no one owns TNMP and no one is making any money from it (other than staff salaries). In most areas of the country, Montessori trained staff earn more than the average pre-school practitioner. That is not the case at TNMP, staff salaries match any other standard pre-school in the area.</p>
+        <p class="background-orange"><strong>This school is the only Montessori accredited pre-school in Worthing and it is accredited as 'Outstanding'. It is the only Montessori pre-school in the country that is a registered charity</strong> - no one owns TNMP and no one is making any money from it (other than staff salaries). In most areas of the country, Montessori trained staff earn more than the average pre-school practitioner. That is not the case at TNMP, staff salaries match any other standard pre-school in the area.</p>
 
         <p><strong>The Pre-school's aim is to provide Montessori education to all children at an affordable cost</strong>. We strive not to raise fees to ensure the pre-school stays accessible to as many of the local community as possible. For no extra salary, the pre-school provides Parent Courses and Heuristic Play Classes. This is all completely free for all parents and staff receive no extra pay. </p>
 
@@ -162,13 +162,15 @@
 
         </div>
 
-        <p>For more details about how we educate your child, see our other information in this section and <a href="policies/">Our Policies</a>.</p>
+        <p>For more details about how we educate your child, see our other information in this section and <a href="policies/">Our Policies &amp; Documents</a>.</p>
 
 
 
-        <h2 class="title">What We Offer</h2>
+        <h2 class="title less-space-bottom width-small pretty-orange">What We Offer</h2>
 
-        <p><strong>Our pre-school has places for 52 children per session from 2- 8 years of age</strong>. We use the Chapel and the Hall as our two main classrooms. The Chapel can accommodate 28 children at any one time and the Hall accommodates 24 children. Both classrooms have two fire exits. The staff ratio is 1:6 for 3 &amp; 4 year olds and 1:3 for 2 year olds. There is also a kitchen for supervised use with the children.</p>
+        <br />
+
+        <p class="background-blue"><strong>Our pre-school has places for 52 children per session from 2- 8 years of age</strong>. We use the Chapel and the Hall as our two main classrooms. The Chapel can accommodate 28 children at any one time and the Hall accommodates 24 children. Both classrooms have two fire exits. The staff ratio is 1:6 for 3 &amp; 4 year olds and 1:3 for 2 year olds. There is also a kitchen for supervised use with the children.</p>
 
         <p>The cloakroom provides both classes with child height pegs for children’s coats and bags which are named to assist with the settling in process. There are three toilets and two urinals situated near the classrooms. All visits to the toilets are supervised. At the side of the building is a private small garden, which is regularly changed according to the term. The garden is always supervised.</p>
 

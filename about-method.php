@@ -99,12 +99,12 @@
         </div>-->
         <div class="twelve columns" id="navbuttons">
           <div id="navbuttons-aligner">
-            <div id="home"><a href="home">Home</a></div>
-            <div id="about">About Us</div>
-            <div id="dates">Dates &amp; Fees</div>
-            <div id="child">My Montessori Child</div>
-            <div id="contact">Contact Us</div>
-            <div id="facebook">Facebook</div>
+            <a class="nav" href="../../"><div id="home">Home</div></a>
+            <a class="nav" href="../../about/"><div id="about">About Us</div></a>
+            <a class="nav" href="../../datesandfees/"><div id="dates">Dates &amp; Fees</div></a>
+            <a class="nav" href="../../mymontessorichild/"><div id="child">My Montessori Child</div></a>
+            <a class="nav" href="../../contact/"><div id="contact">Contact Us</div></a>
+            <a class="nav" href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/"><div id="facebook">Facebook</div></a>
           </div>
         </div>
       </div><!--Navigation area ends-->
@@ -136,7 +136,9 @@
           <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
         </ul>
 
-        <h1>The Montessori Method</h1>
+        <h1 class="pretty-blue less-space">The Montessori Method</h1>
+
+        <br />
 
         <ul class="contents">
           <li><a href="#method">Montessori Method Summary</a></li>
@@ -151,9 +153,11 @@
 
         <a name="method"></a>
 
-        <h2 class="title">Montessori Method Summary</h2>
+        <h2 class="title less-space-bottom width-small pretty-green">Montessori Method Summary</h2>
 
-        <p><strong>The Montessori Method aims essentially to help children develop themselves by directing their natural curiosity and thirst for knowledge</strong>.</p>
+        <br />
+
+        <p class="background-purple"><strong>The Montessori Method aims essentially to help children develop themselves by directing their natural curiosity and thirst for knowledge</strong>.</p>
 
         <p>We use unique equipment originally developed by Maria Montessori to let them explore <strong>colour, texture, shape, length, area, volume, letters, words and numbers</strong>. And of course we encourage more traditional expressive activities like <strong>painting, drawing and craftwork</strong>.</p>
 
@@ -165,8 +169,10 @@
 
         <p><strong>In the main, the children themselves choose what activities to do and when</strong>, so that during what Montessori calls their "sensitive periods" they will naturally maximise their learning. One of the key roles of the Montessori teacher is to ensure that children are helped through these particularly receptive times.</p>
 
-        <p>The Montessori method is not just to do with the physical equipment though. <strong>It encompasses everything from our tone of voice in the classroom, to how we interact with with the children, and giving them responsibility for getting out and putting away their work</strong>. Developing independence is a vital part of education and we go to great lengths to ensure that everything in the classroom is on a "child scale". Because of this, the children see the classroom as "their" space, not ours.</p>
+        <p class="background-orange">The Montessori method is not just to do with the physical equipment though. <strong>It encompasses everything from our tone of voice in the classroom, to how we interact with with the children, and giving them responsibility for getting out and putting away their work</strong>. Developing independence is a vital part of education and we go to great lengths to ensure that everything in the classroom is on a "child scale". Because of this, the children see the classroom as "their" space, not ours.</p>
 
+        <br />
+        
         <div class="centre-600">
 
           <?php perch_content('Image 2'); ?>

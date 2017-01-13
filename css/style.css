@@ -138,10 +138,6 @@ IDs and classes
   margin: 0 auto;
 }
 
-#diversity {                                           /* Elements of Diversity area */
-
-}
-
 
 #header {
   height: 373px;
@@ -275,11 +271,17 @@ IDs and classes
         -1px 1px 0 #000,
         1px 1px 0 #000;
     }
+    #navbuttons a.nav:link, a.nav:visited {
+      text-decoration: none;
+      color: #fff;
+    }
       #navbuttons-aligner {                                   /* helps to centre absolutely positioned buttons below, when resized in breakpoints for smaller resolutions. Stops them from just sitting off-centre at in-between window sizes or resolutions! */
         margin: 20px auto 0 auto;
         position: relative;
         width: 880px;
       }
+
+
 
       #home {                                                   /* box for home text in navigation box */
         background: url(../images/nav-blue.png) no-repeat 0 0;
@@ -392,6 +394,30 @@ h1,h2,h3,h4.title {                                                /* title at t
   padding: 1em 0 1.5em 0;
   text-align: center;
 }
+h1.less-space, h2.less-space, h3.less-space, h4.less-space {
+  padding: 1em;
+  margin: 0;
+}
+h1.less-space-bottom, h2.less-space-bottom, h3.less-space-bottom, h4.less-space-bottom {
+  padding: 1em 1em 0.4em 1em;
+  margin: 0;
+}
+h1.pretty-green, h2.pretty-green, h3.pretty-green, h4.pretty-green {
+  border-bottom: 5px #4fdcaf solid;
+}
+h1.pretty-orange, h2.pretty-orange, h3.pretty-orange, h4.pretty-orange {
+  border-bottom: 5px #ffc55b solid;
+}
+h1.pretty-purple, h2.pretty-purple, h3.pretty-purple, h4.pretty-purple {
+  border-bottom: 5px #583cca solid;
+}
+h1.pretty-blue, h2.pretty-blue, h3.pretty-blue, h4.pretty-blue {
+  border-bottom: 5px #5f94dd solid;
+}
+h1.width-small, h2.width-small, h3.width-small, h4.width-small {
+  width: 70%;
+  margin: 0 auto;
+}
 h1.pagenav {
   font-size: 4.5rem;
   margin: 0;
@@ -414,6 +440,15 @@ img.right {
   float: right;
 }
 
+p.background-blue {
+  background-color: #c6dcf8;
+}
+p.background-orange {
+  background-color: #ffd890;
+}
+p.background-purple {
+  background-color: #d2c9fa;
+}
 p.backtotop {
   font-weight: bolder;
   padding: 2em 0 2em 0;
@@ -532,6 +567,7 @@ Breakpoints for smaller screen sizes
   #navbuttons-aligner {
     width: 630px;
   }
+
 
   #contact {
     top: 120px;

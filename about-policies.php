@@ -99,12 +99,12 @@
         </div>-->
         <div class="twelve columns" id="navbuttons">
           <div id="navbuttons-aligner">
-            <div id="home"><a href="home">Home</a></div>
-            <div id="about">About Us</div>
-            <div id="dates">Dates &amp; Fees</div>
-            <div id="child">My Montessori Child</div>
-            <div id="contact">Contact Us</div>
-            <div id="facebook">Facebook</div>
+            <a class="nav" href="../../"><div id="home">Home</div></a>
+            <a class="nav" href="../../about/"><div id="about">About Us</div></a>
+            <a class="nav" href="../../datesandfees/"><div id="dates">Dates &amp; Fees</div></a>
+            <a class="nav" href="../../mymontessorichild/"><div id="child">My Montessori Child</div></a>
+            <a class="nav" href="../../contact/"><div id="contact">Contact Us</div></a>
+            <a class="nav" href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/"><div id="facebook">Facebook</div></a>
           </div>
         </div>
       </div><!--Navigation area ends-->
@@ -138,7 +138,7 @@
 
         <h1>Our Policies &amp; Documents</h1>
 
-        <p>Welcome to our Policies section. We've included our various policies here for you, with download links for most of them. All of our downloadable leaflets are in PDF format, and you'll need an appropriate application in order to read them (most people use <a href="">Adobe Acrobat Reader</a>).</p>
+        <p>Welcome to our Policies &amp; Documents section. We've included our various policies here for you, with download links for most of them. All of our downloadable leaflets are in PDF format, and you'll need an appropriate application in order to read them (most people use <a href="">Adobe Acrobat Reader</a>).</p>
 
         <br /><br />
 

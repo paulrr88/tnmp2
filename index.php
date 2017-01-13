@@ -99,12 +99,12 @@
         </div>-->
         <div class="twelve columns" id="navbuttons">
           <div id="navbuttons-aligner">
-            <div id="home"><a href="home">Home</a></div>
-            <div id="about">About Us</div>
-            <div id="dates">Dates &amp; Fees</div>
-            <div id="child">My Montessori Child</div>
-            <div id="contact">Contact Us</div>
-            <div id="facebook">Facebook</div>
+            <a class="nav" href=""><div id="home">Home</div></a>
+            <a class="nav" href="about/"><div id="about">About Us</div></a>
+            <a class="nav" href="datesandfees/"><div id="dates">Dates &amp; Fees</div></a>
+            <a class="nav" href="mymontessorichild/"><div id="child">My Montessori Child</div></a>
+            <a class="nav" href="contact/"><div id="contact">Contact Us</div></a>
+            <a class="nav" href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/"><div id="facebook">Facebook</div></a>
           </div>
         </div>
       </div><!--Navigation area ends-->
@@ -136,9 +136,9 @@
 
           <br />
 
-          <div class="twelve columns" style="background: #ffc55b;">
-            <h3 class="title" style="margin: 0; padding: 0.5em;"><a href="about/" style="color: black; text-decoration: none;">Learn more about us!</a></h3>
-          </div>
+          <a href="about/" style="color: black; text-decoration: none;"><div class="twelve columns" style="background: #ffc55b;">
+            <h3 class="title" style="margin: 0; padding: 0.5em;">Learn more about us!</h3>
+          </div></a>
 
           <div style="width: 100%; height: 3em; float: left;"></div>
 
@@ -150,12 +150,14 @@
 
           <div style="width: 100%; height: 3em; float: left;"></div>
 
-          <div class="twelve columns" style="background: #4fdcaf; color: white;">
-            <p class="centre"><strong><a href="<?php perch_content('Link to MCI'); ?>" style="color: white; text-decoration: none;">Visit Montessori Centre International</a></strong></p>
+          <div class="twelve columns" style="background: #ffc55b; color: white;">
+            <p class="centre"><strong><a href="<?php perch_content('Link to MCI'); ?>" style="color: black; text-decoration: none;">Visit Montessori Centre International</a></strong></p>
           </div>
 
           <div style="width: 100%; height: 3em; float: left;"></div>
         </div>
+
+
 
 
 
@@ -182,7 +184,11 @@
           <p><a href="about/"><strong>Learn more about us!</strong></a></p>
 
           <br />
+
+
         </div>
+
+
 
 
 
