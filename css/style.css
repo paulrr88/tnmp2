@@ -389,6 +389,10 @@ IDs and classes
   margin-right: 0;                                        /* prevents margin from throwing off last list item */
 }
 
+div a.nostyle {
+  color: black;
+  text-decoration: none;
+}
 
 h1,h2,h3,h4.title {                                                /* title at top of all content pages */
   padding: 1em 0 1.5em 0;
@@ -440,15 +444,6 @@ img.right {
   float: right;
 }
 
-p.background-blue {
-  background-color: #c6dcf8;
-}
-p.background-orange {
-  background-color: #ffd890;
-}
-p.background-purple {
-  background-color: #d2c9fa;
-}
 p.backtotop {
   font-weight: bolder;
   padding: 2em 0 2em 0;
@@ -509,6 +504,21 @@ ul.sitemap {
   width: 70%;
 }
 
+.background-blue {
+  background: #c6dcf8;
+}
+.background-orange {
+  background: #ffd890;
+}
+.background-orange-light {
+  background: #ffeac7;
+}
+.background-orange-dark {
+  background: #ffc55b;
+}
+.background-purple {
+  background: #d2c9fa;
+}
 
 .centre-600 {                                             /* centres images with 600px width */
   max-width: 100%;
@@ -527,6 +537,12 @@ ul.sitemap {
 }
 .right {
   float: right;
+}
+
+.spacer {                                                /* works with Skeleton to allow white space between vertically stacked divs */
+  float: left;
+  height: 3em;
+  width: 100%;
 }
 
 .vertical-top {

@@ -125,15 +125,19 @@
 
         <a name="top2"></a>
 
-        <h1 class="pagenav">About Us</h1>
+        <div class="background-orange-light" style="width: 90%; margin: 0 auto; border-bottom: 3px black solid;">
 
-        <ul class="pagenav">
-          <li><a href="../../about/">What is Montessori?</a></li>
-          <li class="noborder"><a href="../../about/method/">The Montessori Method</a></li><br />
-          <li><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
-          <li><a href="../../about/team/">Our Team</a></li>
-          <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
-        </ul>
+          <h2 style="margin: 0; padding: 0 0 0.5em 0;">About Us</h2>
+
+          <ul class="pagenav">
+            <li><a href="../../about/">What is Montessori?</a></li>
+            <li class="noborder"><a href="../../about/method/">The Montessori Method</a></li><br />
+            <li><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
+            <li><a href="../../about/team/">Our Team</a></li>
+            <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
+          </ul>
+
+        </div>
 
         <h1>Our Policies &amp; Documents</h1>
 
