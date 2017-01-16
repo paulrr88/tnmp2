@@ -8,9 +8,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Home &mdash; The New Montessori Pre-school</title>
-  <meta name="description" content="nil TBD">
-  <meta name="keywords" content="active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <title>My Montessori Child &mdash; The New Montessori Pre-school</title>
+  <meta name="description" content="Our pre-school has an internet based record keeping system called My Montessori Child</strong>. This is where all of our information about your child's education is stored. The funds were provided by West Sussex County Council through a Graduate Leader Fund secured through our pre-school.">
+  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, classroom, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, lessons, local, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, "My Montessori Child", council, early, eyfs, foundation, observation, record, secure, stage, system">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -23,7 +23,6 @@
   <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="../css/style.css"><!--my additions-->
 
-  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/favicon.png">
@@ -39,7 +38,7 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="../sitemap">Sitemap</a></li>
+          <li class="vertical-top"><a href="../sitemap/">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
@@ -128,7 +127,9 @@
 
         <p><strong>Our pre-school has an internet based record keeping system called My Montessori Child</strong>. This is where all of our information about your child's education is stored. The funds were provided by West Sussex County Council through a Graduate Leader Fund secured through our pre-school.</p>
 
-        <p>We take photos of the children at work as the basis of the observation and then upload comments and levels of concentration and familiarity before uploading the observation. The system combines the Montessori Philosophy with the Early Years Foundation Stage ensuring that all areas of learning are presented. <strong>Parents have access to their child's records by using their own individual pin number to enter My Montessori Child's secure website</strong>. All children's records are stored in lockable cupboards which are always locked whenever we leave the building.</p>
+        <p>We take photos of the children at work as the basis of the observation and then upload comments and levels of concentration and familiarity before uploading the observation. The system combines the Montessori Philosophy with the Early Years Foundation Stage ensuring that all areas of learning are presented.</p>
+
+        <p><strong>Parents have access to their child's records by using their own individual pin number to enter My Montessori Child's secure website</strong>. All children's records are stored in lockable cupboards which are always locked whenever we leave the building.</p>
 
         <h2><a href="<?php perch_content('Link to My Montessori Child'); ?>">Click here to log in to My Montessori Child</a></h2>
 

@@ -8,9 +8,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Home &mdash; The New Montessori Pre-school</title>
-  <meta name="description" content="nil TBD">
-  <meta name="keywords" content="active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <title>Contact Us &mdash; The New Montessori Pre-school</title>
+  <meta name="description" content="Our contact details, including address, email, phone, and map of our location.">
+  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, classroom, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, lessons, local, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, address, contact, email, map, mobile, telephone">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -23,7 +23,6 @@
   <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="../css/style.css"><!--my additions-->
 
-  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/favicon.png">
@@ -39,7 +38,7 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="../sitemap">Sitemap</a></li>
+          <li class="vertical-top"><a href="../sitemap/">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 

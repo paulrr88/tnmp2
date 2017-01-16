@@ -8,9 +8,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Home &mdash; The New Montessori Pre-school</title>
-  <meta name="description" content="nil TBD">
-  <meta name="keywords" content="active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <title>Our Team &mdash; About Us &mdash; The New Montessori Pre-school</title>
+  <meta name="description" content="The day-to-day running of the school is carried out by the Principal and the School Manager, both of whom hold Montessori Diplomas. Responsible to them is one Classroom manager and their teams of dedicated teaching assistants who direct the children through the Early Years curriculum firmly based on Montessori principles. For educational sessions we maintain a staff:child ratio of 1:6 for 3/4 year olds and 1:3 for 2 year olds. This meets the OFSTED and government requirements.">
+  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, classroom, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, lessons, local, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, committee, diploma, event, fundraising, management, organisation, organise, personnel, qualification, staff, volunteer">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -23,7 +23,6 @@
   <link rel="stylesheet" href="../../css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="../../css/style.css"><!--my additions-->
 
-  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../../images/favicon.png">
@@ -39,7 +38,7 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="../../sitemap">Sitemap</a></li>
+          <li class="vertical-top"><a href="../../sitemap/">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
@@ -130,9 +129,9 @@
 
         <ul class="pagenav">
           <li><a href="../../about/">What is Montessori?</a></li>
-          <li><a href="../../about/method/">The Montessori Method</a></li>
+          <li class="noborder"><a href="../../about/method/">The Montessori Method</a></li><br />
           <li><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
-          <li class="noborder"><a href="../../about/team/">Our Team</a></li>
+          <li><a href="../../about/team/">Our Team</a></li>
           <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
         </ul>
 

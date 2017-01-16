@@ -9,8 +9,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Home &mdash; The New Montessori Pre-school</title>
-  <meta name="description" content="nil TBD">
-  <meta name="keywords" content="active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <meta name="description" content="The New Montessori Pre-school is run by parents for parents. It is the only accredited Montessori pre-school in Worthing and we are proud to be the only Montessori Charity pre-school in the UK. Our Management Committee ensures that the Montessori Method of education is offered to all children at an affordable price, with highly qualified and dedicated staff, and a high ratio of adults to children.">
+  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, classroom, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, lessons, local, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, affordable, curriculum, early, eyfs, foundation, stage">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -23,7 +23,6 @@
   <link rel="stylesheet" href="css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="css/style.css"><!--my additions-->
 
-  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -39,7 +38,7 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="sitemap">Sitemap</a></li>
+          <li class="vertical-top"><a href="sitemap/">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
@@ -128,13 +127,17 @@
         <br />
 
         <div class="six columns">
-          <div class="twelve columns" style="background: orange; color: white; height: 300px; margin-bottom: 2em;">
-            Image - maybe a collage?!
+          <div class="twelve columns" style="background: #ffeac7;">
+            <div class="twelve columns" style="background: orange; color: white; height: 300px; margin-bottom: 2em;">
+              Image - maybe a collage?!
+            </div>
+
+            <p class="centre">The New Montessori Pre-school is run by parents for parents. It is the only accredited Montessori pre-school in Worthing and we are proud to be the only Montessori Charity pre-school in the UK. Our <a href="about/team/#manage">Management Committee</a> ensures that the <a href="about/method/">Montessori Method of education</a> is offered to all children at an affordable price, with highly qualified and dedicated staff, and a high ratio of adults to children.</p>
+
+            <br />
           </div>
 
-          <p class="centre">The New Montessori Pre-school is run by parents for parents. It is the only accredited Montessori pre-school in Worthing and we are proud to be the only Montessori Charity pre-school in the UK. Our <Management Committee> ensures that the <Montessori Method of education> is offered to all children at an affordable price, with highly qualified and dedicated staff, and a high ratio of adults to children.</p>
-
-          <br />
+          <div style="width: 100%; height: 3em; float: left;"></div>
 
           <a href="about/" style="color: black; text-decoration: none;"><div class="twelve columns" style="background: #ffc55b;">
             <h3 class="title" style="margin: 0; padding: 0.5em;">Learn more about us!</h3>
@@ -143,7 +146,7 @@
           <div style="width: 100%; height: 3em; float: left;"></div>
 
           <div class="twelve columns" style="background: #91b9ef;">
-            <h3 style="margin: 0; padding: 0.5em 0 0 0;"><?php perch_content('Link to EYFS document'); ?>Learn about Early Years Foundation Stage (PDF)</h3>
+            <h3 style="margin: 0; padding: 0.5em 0 0 0;"><?php perch_content('Link to EYFS document'); ?></h3>
 
             <p class="centre">Our curriculum is based on this!</p>
           </div>

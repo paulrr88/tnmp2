@@ -8,9 +8,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Home &mdash; The New Montessori Pre-school</title>
-  <meta name="description" content="nil TBD">
-  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <title>Sitemap &mdash; The New Montessori Pre-school</title>
+  <meta name="description" content="Sitemap for The New Montessori Pre-school website.">
+  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, classroom, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, lessons, local, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, ">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -19,13 +19,13 @@
 
   <!-- CSS & JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../../css/normalize.css"><!-- reset file do not change -->
-  <link rel="stylesheet" href="../../css/skeleton.css"><!-- framework CSS -->
-  <link rel="stylesheet" href="../../css/style.css"><!--my additions-->
+  <link rel="stylesheet" href="../css/normalize.css"><!-- reset file do not change -->
+  <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
+  <link rel="stylesheet" href="../css/style.css"><!--my additions-->
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="../../images/favicon.png">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 
@@ -38,9 +38,9 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="../../sitemap">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
-          <li><img src="../../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
+          <li class="vertical-top"><a href="../sitemap/">Sitemap</a></li>
+          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><img src="../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
         </ul>
       </div><!--End of top information area-->
@@ -98,11 +98,11 @@
         </div>-->
         <div class="twelve columns" id="navbuttons">
           <div id="navbuttons-aligner">
-            <a class="nav" href="../../"><div id="home">Home</div></a>
-            <a class="nav" href="../../about/"><div id="about">About Us</div></a>
-            <a class="nav" href="../../datesandfees/"><div id="dates">Dates &amp; Fees</div></a>
-            <a class="nav" href="../../mymontessorichild/"><div id="child">My Montessori Child</div></a>
-            <a class="nav" href="../../contact/"><div id="contact">Contact Us</div></a>
+            <a class="nav" href="../"><div id="home">Home</div></a>
+            <a class="nav" href="../about/"><div id="about">About Us</div></a>
+            <a class="nav" href="../datesandfees/"><div id="dates">Dates &amp; Fees</div></a>
+            <a class="nav" href="../mymontessorichild/"><div id="child">My Montessori Child</div></a>
+            <a class="nav" href="../contact/"><div id="contact">Contact Us</div></a>
             <a class="nav" href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/"><div id="facebook">Facebook</div></a>
           </div>
         </div>
@@ -123,31 +123,35 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
-        <a name="top2"></a>
-
-        <h1 class="pagenav">About Us</h1>
-
-        <ul class="pagenav">
-          <li><a href="../../about/">What is Montessori?</a></li>
-          <li><a href="../../about/method/">The Montessori Method</a></li>
-          <li><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
-          <li class="noborder"><a href="../../about/team/">Our Team</a></li>
-          <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
-        </ul>
-
-        <h1>Sponsored Events</h1>
+    <!--Row begins--><div class="row">
 
 
 
-        <h2>Annual Sponsored Wheel Event</h2>
+      <!--Content begins #content--><div class="twelve columns">
 
-        <p></p>
+      <h1 class="title">The New Montessori Pre-school Sitemap</h1>
 
+      <ul class="sitemap">
+        <li><a href="../">Home</a></li>
+        <li>About Us
+          <ul>
+            <li><a href="../about/">What is Montessori?</a></li>
+            <li><a href="../about/method/">The Montessori Method</a></li>
+            <li><a href="../about/history/">History of Montessori and Our Pre-school</a></li>
+            <li><a href="../about/team/">Our Team</a></li>
+            <li><a href="../about/policies/">Our Policies &amp; Documents</a></li>
+          </ul>
+        </li>
+        <li><a href="../datesandfees/">Dates &amp; Fees</a></li>
+        <li><a href="../mymontessorichild/">My Montessori Child</a></li>
+        <li><a href="../contact/">Contact Us</a></li>
+        <li><a href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/">Facebook</a></li>
+      </ul>
 
+      <br />
+      <br />
 
-      
-
-
+    </div><!--Row ends-->
 
       </div><!--Content ends-->
 
@@ -175,25 +179,25 @@
         <br />
 
         <ul>
-          <li><a href="../../">Home</a></li>
-          <li><a href="../../contacts">Contacts</a></li>
-          <li><a href="../../about">Who's Who</a></li>
+          <li><a href="../">Home</a></li>
+          <li><a href="../contacts">Contacts</a></li>
+          <li><a href="../about">Who's Who</a></li>
           <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="../../about/history">History</a></li>
-          <li><a href="../../services">Services &amp; Dates</a></li>
-          <li><a href="../../clubs">Clubs &amp; Activities</a></li>
-          <li><a href="../../clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="../../clubs/#transport">Church Transport</a></li>
-          <li><a href="../../photos">Photo Gallery</a></li>
-          <li><a href="../../stewardship">Stewardship</a></li>
-          <li><a href="../../links">Links</a></li>
+          <li><a href="../about/history">History</a></li>
+          <li><a href="../services">Services &amp; Dates</a></li>
+          <li><a href="../clubs">Clubs &amp; Activities</a></li>
+          <li><a href="../clubs/#social">Social Life at St. Andrew's</a></li>
+          <li><a href="../clubs/#transport">Church Transport</a></li>
+          <li><a href="../photos">Photo Gallery</a></li>
+          <li><a href="../stewardship">Stewardship</a></li>
+          <li><a href="../links">Links</a></li>
         </ul>
 
         <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
         <p>Registered charity no. 1086853<br />
         Company Number 3908382</p>
 
-        <p><a href="../../perch/">Perch Login</a></p>
+        <p><a href="../perch/">Perch Login</a></p>
 
       </div><!--Footer ends-->
 

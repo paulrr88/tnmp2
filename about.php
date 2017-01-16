@@ -8,9 +8,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>About - What is Montessori? &mdash; The New Montessori Pre-school</title>
-  <meta name="description" content="The New Montessori Pre-school provides an holistic approach to children's education so as to develop the whole child, physically, socially, intellectually, spiritually and emotionally. We celebrate each child's individuality and have a deep understanding of their development needs. Our aim is to help the child develop life skills: confidence, independence and liberty. We encourage and foster respect for others through positive role models, lessons in Grace and Courtesy and by child initiated ground rules. With you, we can ensure the best start by building solid foundations for your child to possess a lifelong love of learning.">
-  <meta name="keywords" content="active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, ">
+  <title>What is Montessori? &mdash; About Us &mdash; The New Montessori Pre-school</title>
+  <meta name="description" content="The New Montessori Pre-school provides an holistic approach to children's education so as to develop the whole child, physically, socially, intellectually, spiritually and emotionally. We celebrate each child's individuality and have a deep understanding of their development needs.">
+  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, classroom, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, lessons, local, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, aims, building, courses, emotional, encourage, intellectual, parents, physical, places, play, premises, skills, social">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -23,7 +23,6 @@
   <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="../css/style.css"><!--my additions-->
 
-  
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/favicon.png">
@@ -39,7 +38,7 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="../sitemap">Sitemap</a></li>
+          <li class="vertical-top"><a href="../sitemap/">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
@@ -130,9 +129,9 @@
 
         <ul class="pagenav">
           <li><a href="../about/">What is Montessori?</a></li>
-          <li><a href="../about/method/">The Montessori Method</a></li>
+          <li class="noborder"><a href="../about/method/">The Montessori Method</a></li><br />
           <li><a href="../about/history/">History of Montessori and Our Pre-school</a></li>
-          <li class="noborder"><a href="../about/team/">Our Team</a></li>
+          <li><a href="../about/team/">Our Team</a></li>
           <li class="noborder"><a href="../about/policies/">Our Policies &amp; Documents</a></li>
         </ul>
 

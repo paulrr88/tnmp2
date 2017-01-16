@@ -8,9 +8,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Home &mdash; The New Montessori Pre-school</title>
-  <meta name="description" content="nil TBD">
-  <meta name="keywords" content="active, activity, "all day care", care, charity, childcare, children, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, TBD">
+  <title>Dates &amp; Fees &mdash; The New Montessori Pre-school</title>
+  <meta name="description" content="Our pre-school has places for 52 children a session from 2- 8 years of age. We are open every weekday during the school terms including half-term holidays, but we do not open on bank holidays. Full day-care is available, or children can attend one morning or afternoon session each day, either with or without Lunch Club. Times can always be arranged to suit the parent's/child's needs.">
+  <meta name="keywords" content="accredited, active, activity, "all day care", care, charity, childcare, children, classroom, daycare, development, educate, education, evening, flexible, infant, junior, kids, learning, lessons, local, maria, "Maria Montessori", method, montessori, nursery, pre-school, preschool, school, sussex, tarring, toddler, west, worthing, class, costs, clubs, dates, early, entitlement, fees, free, government, hours, late, opening, payment, places, register, registration, sessions, times">
   <meta name="author" content="The New Montessori Pre-school">
 
   <!-- Mobile Specific Metas
@@ -22,8 +22,6 @@
   <link rel="stylesheet" href="../css/normalize.css"><!-- reset file do not change -->
   <link rel="stylesheet" href="../css/skeleton.css"><!-- framework CSS -->
   <link rel="stylesheet" href="../css/style.css"><!--my additions-->
-
-  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -40,7 +38,7 @@
 
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
-          <li class="vertical-top"><a href="../sitemap">Sitemap</a></li>
+          <li class="vertical-top"><a href="../sitemap/">Sitemap</a></li>
           <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
