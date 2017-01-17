@@ -125,21 +125,26 @@
 
         <a name="top2"></a>
 
-        <div class="background-orange-light" style="width: 90%; margin: 0 auto; border-bottom: 3px black solid;">
+        <div id="aboutnav">
 
-          <h2 style="margin: 0; padding: 0 0 0.5em 0;">About Us</h2>
+          <h2>About Us</h2>
 
           <ul class="pagenav">
-            <li><a href="../../about/">What is Montessori?</a></li>
-            <li class="noborder"><a href="../../about/method/">The Montessori Method</a></li><br />
-            <li><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
-            <li><a href="../../about/team/">Our Team</a></li>
-            <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
+            <li class="pagenav-li"><a href="../../about/">What is Montessori?</a></li>
+            <li class="pagenav-li noborder"><a href="../../about/method/">The Montessori Method</a></li>
+            <br />
+            <li class="pagenav-li"><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
+            <li class="pagenav-li"><a href="../../about/team/">Our Team</a></li>
+            <li class="pagenav-li noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
+            <br />
+            <br />
           </ul>
 
         </div>
 
-        <h1>History of Montessori and Our Pre-school</h1>
+        <h1 class="pretty-green less-space">History of Montessori and Our Pre-school</h1>
+
+        <br />
 
         <ul class="contents">
           <li><a href="#maria">Maria Montessori</a></li>
@@ -147,15 +152,19 @@
         </ul>
 
         <br />
-
-        <hr />
+        <br />
+        <br />
 
 
         <a name="maria"></a>
 
-        <h2 class="title">Maria Montessori</h2>
+        <h2 class="title less-space-bottom width-small pretty-blue">Maria Montessori</h2>
 
-        <p><strong>Maria Montessori lived from 1870 to 1952, the first woman doctor of medicine in Italy</strong>. Her observations of the way children learn naturally by investigating their environment led her to develop a new system of education in which various aspects of development are stimulated by special pieces of equipment. </p>
+        <br />
+
+        <p class="background-orange-light"><strong>Maria Montessori lived from 1870 to 1952, the first woman doctor of medicine in Italy</strong>. Her observations of the way children learn naturally by investigating their environment led her to develop a new system of education in which various aspects of development are stimulated by special pieces of equipment. </p>
+
+        <br />
 
         <div class="centre-400">
 
@@ -169,15 +178,16 @@
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
-        <hr />
 
 
 
         <a name="history"></a>
 
-        <h2 class="title">History of The New Montessori Pre-school</h2>
+        <h2 class="title less-space-bottom width-small pretty-green">History of The New Montessori<br />Pre-school</h2>
 
-        <p><strong>The Montessori Pre-school was founded in 1997</strong>. Back then it was more like a traditional pre-school – it was owned by someone and could make a profit from the fees paid by parents. Roughly 36 families attended the pre-school and benefitted from the Montessori Method of teaching. <strong>Very suddenly at the end of 1998, due to personal circumstances, the owner closed the pre-school and set up again in Lancing</strong>.</p>
+        <br />
+
+        <p class="background-purple"><strong>The Montessori Pre-school was founded in 1997</strong>. Back then it was more like a traditional pre-school – it was owned by someone and could make a profit from the fees paid by parents. Roughly 36 families attended the pre-school and benefitted from the Montessori Method of teaching. <strong>Very suddenly at the end of 1998, due to personal circumstances, the owner closed the pre-school and set up again in Lancing</strong>.</p>
 
         <p>Parents were told if they wanted their children to stay in Montessori education, then they must bring their children to Lancing. There was no other Montessori in Worthing at the time and so on Christmas Eve, parents at the pre-school held a crisis meeting. How could they open the school again? They valued the Montessori Method of teaching and their children were settled and had made lots of friends there. Most parents couldn’t travel all the way to Lancing. So, after long discussions, <strong>a group of about 30 families decided to open the pre-school as a charity</strong>, allowing them all be involved in running the pre-school. The Management Committee was born!</p>
 
@@ -187,7 +197,7 @@
 
         </div>
 
-        <p><strong>A few weeks later on January 4th 1999, doors opened and all children turned up to re-register</strong>. The Management Committee had prepared a list of resources that the pre-school needed and each family brought one thing from the list with them on that first day. Through a huge community effort The NEW Montessori Pre-school (TNMP) was up and running!</p>
+        <p class="background-orange-light"><strong>A few weeks later on January 4th 1999, doors opened and all children turned up to re-register</strong>. The Management Committee had prepared a list of resources that the pre-school needed and each family brought one thing from the list with them on that first day. Through a huge community effort The NEW Montessori Pre-school (TNMP) was up and running!</p>
 
         <p><strong>Beki Shanahan, (now our Principal), was one of those parents</strong>. She had begun volunteering at the preschool in 1997, and was so inspired by the Montessori Method that she went on to do her Montessori Diploma and became a classroom assistant. As the pre-school reopened, one of the mums called June Knight took on the role of Principal and Beki took the role of School Manager. Two years later June left and Beki became Principal. Claire Morgan was also a parent at this time and had been volunteering. She went on to do her Montessori training and is now our School Manager.</p>
 

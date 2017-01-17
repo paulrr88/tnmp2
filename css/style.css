@@ -128,6 +128,16 @@ IDs and classes
 
     background-color: purple;
   }*/
+#aboutnav {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 3px #105cbd solid;
+}
+#aboutnav h2 {
+  margin: 0;
+  padding: 0 0 0.5em 0;
+}
+
 #content {
   background: #fff /*url(../images/nav-yellow.png) repeat-y right (for if/when 3D box design implemented)*/;
   margin-top: 30px;
@@ -136,6 +146,47 @@ IDs and classes
 #content p {                                           /* better margins for text on desktop */
   width: 70%;
   margin: 0 auto;
+}
+
+#diversity {                                           /* Diversity areas on home page */
+
+}
+
+#diversity #preparation {
+  background: url(../images/diversitybg-01.jpg) no-repeat 30% 60%;
+}
+#diversity #adultteacher {
+  background: url(../images/diversitybg-02.jpg) no-repeat 50% 20%;
+}
+#diversity #absorbentmind {
+  background: url(../images/diversitybg-03.jpg) no-repeat 50% 0%;
+}
+#diversity #lifeskills {
+  background: url(../images/diversitybg-04.jpg) no-repeat 50% 40%;
+}
+#diversity #childteacher {
+  background: url(../images/diversitybg-05.jpg) no-repeat 50% 0%;
+}
+#diversity #childsize {
+  background: url(../images/diversitybg-06.jpg) no-repeat 90% 40%;
+}
+#diversity #learningsenses {
+  background: url(../images/diversitybg-07.jpg) no-repeat 70% 35%;
+}
+#diversity #sensitive {
+  background: url(../images/diversitybg-08.jpg) no-repeat 80% 60%;
+}
+#diversity #joylearning {
+  background: url(../images/diversitybg-09.jpg) no-repeat 70% 40%;
+}
+#diversity #equipment {
+  background: url(../images/diversitybg-10.jpg) no-repeat 70% 30%;
+}
+#diversity #loveorder {
+  background: url(../images/diversitybg-11.jpg) no-repeat 70% 60%;
+}
+#diversity #imagination {
+  background: url(../images/diversitybg-12.jpg) no-repeat 70% 60%;
 }
 
 
@@ -390,13 +441,22 @@ IDs and classes
 }
 
 div a.nostyle {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 
 h1,h2,h3,h4.title {                                                /* title at top of all content pages */
   padding: 1em 0 1.5em 0;
   text-align: center;
+}
+h1,h2,h3,h4.linkbutton {
+  color: #000;
+  margin: 0;
+  padding: 0.5em;
+}
+h1,h2,h3,h4.linkbutton a {
+  color: #000;
+  text-decoration: none;
 }
 h1.less-space, h2.less-space, h3.less-space, h4.less-space {
   padding: 1em;
@@ -427,6 +487,10 @@ h1.pagenav {
   margin: 0;
   padding: 0 0 0.25em 0;
 }
+h2.mission {
+  margin: 0;
+  padding: 1em 0 0.5em 0;
+}
 h3.contents {
   padding: 1.5em 0 0 0;
 }
@@ -436,6 +500,8 @@ img.200 {
 }
 img.fluid {
   max-width: 90%;
+  margin: 0 auto;
+  padding: 1em 1em 1em 1.3em;
 }
 img.left {
   float: left;
@@ -454,12 +520,13 @@ p.centre {
 }
 
 ul.body {
-  padding-left: 6em;
+  padding-left: 0.5em;
   margin: 0 auto;
   width: 70%;
 }
 ul.compact {
   margin: 0 auto;
+  padding: 0.5em;
   width: 70%;
 }
 ul.compact li {
@@ -469,6 +536,7 @@ ul.compact li {
 ul.contents {
   list-style: none;
   margin: 20px auto;
+  padding: 0.5em;
   text-align: center;
   width: 70%;
 }
@@ -492,12 +560,14 @@ ul.pagenav {
 ul.pagenav li {
   border-right: #000 solid 1px;                           /* adds the line effect to right of each link in footer */
   display: inline-block;                                  /* displays everything horizontal instead of vertical */
-  margin-right: 20px;
-  padding-right: 20px;
 }
 ul.pagenav li.noborder {
   border-right: 0;                                        /* stops border on any link it's not wanted on */
   margin-right: 0;
+}
+ul.pagenav li.pagenav-li {
+  margin: 0;
+  padding: 0 1.5em 0 1.5em;
 }
 ul.sitemap {
   margin: 20px auto;
@@ -506,6 +576,12 @@ ul.sitemap {
 
 .background-blue {
   background: #c6dcf8;
+}
+.background-green {
+  background: #4fdcaf;
+}
+.background-green-light {
+  background: #87efcd;
 }
 .background-orange {
   background: #ffd890;
@@ -520,6 +596,9 @@ ul.sitemap {
   background: #d2c9fa;
 }
 
+.centre {
+  text-align: center;
+}
 .centre-600 {                                             /* centres images with 600px width */
   max-width: 100%;
   width: 600px;
@@ -597,10 +676,10 @@ Breakpoints for smaller screen sizes
   }
 
   ul.body {
-    padding-left: 0;          /* gets rid of padding as it causes ridiculous misalign */
+    padding-left: 0.25em;          /* reduces padding as it causes ridiculous misalign */
   }
   ul.lesspadding {
-    padding-left: 0;
+    padding-left: 0.5em;
   }
 }
 
@@ -675,12 +754,52 @@ Breakpoints for smaller screen sizes
   #top img {
     width: 70px;
   }
+
+  img.fluid {                                             /* left padding is weird, this makes it look better below max res, 1.3em is good max, 1em is good when not max */
+    padding: 1em 1em 1em 1em;
+  }
 }
 
 @media screen and (max-width: 600px) { /*Phablet etc*/
 
   #content {
     margin-top: 80px;
+  }
+  #diversity #preparation {
+    background: url(../images/diversitybg-01.jpg) no-repeat 30% 30%;
+  }
+  #diversity #adultteacher {
+    background: url(../images/diversitybg-02.jpg) no-repeat 50% 40%;
+  }
+  #diversity #absorbentmind {
+    background: url(../images/diversitybg-03.jpg) no-repeat 50% 0%;
+  }
+  #diversity #lifeskills {
+    background: url(../images/diversitybg-04.jpg) no-repeat 50% 40%;
+  }
+  #diversity #childteacher {
+    background: url(../images/diversitybg-05.jpg) no-repeat 50% 0%;
+  }
+  #diversity #childsize {
+    background: url(../images/diversitybg-06.jpg) no-repeat 90% 40%;
+  }
+  #diversity #learningsenses {
+    background: url(../images/diversitybg-07.jpg) no-repeat 70% 95%;
+  }
+  #diversity #sensitive {
+    background: url(../images/diversitybg-08.jpg) no-repeat 80% 30%;
+  }
+  #diversity #joylearning {
+    background: url(../images/diversitybg-09.jpg) no-repeat 70% 40%;
+  }
+  #diversity #equipment {
+    background: url(../images/diversitybg-10.jpg) no-repeat 70% 30%;
+  }
+  #diversity #loveorder {
+    background: url(../images/diversitybg-11.jpg) no-repeat 70% 90%;
+  }
+  #diversity #imagination {
+    background: url(../images/diversitybg-12.jpg) no-repeat 70% 40%;
   }
   #header-title {
     font-size: 3.5rem;
@@ -707,6 +826,10 @@ Breakpoints for smaller screen sizes
       font-size: 2.5rem;
     }
 
+    ul.pagenav li.pagenav-li {
+      margin: 0;
+      padding: 1em 1.5em 0 1.5em;
+    }
 
 }
 
@@ -736,7 +859,7 @@ Breakpoints for smaller screen sizes
   }
 
   ul.lesspadding {
-    padding-left: 0;
+    padding-left: 0.5em;
   }
 
   ul.pagenav li {
@@ -749,6 +872,8 @@ Breakpoints for smaller screen sizes
     margin-top: 80px;
     padding-top: 18em;
   }
+
+
 
   #header {                                                 /* header image background etc - set for mobile */
     height: 107px;

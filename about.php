@@ -125,16 +125,19 @@
 
         <a name="top2"></a>
 
-        <div class="background-orange-light" style="width: 90%; margin: 0 auto; border-bottom: 3px black solid;">
+        <div id="aboutnav">
 
-          <h2 style="margin: 0; padding: 0 0 0.5em 0;">About Us</h2>
+          <h2>About Us</h2>
 
           <ul class="pagenav">
-            <li><a href="../about/">What is Montessori?</a></li>
-            <li class="noborder"><a href="../about/method/">The Montessori Method</a></li><br />
-            <li><a href="../about/history/">History of Montessori and Our Pre-school</a></li>
-            <li><a href="../about/team/">Our Team</a></li>
-            <li class="noborder"><a href="../about/policies/">Our Policies &amp; Documents</a></li>
+            <li class="pagenav-li"><a href="../about/">What is Montessori?</a></li>
+            <li class="pagenav-li noborder"><a href="../about/method/">The Montessori Method</a></li>
+            <br />
+            <li class="pagenav-li"><a href="../about/history/">History of Montessori and Our Pre-school</a></li>
+            <li class="pagenav-li"><a href="../about/team/">Our Team</a></li>
+            <li class="pagenav-li noborder"><a href="../about/policies/">Our Policies &amp; Documents</a></li>
+            <br />
+            <br />
           </ul>
 
         </div>
@@ -144,6 +147,12 @@
 
 
         <h2 class="title less-space-bottom width-small pretty-green">Our School</h2>
+
+        <div class="centre-600">
+
+          <?php perch_content('Image of pre-school'); ?>
+
+        </div>
 
         <p>The New Montessori Pre-school provides an holistic approach to children's education so as to develop the whole child, <strong>physically, socially, intellectually, spiritually and emotionally</strong>. We celebrate each child's individuality and have a deep understanding of their development needs.</p>
 

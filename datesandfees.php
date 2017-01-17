@@ -123,7 +123,7 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
-        <h1>Dates &amp; Fees</h1>
+        <h1 class="pretty-orange">Dates &amp; Fees</h1>
 
         <ul class="contents">
           <li><a href="#fees">Fees &amp; Opening Hours</a></li>
@@ -132,14 +132,19 @@
           <li><a href="#pay">Payments &amp; Information on Free Entitlement</a></li>
         </ul>
 
+        <br />
+        <br />
+
 
         <a name="fees"></a>
 
-        <h2>Fees &amp; Opening Hours</h2>
+        <h2 class="title less-space-bottom width-small pretty-blue">Fees &amp; Opening Hours</h2>
 
-        <p>School fees are <strong><?php perch_content('Hourly fees'); ?></strong>.</p>
+        <br />
 
-        <p>There is a <strong><?php perch_content('Registration fee'); ?></strong>, payable when you enrol your child at the school.</p>
+        <p class="background-orange-light">School fees are <strong><?php perch_content('Hourly fees'); ?></strong>.</p>
+
+        <p class="background-orange-light">There is a <strong><?php perch_content('Registration fee'); ?></strong>, payable when you enrol your child at the school.</p>
 
         <p>Our pre-school has <strong>places for 52 children a session from 2- 8 years of age</strong>. We are open every weekday during the school terms including half-term holidays, but we do not open on bank holidays. <strong>Full day-care is available</strong>, or children can attend one morning or afternoon session each day, either with or without Lunch Club. Times can always be arranged to suit the parent's/child's needs.</p>
 
@@ -147,31 +152,31 @@
 
         <table id="table" summary="Table of opening hours">
           <thead>
-            <tr>
+            <tr class="background-green-light">
               <th scope="col"></th>
-              <th scope="col">Morning Sessions</th>
-              <th scope="col">Lunch Club</th>
-              <th scope="col">Afternoon Sessions</th>
+              <th class="centre" scope="col">Morning Sessions</th>
+              <th class="centre" scope="col">Lunch Club</th>
+              <th class="centre" scope="col">Afternoon Sessions</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td scope="row"><strong>Early Birds</strong> <?php perch_content('Early birds time'); ?> (* **)</td>
+              <td class="background-purple centre" scope="row"><strong>Early Birds</strong> <?php perch_content('Early birds time'); ?> (* **)</td>
             </tr>
             <tr>
-              <td scope="row"><strong>Hall Class:</strong></td>
-              <td scope="row"><?php perch_content('Hall class morning time'); ?></td>
-              <td scope="row"><?php perch_content('Hall class lunch time'); ?></td>
-              <td scope="row">--</td>
+              <td class="background-purple centre" scope="row"><strong>Hall Class:</strong></td>
+              <td class="centre background-orange-light" scope="row"><?php perch_content('Hall class morning time'); ?></td>
+              <td class="centre background-blue"  scope="row"><?php perch_content('Hall class lunch time'); ?></td>
+              <td class="centre"  scope="row">--</td>
             </tr>
             <tr>
-              <td scope="row"><strong>Chapel Class:</strong></td>
-              <td scope="row"><?php perch_content('Chapel class morning time'); ?></td>
-              <td scope="row"><?php perch_content('Chapel class lunch time'); ?></td>
-              <td scope="row"><?php perch_content('Chapel class afternoon time'); ?></td>
+              <td class="background-purple centre" scope="row"><strong>Chapel Class:</strong></td>
+              <td class="centre background-orange-light"  scope="row"><?php perch_content('Chapel class morning time'); ?></td>
+              <td class="centre background-blue"  scope="row"><?php perch_content('Chapel class lunch time'); ?></td>
+              <td class="centre background-orange"  scope="row"><?php perch_content('Chapel class afternoon time'); ?></td>
             </tr>
             <tr>
-              <td scope="row"><strong>Night Owls</strong> <?php perch_content('Night owls time'); ?> (**)</td>
+              <td class="background-purple centre" scope="row"><strong>Night Owls</strong> <?php perch_content('Night owls time'); ?> (**)</td>
             </tr>
           </tbody>
         </table>
@@ -189,15 +194,17 @@
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
-        <hr />
-
 
 
         <a name="reg"></a>
 
-        <h2 class="title">Register Your Child</h2>
+        <h2 class="title less-space-bottom width-small pretty-orange">Register Your Child</h2>
 
-        <p><strong>Please <?php perch_content('Link to registration form'); ?>, or <a href="../contact/">get in contact with us</a> about registering your child</strong>. Once our pre-school receives your child registration form we offer our parents:</p>
+        <br />
+
+        <p class="background-orange-light"><strong>Please <?php perch_content('Link to registration form'); ?>, or <a href="../contact/">get in contact with us</a> about registering your child</strong>.</p>
+
+        <p>Once our pre-school receives your child registration form we offer our parents:</p>
 
         <ul class="compact">
           <li>Four free sessions at Heuristic Play prior to your child starting</li>
@@ -205,27 +212,25 @@
           <li>Six free parenting classes to scaffold our parents through parenting</li>
         </ul>
 
-        <p><strong>You can also <?php perch_content('Link to standing order form'); ?> if you require it</strong> (this includes our bank details). Please send this to either <a href="mailto:info@thenewmontessoripreschool.org.uk">info@thenewmontessoripreschool.org.uk</a> or bring it in to the school.</p>
+        <p class="background-orange-light"><strong>You can also <?php perch_content('Link to standing order form'); ?> if you require it</strong> (this includes our bank details). Please send this to either <a href="mailto:info@thenewmontessoripreschool.org.uk">info@thenewmontessoripreschool.org.uk</a> or bring it in to the school.</p>
 
         <p>See below for more details of how to make payments and any government funding you may be entitled to.</p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
-        <hr />
-
 
 
         <a name="pay"></a>
 
-        <h2 class="title">Payments &amp; Information on Free Entitlement</h2>
+        <h2 class="title less-space-bottom width-small pretty-purple">Payments &amp; Information on Free Entitlement</h2>
 
         <p>Fees are payable in advance and may be paid weekly, monthly or termly. All sick days and absent days, including holidays taken in term time, must be paid for and cannot be exchanged for other days.</p>
 
-        <p><strong>You can make payments by cash, cheque or bank standing order</strong>. If you would like to set up a standing order, please ask the classroom manager for the school's bank details. We regret that we cannot accept payment by credit/debit card or by Direct Debit at present.</p>
+        <p class="background-green-light"><strong>You can make payments by cash, cheque or bank standing order</strong>. If you would like to set up a standing order, please ask the classroom manager for the school's bank details. We regret that we cannot accept payment by credit/debit card or by Direct Debit at present.</p>
 
         <p>If your employer offers Childcare Vouchers as part of a salary sacrifice scheme, you can use these to pay your fees. We are registered with various voucher schemes so please discuss your requirements with the the School Manager. You can find more information about voucher schemes and how they work with <a href="<?php perch_content('Link to Child Tax Credits gov website'); ?>">Tax Credits on the web site of HM Revenue and Customs</a>.</p>
 
-        <p><strong>West Sussex County Council (WSCC) will fund up to fifteen hours per week</strong> for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="../about/policies/">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
+        <p class="background-purple"><strong>West Sussex County Council (WSCC) will fund up to fifteen hours per week</strong> for children over three years of age as part of the government's Free Entitlement scheme, but we charge you directly for the additional cost of the Montessori education. <a href="../about/policies/">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
 
         <p>To apply for your Free Entitlement you must complete an application to the West Sussex Early Years Partnership, available from us, and show us your child's birth certificate as proof of age. The grant payments are made directly to the school. <?php perch_content('Link to EYPP document'); ?>.</p>
 

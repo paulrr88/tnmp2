@@ -125,74 +125,71 @@
 
         <a name="top2"></a>
 
-        <div class="background-orange-light" style="width: 90%; margin: 0 auto; border-bottom: 3px black solid;">
+        <div id="aboutnav">
 
-          <h2 style="margin: 0; padding: 0 0 0.5em 0;">About Us</h2>
+          <h2>About Us</h2>
 
           <ul class="pagenav">
-            <li><a href="../../about/">What is Montessori?</a></li>
-            <li class="noborder"><a href="../../about/method/">The Montessori Method</a></li><br />
-            <li><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
-            <li><a href="../../about/team/">Our Team</a></li>
-            <li class="noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
+            <li class="pagenav-li"><a href="../../about/">What is Montessori?</a></li>
+            <li class="pagenav-li noborder"><a href="../../about/method/">The Montessori Method</a></li>
+            <br />
+            <li class="pagenav-li"><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>
+            <li class="pagenav-li"><a href="../../about/team/">Our Team</a></li>
+            <li class="pagenav-li noborder"><a href="../../about/policies/">Our Policies &amp; Documents</a></li>
+            <br />
+            <br />
           </ul>
 
         </div>
 
-        <h1>Our Policies &amp; Documents</h1>
+        <h1 class="pretty-orange less-space">Our Policies &amp; Documents</h1>
+
+        <br />
 
         <p>Welcome to our Policies &amp; Documents section. We've included various policies and documents here for you. Most are downloadable PDFs &mdash; you'll need an appropriate application in order to read them (most people use <a href="https://get.adobe.com/uk/reader/">Adobe Acrobat Reader</a>).</p>
 
         <br /><br />
 
-        <ul class="contents">
+        <ul class="contents background-orange-light">
           <li><strong>Admissions</strong></li>
 
           <li><?php perch_content('Admissions policy link'); ?></li>
           <li><a href="#settling">Settling In Policy</a></li>
         </ul>
 
-        <br />
-
-        <ul class="contents">
+        <ul class="contents background-blue">
           <li><?php perch_content('Link to Accreditation document'); ?></li>
           <li><?php perch_content('Link to OFSTED report'); ?></li>
         </ul>
 
-        <br />
-
-        <ul class="contents">
+        <ul class="contents background-purple">
           <?php perch_content('Policies C-E'); ?>
           <li><a href="#equal">Equal Opportunities</a></li>
           <?php perch_content('Policies H-S'); ?>
         </ul>
 
-        <br />
-
-        <ul class="contents">
+        <ul class="contents background-green-light">
           <li><strong>Special Educational Needs &amp; Disability</strong></li>
           <?php perch_content('Policies Special Needs'); ?>
         </ul>
 
-        <br />
-
-        <ul class="contents">
+        <ul class="contents background-orange-light">
           <li><?php perch_content('Link to Sponsorship Form'); ?></li>
           <li><?php perch_content('Link to Terms'); ?></li>
         </ul>
 
         <br />
 
-        <hr />
-
 
 
 
         <a name="settling"></a>
 
-        <h2>Settling In</h2>
+        <h2 class="title less-space-bottom width-small pretty-blue">Settling In</h2>
 
-        <p><strong>We want our children to feel safe and happy</strong> in the absence of their parents, to recognise other adults as a source of authority, help and friendship and to be able to share with their parents afterwards the new learning experiences enjoyed in the pre-school.</p>
+        <br />
+
+        <p class="background-orange-light"><strong>We want our children to feel safe and happy</strong> in the absence of their parents, to recognise other adults as a source of authority, help and friendship and to be able to share with their parents afterwards the new learning experiences enjoyed in the pre-school.</p>
 
         <div class="centre-400">
 
@@ -202,7 +199,7 @@
 
         <p>In order to accomplish this, we will:</p>
 
-        <ul class="body">
+        <ul class="body background-blue">
           <li><strong>Arrange for the child to have <em>four</em> visits to the pre-school</strong>. These visits will take place the term before the child is due to start. The four visits will comprise of two one hour visits with an adult, two one hour visits unaccompanied.</li>
           <li><strong>Make clear to families from the outset that they will be supported in the pre-school</strong> for as long as it takes to settle their child there.</li>
           <li><strong>Reassure parents</strong> whose children seem to be taking a long time settling into the Pre-school.</li>
@@ -213,15 +210,15 @@
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
 
-        <hr />
-
 
 
         <a name="equal"></a>
 
-        <h2>Equal Opportunities</h2>
+        <h2 class="title less-space-bottom width-small pretty-green">Equal Opportunities</h2>
 
-        <p><strong>The pre-school believes that its activities should be open to all children and families, and to all adults committed to their welfare</strong>. We aim to ensure that all who wish to work in, or volunteer to help with, our pre-school have an equal chance to do so.</p>
+        <br />
+
+        <p class="background-purple"><strong>The pre-school believes that its activities should be open to all children and families, and to all adults committed to their welfare</strong>. We aim to ensure that all who wish to work in, or volunteer to help with, our pre-school have an equal chance to do so.</p>
 
         <p>The pre-school is open to every family in the community and any family joining will be made aware of our policy on equal opportunities.</p>
 
