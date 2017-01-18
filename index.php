@@ -113,14 +113,6 @@
 
     <!--Row begins--><div class="row">
 
-
-
-      <!--Content decoration, top of box begins--><div id="content-bg-top">
-        <div id="content-bg-top-l"></div>
-        <div id="content-bg-top-mid"></div>
-        <div id="content-bg-top-r"></div>
-      </div><!--Content decoration ends-->
-
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
         <br />
@@ -175,9 +167,9 @@
           <div class="twelve columns">
             <br />
 
-            <p>We are a non-profit organisation providing Montessori education for pre-school children in the Worthing area. We are a registered charity (number 1086853), and you are welcome to view our <a href="http://apps.charitycommission.gov.uk/Showcharity/RegisterOfCharities/CharityWithoutPartB.aspx?RegisteredCharityNumber=1086853&SubsidiaryNumber=0">Charity Commission register entry</a>.</p>
+            <p>We are a non-profit organisation providing Montessori education for pre-school children in the Worthing area. We are a registered charity (number 1086853), and you are welcome to view our <a href="<?php perch_content('Link to Charity Commission register entry'); ?>">Charity Commission register entry</a>.</p>
 
-            <p>We are also a registered company (number 3908382); details available from <a href="https://beta.companieshouse.gov.uk/company/03908382">Companies House</a>.</p>
+            <p>We are also a registered company (number 3908382); details available from <a href="<?php perch_content('Link to Companies House entry'); ?>">Companies House</a>.</p>
 
             <p><a href="about/"><strong>Learn more about us!</strong></a></p>
 
@@ -199,8 +191,9 @@
         <!--Elements of Diversity-->
 
         <div id="diversity" class="twelve columns" style="">
-          <h2>Elements of Diversity in a Montessori Classroom</h2>
+          <h2 class="pretty-purple">Elements of Diversity in a Montessori Classroom</h2>
 
+          <br />
           <br />
 
           <div>
@@ -332,33 +325,29 @@
 
       <!--Footer begins #footer--><div class="twelve columns" id="footer">
 
-        <!--Content decoration, top of box begins--><div id="content-bg-bottom">
-          <div id="content-bg-bottom-l"></div>
-          <div id="content-bg-bottom-r"></div>
-        </div><!--Content decoration ends-->
-
         <br />
 
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="contacts">Contacts</a></li>
-          <li><a href="about">Who's Who</a></li>
-          <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="about/history">History</a></li>
-          <li><a href="services">Services &amp; Dates</a></li>
-          <li><a href="clubs">Clubs &amp; Activities</a></li>
-          <li><a href="clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="clubs/#transport">Church Transport</a></li>
-          <li><a href="photos">Photo Gallery</a></li>
-          <li><a href="stewardship">Stewardship</a></li>
-          <li><a href="links">Links</a></li>
+          <li><a href="about/">What is Montessori?</a></li>
+          <li><a href="datesandfees/">Dates &amp; Fees</a></li>
+          <li><a href="contact/">Contact Us</a></li>
+          <li><a href="mymontessorichild/">My Montessori Child</a></li>
+          <li><a href="about/method/">The Montessori Method</a></li>
+          <li><a href="about/history/">History of Montessori and Our Pre-school</a></li>
+          <li><a href="about/team/">Our Team</a></li>
+          <li><a href="about/policies/">Our Policies &amp; Documents</a></li>
+          <li><a href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/">Facebook</a></li>
         </ul>
 
-        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
-        <p>Registered charity no. 1086853<br />
-        Company Number 3908382</p>
-
-        <p><a href="perch/">Perch Login</a></p>
+        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong><br />
+        Registered charity no. 1086853<br />
+        Company Number 3908382<br />
+        <br />
+        <a href="perch/">Perch Login</a></p>
+        <br />
+        <br />
+        <br />
 
       </div><!--Footer ends-->
 

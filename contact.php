@@ -113,14 +113,6 @@
 
     <!--Row begins--><div class="row">
 
-
-
-      <!--Content decoration, top of box begins--><div id="content-bg-top">
-        <div id="content-bg-top-l"></div>
-        <div id="content-bg-top-mid"></div>
-        <div id="content-bg-top-r"></div>
-      </div><!--Content decoration ends-->
-
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
         <h1 class="pretty-orange">Contact Us</h1>
@@ -146,12 +138,7 @@
 
         <p class="centre">Or visit us in person (by appointment only).</p><br />
 
-        <p class="centre"><strong>Map of our location:</strong></p><br />
-
-        <center><div id="streetview" style="width: 560px; height: 320px; border: 0px solid black;">
-                <iframe width="570" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-         src="http://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=bn11+4et&amp;sll=53.800651,-4.064941&amp;sspn=13.052763,28.256836&amp;ie=UTF8&amp;hq=&amp;hnear=Worthing,+West+Sussex+BN11+4ET,+United+Kingdom&amp;ll=50.817771,-0.379457&amp;spn=0.000857,0.001725&amp;z=19&amp;layer=c&amp;cbll=50.81777,-0.379471&amp;panoid=9Eti5m7t5TxDPtfUuCsy8w&amp;cbp=12,0,,0,5&amp;output=svembed"></iframe><br /><small><a href="http://maps.google.co.uk/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=bn11+4et&amp;sll=53.800651,-4.064941&amp;sspn=13.052763,28.256836&amp;ie=UTF8&amp;hq=&amp;hnear=Worthing,+West+Sussex+BN11+4ET,+United+Kingdom&amp;ll=50.817771,-0.379457&amp;spn=0.000857,0.001725&amp;z=19&amp;layer=c&amp;cbll=50.81777,-0.379471&amp;panoid=9Eti5m7t5TxDPtfUuCsy8w&amp;cbp=1,0,,0,5" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-
+        <p class="centre"><strong><a href="<?php perch_content('Link to Google Maps'); ?>">Click here to see a map of our location</a></strong></p><br />
       </div><!--Content ends-->
 
 
@@ -170,33 +157,29 @@
 
       <!--Footer begins #footer--><div class="twelve columns" id="footer">
 
-        <!--Content decoration, top of box begins--><div id="content-bg-bottom">
-          <div id="content-bg-bottom-l"></div>
-          <div id="content-bg-bottom-r"></div>
-        </div><!--Content decoration ends-->
-
         <br />
 
         <ul>
           <li><a href="../">Home</a></li>
-          <li><a href="../contacts">Contacts</a></li>
-          <li><a href="../about">Who's Who</a></li>
-          <li><a href="https://goo.gl/maps/NSJ76SqrDo32">Where to find St. Andrew's</a></li>
-          <li><a href="../about/history">History</a></li>
-          <li><a href="../services">Services &amp; Dates</a></li>
-          <li><a href="../clubs">Clubs &amp; Activities</a></li>
-          <li><a href="../clubs/#social">Social Life at St. Andrew's</a></li>
-          <li><a href="../clubs/#transport">Church Transport</a></li>
-          <li><a href="../photos">Photo Gallery</a></li>
-          <li><a href="../stewardship">Stewardship</a></li>
-          <li><a href="../links">Links</a></li>
+          <li><a href="../about/">What is Montessori?</a></li>
+          <li><a href="../datesandfees/">Dates &amp; Fees</a></li>
+          <li><a href="../contact/">Contact Us</a></li>
+          <li><a href="../mymontessorichild/">My Montessori Child</a></li>
+          <li><a href="../about/method/">The Montessori Method</a></li>
+          <li><a href="../about/history/">History of Montessori and Our Pre-school</a></li>
+          <li><a href="../about/team/">Our Team</a></li>
+          <li><a href="../about/policies/">Our Policies &amp; Documents</a></li>
+          <li><a href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/">Facebook</a></li>
         </ul>
 
-        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong></p>
-        <p>Registered charity no. 1086853<br />
-        Company Number 3908382</p>
-
-        <p><a href="../perch/">Perch Login</a></p>
+        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong><br />
+        Registered charity no. 1086853<br />
+        Company Number 3908382<br />
+        <br />
+        <a href="../perch/">Perch Login</a></p>
+        <br />
+        <br />
+        <br />
 
       </div><!--Footer ends-->
 

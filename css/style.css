@@ -68,66 +68,6 @@ ul li {
 IDs and classes
 ------------------------- */
 
-/* Experiment with content background design, on hold for now!
- #content-bg-bottom {                                      top part of 3D box effect behind content
-  height: 20px;
-  position: relative;
-  width: 100%;
-
-  background-color: orange;
-}
-  #content-bg-bottom-l {                                 top left corner of 3D box
-    height: 20px;
-    position: absolute;
-      top: 0;
-      left: 0;
-    width: 15px;
-
-    background-color: purple;
-  }
-  #content-bg-bottom-r {                                 top left corner of 3D box
-    height: 20px;
-    position: absolute;
-      top: 0;
-      right: 0;
-    width: 15px;
-
-    background-color: purple;
-  }
-#content-bg-top {                                        top part of 3D box effect behind content
-  height: 10px;
-  margin-top: 110px;
-  position: relative;
-  width: 100%;
-
-  background-color: orange;
-}
-  #content-bg-top-l {                                   top left corner of 3D box
-    height: 10px;
-    position: absolute;
-      top: 0;
-      left: 0;
-    width: 2.5%;
-
-    background: url(../images/content-bg-top-l.png) no-repeat;
-  }
-  #content-bg-top-mid {                                   top left corner of 3D box
-    height: 10px;
-    position: relative;
-    width: 90%;
-    margin-left: 2.5%;
-
-    background: cyan;
-  }
-  #content-bg-top-r {                                     top left corner of 3D box
-    height: 10px;
-    position: absolute;
-      top: 0;
-      right: 0;
-    width: 5%;
-
-    background-color: purple;
-  }*/
 #aboutnav {
   width: 90%;
   margin: 0 auto;
@@ -247,6 +187,9 @@ IDs and classes
 }
 #footer a:visited {
   color: #000;
+}
+#footer ul {
+  margin-bottom: 0;
 }
 #footer ul li {
   border-right: #000 solid 1px;                           /* adds the line effect to right of each link in footer */
