@@ -340,7 +340,7 @@
           <li><a href="https://www.facebook.com/The-New-Montessori-Pre-School-210642929391/">Facebook</a></li>
         </ul>
 
-        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by Paul Robinson</strong><br />
+        <p><strong>&copy; <?php echo date('Y'); ?> The New Montessori Pre-school | Designed by <a href="http://www.paulcomputerhelp.co.uk/">Paul Robinson</a></strong><br />
         Registered charity no. 1086853<br />
         Company Number 3908382<br />
         <br />
