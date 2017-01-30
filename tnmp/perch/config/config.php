@@ -6,7 +6,7 @@
     define("PERCH_DB_USERNAME", 'root');
     define("PERCH_DB_PASSWORD", 'root');
     define("PERCH_DB_SERVER", "localhost:8889");
-    define("PERCH_DB_DATABASE", "perch2");
+    define("PERCH_DB_DATABASE", "perch");
     /*define("PERCH_DB_USERNAME", 'LCN410728_admin');
     define("PERCH_DB_PASSWORD", '2M0ntess0ri().');
     define("PERCH_DB_SERVER", "database3.lcn.com");
