@@ -1,20 +1,81 @@
 <IfModule mod_rewrite.c>
 
-RewriteEngine on  # Turns rewrite engine on for doing below URL redirects
+RewriteEngine On
+
+RewriteRule ^about/$ about.php
+RewriteRule ^about/history/$ about-history.php
+RewriteRule ^about/method/$ about-method.php
+RewriteRule ^about/method/learning/$ about-method-extra.php
+RewriteRule ^about/team/$ about-team.php
+RewriteRule ^about/policies/$ about-policies.php
+RewriteRule ^contact/$ contact.php
+RewriteRule ^datesandfees/$ datesandfees.php
+RewriteRule ^mymontessorichild/$ mymontessori.php
+RewriteRule ^sitemap/$ sitemap.php [L]
+
+
+# #  [NC,L]                      # Handle requests for "Dates & Fees"
+# #  [NC,L]                 # Handle requests for "My Montessori Child"
+# #  [NC,L]                                # Handle requests for "Sitemap"
+# This only worked because I created subfolders corresponding with rewrite rule on server, otherwise it wouldn't have it. Still works without subfolders on localhost. Doesn't work for live as can't go more than one folder down without getting an forbidden message.
+# super reduced down, no need for [L] until after last statement and caret ^ doesn't seem to be needed but is a good idea from what tutorials say as it prevents erroneous strings from being accepted for redirect
+
+# Experimenting from guides
+
+# From https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/ totally different approach that LCN recommended that targets the file extension directly and sorts it, with extra code for allowing for a trailing /, the last four lines alone are needed for this!
+# Doesn't work on live server, still run into subfolders not existing problem. Also has to have literal php names matching and requires them to be in subfolders too as far as I can tell.
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^([^/]+)/$ $1.php
+# RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+# RewriteRule (.*)$ /$1/ [R=301,L]
+
+
+
+# RewriteRule ^(about|datesandfees|contact)/ $1.php # Keeps all possible URL queries at navigation level in one query. Whatever of these values is entered as a folder will redirect to a php file of the same name. Does require that php files have the same name. Causes 500 error when used on server, but fine on localhost.
+
+
+
+# RewriteRule ^index.php$ about.php # simple redirect rule that shows about.php when accessing index. Works on localhost and server.
+
+
+
+# Recommended by LCN for getting it to work on preview subdomain but all it does is try to redirect the person visiting the page to the about subfolder which it still can't find
+# RewriteCond %{HTTP_HOST} ^preview.thenewmontessoripreschool\.org.uk$
+# RewriteRule (.*) http://www.preview.thenewmontessoripreschool.org.uk/$1 [R=301,L]
+# RewriteRule ^$ about [L]
+# RewriteRule ^about/$ about.php [L] # (THIS ONE WORKS OFFLINE) it's also the simplest form the syntax can take without causing an error. [L] goes after final entry.
+
+
+
+# Experimenting with redirect to see if it works on live server - and it does! Redirects from about.php to about-team.php, so htaccess is confirmed working on server in web/ folder
+
+# Redirect 301 /about.php http://preview.thenewmontessoripreschool.org.uk/about-team.php
+
+
+
+# ORIGINAL FILE
+
+# Commented out below as not working on live server - double hash for actual lines of code
+
+# # RewriteEngine on  # Turns rewrite engine on for doing below URL redirects
 
 # All below rules rewrite requests for PHP files to directories, or rather make links to directories go to corresponding php files. Fake directories!
 # Note that these are totally case sensitive - going to about/method results in broken directory links (no style etc) where as about/method/ has everything correct
 
-RewriteRule ^about/?$ about.php [NC,L]                                    # Handle requests for "About Us"
-RewriteRule ^about/team/?$ about-team.php [NC,L]                          # Handle requests for "Our Team"
-RewriteRule ^about/method/?$ about-method.php [NC,L]                      # Handle requests for "Montessori Method"
-RewriteRule ^about/method/learning/?$ about-method-extra.php [NC,L]       # Handle requests for "Montessori Method" extra page
-RewriteRule ^about/history/?$ about-history.php [NC,L]                    # Handle requests for "History of Montessori and Our Pre-school"
-RewriteRule ^about/policies/?$ about-policies.php [NC,L]                  # Handle requests for "Our Policies"
-RewriteRule ^contact/?$ contact.php [NC,L]                                # Handle requests for "Contact Us"
-RewriteRule ^datesandfees/?$ datesandfees.php [NC,L]                      # Handle requests for "Dates & Fees"
-RewriteRule ^mymontessorichild/?$ mymontessori.php [NC,L]                 # Handle requests for "My Montessori Child"
-RewriteRule ^sitemap/?$ sitemap.php [NC,L]                                # Handle requests for "Sitemap"
+# # RewriteRule ^about/?$ about.php [NC,L]                                    # Handle requests for "About Us"
+# # RewriteRule ^about/team/?$ about-team.php [NC,L]                          # Handle requests for "Our Team"
+# # RewriteRule ^about/method/?$ about-method.php [NC,L]                      # Handle requests for "Montessori Method"
+# # RewriteRule ^about/method/learning/?$ about-method-extra.php [NC,L]       # Handle requests for "Montessori Method" extra page
+# # RewriteRule ^about/history/?$ about-history.php [NC,L]                    # Handle requests for "History of Montessori and Our Pre-school"
+# # RewriteRule ^about/policies/?$ about-policies.php [NC,L]                  # Handle requests for "Our Policies"
+# # RewriteRule ^contact/?$ contact.php [NC,L]                                # Handle requests for "Contact Us"
+# # RewriteRule ^datesandfees/?$ datesandfees.php [NC,L]                      # Handle requests for "Dates & Fees"
+# # RewriteRule ^mymontessorichild/?$ mymontessori.php [NC,L]                 # Handle requests for "My Montessori Child"
+# # RewriteRule ^sitemap/?$ sitemap.php [NC,L]                                # Handle requests for "Sitemap"
 
 # From https://www.addedbytes.com/articles/for-beginners/url-rewriting-for-beginners/ changed "pet-care" to whatever I need for my site
 
