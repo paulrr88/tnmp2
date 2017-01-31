@@ -77,18 +77,7 @@
       <!--Navigation area begins--><div class="twelve columns" id="nav">
         <!--Taglines at bottom of header-->
 
-        <div class="three columns" id="tagline-phone">
-          <p>01903 535412</p>
-        </div>
-        <div class="six columns" id="tagline-email">
-          <p>info@thenewmontessoripreschool.org.uk</p>
-        </div>
-        <div class="three columns" id="tagline-phone-mobile">
-          <p>07939 264728</p>
-        </div>
-        <div class="twelve columns" id="tagline-email">
-          <p>The Methodist Church, Tarring Road, Worthing, BN11 4ET</p>
-        </div>
+        <?php include('header-contact.php')?>
 
         <!--<div class="seven columns">
           <p id="left">In the Anglican Diocese of Chichester, and Worthing Deanery</p>
@@ -155,10 +144,10 @@
 
         <div class="five columns">
           <div class="twelve columns background-blue">
-            <h2 class="mission">Our mission is to:</h2>
+            <h2 class="mission">Our mission</h2>
 
             <ul class="lesspadding">
-              <li>Allow the child to develop his/her unique personality</li>
+              <li>To allow the child to develop his/her unique personality</li>
               <li>To help the child to become socially and emotionally well adjusted and to help him/her become physically strong</li>
               <li>To make it possible for the child to develop to his/her intellectual capacity</li>
             </ul>
@@ -233,7 +222,7 @@
             <div class="one-third column" id="lifeskills">
               <p><strong>Life Skills</strong></p>
 
-              <p>Acquired through child sized equipment, which inspires the child to become independent and in control of his life. Areas include motor control, Care of the environment, Care of oneself, Grace and Courtesy</p>
+              <p>Acquired through child sized equipment, which inspires the child to become independent and in control of his life. Areas include motor control, care of the environment, care of oneself, grace and courtesy.</p>
             </div>
             <div class="one-third column" id="childteacher">
               <p><strong>Child Teacher</strong></p>

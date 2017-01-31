@@ -34,7 +34,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/about-history.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-history.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/about-history.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -43,7 +43,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/about-method-extra.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-method-extra.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/about-method-extra.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -52,7 +52,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/about-method.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-method.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/about-method.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -61,7 +61,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/about-policies.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-policies.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/about-policies.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -70,7 +70,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/about-team.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about-team.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/about-team.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -79,7 +79,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/about.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/about.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/about.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -88,7 +88,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contact.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/contact.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/contact.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -97,7 +97,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/datesandfees.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/datesandfees.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/datesandfees.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -106,7 +106,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/index.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/index.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/index.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -115,7 +115,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/mmc.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/mymontessori.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/mymontessori.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		},
@@ -124,7 +124,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/sitemap.kit",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/tnmp\/sitemap.php",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/sitemap.php",
 		"outputPathIsOutsideProject": 1,
 		"outputPathIsSetByUser": 1
 		}

@@ -77,18 +77,7 @@
       <!--Navigation area begins--><div class="twelve columns" id="nav">
         <!--Taglines at bottom of header-->
 
-        <div class="three columns" id="tagline-phone">
-          <p>01903 535412</p>
-        </div>
-        <div class="six columns" id="tagline-email">
-          <p>info@thenewmontessoripreschool.org.uk</p>
-        </div>
-        <div class="three columns" id="tagline-phone-mobile">
-          <p>07939 264728</p>
-        </div>
-        <div class="twelve columns" id="tagline-email">
-          <p>The Methodist Church, Tarring Road, Worthing, BN11 4ET</p>
-        </div>
+        <?php include('header-contact.php')?>
 
         <!--<div class="seven columns">
           <p id="left">In the Anglican Diocese of Chichester, and Worthing Deanery</p>
@@ -122,11 +111,11 @@
           <h2>About Us</h2>
 
           <ul class="pagenav">
-            <li class="pagenav-li"><a href="../about/">What is Montessori?</a></li>
-            <li class="pagenav-li noborder"><a href="../about/method/">The Montessori Method</a></li>
-            <br />
+            <li class="pagenav-li"><strong><a href="../about/">What is Montessori?</a></strong></li>
+            <li class="pagenav-li noborder"><strong><a href="../about/team/">Our Team</a></strong></li>
+            <br /><br />
             <li class="pagenav-li"><a href="../about/history/">History of Montessori and Our Pre-school</a></li>
-            <li class="pagenav-li"><a href="../about/team/">Our Team</a></li>
+            <li class="pagenav-li noborder"><a href="../about/method/">The Montessori Method</a></li>
             <li class="pagenav-li noborder"><a href="../about/policies/">Our Policies &amp; Documents</a></li>
             <br />
             <br />
@@ -158,7 +147,7 @@
 
         <p class="background-orange"><strong>This school is the only Montessori accredited pre-school in Worthing and it is accredited as 'Outstanding'. It is the only Montessori pre-school in the country that is a registered charity</strong> - no one owns TNMP and no one is making any money from it (other than staff salaries). In most areas of the country, Montessori trained staff earn more than the average pre-school practitioner. That is not the case at TNMP, staff salaries match any other standard pre-school in the area.</p>
 
-        <p><strong>The Pre-school's aim is to provide Montessori education to all children at an affordable cost</strong>. We strive not to raise fees to ensure the pre-school stays accessible to as many of the local community as possible. For no extra salary, the pre-school provides Parent Courses and Heuristic Play Classes. This is all completely free for all parents and staff receive no extra pay. </p>
+        <p><strong>The Pre-school's aim is to provide Montessori education to all children at an affordable cost</strong>. We strive not to raise fees to ensure the pre-school stays accessible to as many of the local community as possible. The pre-school also provides expert-led parenting courses and heuristic play classes to support you in enhancing your child's development at home as well as within the pre-school setting.</p>
 
         <div class="centre-600">
 
