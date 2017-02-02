@@ -115,7 +115,10 @@
         The Methodist Church<br />
         Tarring Road<br />
         Worthing<br />
-        BN11 4ET</p>
+        BN11 4ET<br />
+        <br />
+        <strong>We're right next to Worthing Station!</strong>
+        </p>
 
         <br />
 
@@ -125,9 +128,9 @@
 
         <br />
 
-        <p class="centre">Or visit us in person (by appointment only).<br />We're right next to Worthing Station!</p><br />
+        <p class="centre">Or visit us in person (by appointment only).</p>
 
-        <p class="centre"><strong><a href="<?php perch_content('Link to Google Maps'); ?>">Click here to see a map of our location</a></strong></p><br />
+        <h3 class="linkbutton"><strong><a href="<?php perch_content('Link to Google Maps'); ?>">Click here to see a map of our location</a></strong></h3><br />
       </div><!--Content ends-->
 
 

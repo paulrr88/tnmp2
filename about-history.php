@@ -180,7 +180,7 @@
 
         <p class="background-orange-light"><strong>A few weeks later on January 4th 1999, doors opened and all children turned up to re-register</strong>. The Management Committee had prepared a list of resources that the pre-school needed and each family brought one thing from the list with them on that first day. Through a huge community effort The NEW Montessori Pre-school (TNMP) was up and running!</p>
 
-        <p><strong>Beki Shanahan, (now our Principal), was one of those parents</strong>. She had begun volunteering at the preschool in 1997, and was so inspired by the Montessori Method that she went on to do her Montessori Diploma and became a classroom assistant. As the pre-school reopened, one of the mums called June Knight took on the role of Principal and Beki took the role of School Manager. Two years later June left and Beki became Principal. Claire Morgan was also a parent at this time and had been volunteering. She went on to do her Montessori training and is now our School Manager.</p>
+        <p><strong>Beki Shanahan, (now our Principal), was one of those parents</strong>. She had begun volunteering at the preschool in 1997, and was so inspired by the Montessori Method that she went on to do her Montessori Diploma and became a classroom assistant. As the pre-school reopened, one of the mums took on the role of Principal and Beki took the role of School Manager. Two years later the Principal left and Beki took over the position. Claire Morgan was also a parent at this time and had been volunteering.</p>
 
         <div class="centre-600">
 

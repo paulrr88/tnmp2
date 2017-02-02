@@ -197,7 +197,7 @@
             <div class="one-third column" id="adultteacher">
               <p><strong>Adult Teacher</strong></p>
 
-              <p>"Directress"</p>
+              <p>"Directress/Director"</p>
 
               <p>To observe the child develop and have a natural understanding of the child's requirements. To direct the natural energies of the child that they see emerging.</p>
 
