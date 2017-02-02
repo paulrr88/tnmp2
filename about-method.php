@@ -39,7 +39,7 @@
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
           <li class="vertical-top"><a href="../../sitemap/">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="<?php perch_content('Food rating link'); ?>"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
         </ul>
@@ -156,7 +156,7 @@
 
         <p><strong>In the main, the children themselves choose what activities to do and when</strong>, so that during what Montessori calls their "sensitive periods" they will naturally maximise their learning. One of the key roles of the Montessori teacher is to ensure that children are helped through these particularly receptive times.</p>
 
-        <p class="background-orange">The Montessori method is not just to do with the physical equipment though. <strong>It encompasses everything from our tone of voice in the classroom, to how we interact with with the children, and giving them responsibility for getting out and putting away their work</strong>. Developing independence is a vital part of education and we go to great lengths to ensure that everything in the classroom is on a "child scale". Because of this, the children see the classroom as "their" space, not ours.</p>
+        <p class="background-orange">The Montessori Method is not just to do with the physical equipment though. <strong>It encompasses everything from our tone of voice in the classroom, to how we interact with with the children, and giving them responsibility for getting out and putting away their work</strong>. Developing independence is a vital part of education and we go to great lengths to ensure that everything in the classroom is on a "child scale". Because of this, the children see the classroom as "their" space, not ours.</p>
 
         <br />
 
@@ -176,7 +176,7 @@
 
         <h2 class="title less-space-bottom width-small pretty-purple">Development Areas</h2>
 
-        <p class="centre">The method focuses on five developmental areas:</p>
+        <p class="centre">The Method focuses on five developmental areas:</p>
 
         <div class="centre-400">
 

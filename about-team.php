@@ -39,7 +39,7 @@
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
           <li class="vertical-top"><a href="../../sitemap/">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="<?php perch_content('Food rating link'); ?>"><img src="../../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
         </ul>
@@ -164,7 +164,7 @@
 
         <p class="background-purple"><strong>The New Montessori Pre-school is a limited company run by a Management Committee comprising a Chairperson, Vice-Chairperson, Secretary and additional members</strong>. The Committee is made up of non-remunerated volunteers; parents and local professional people who work together with the Pre-school to ensure the best for our children.</p>
 
-        <p>The Committee meets every 6-8 weeks to discuss various matters relating to the running of the school and to make important decisions with regard to the school's future. Every July the Management Committee meet to agree the fee raise for the September. We are always looking for additional members so if you think you may be able to help please <a href="../../contact/">contact us</a>.</p>
+        <p>The Committee meets every 6-8 weeks to discuss various matters relating to the running of the school and to make important decisions with regard to the school's future. Every July the Management Committee meet to set the fee rate for September. We are always looking for additional members so if you think you may be able to help please <a href="../../contact/">contact us</a>.</p>
 
         <div class="centre-600">
 
@@ -172,7 +172,7 @@
 
         </div>
 
-        <p>The Principal and School Manager attend every meeting and <strong>as a parent you are welcome to attend Management Committee meetings at any time</strong>. You can only be involved in the decision making process if you are a Committee Member.</p>
+        <p>The Principal attends every meeting and <strong>as a parent you are welcome to attend Management Committee meetings at any time</strong>. You can only be involved in the decision making process if you are a Committee Member.</p>
 
         <p class="background-orange-light"><strong>Details of meetings are posted on the school doors and notified in Newsletters</strong>. Copies of the Annual General Meetings and the minutes of the meeting are available from your Classroom Manager.</p>
 
@@ -230,7 +230,7 @@
 
         <p>All these activities enable the Fundraising Team to provide extra curriculum events for the children at the end of each term, as well as contributing towards the costs of the Montessori Materials.</p>
 
-        <p><strong>The fundraising team also publish our occasional magazine Monti's News</strong> which aims to keep parents in touch with what's happening at the school, and contains articles of general interest on the Montessori method written by the school staff. If you have a business or service that you would like to advertise in Monti's News please <a href="../../contact/">contact us via our contacts page</a>.</p>
+        <p><strong>The fundraising team also publish our occasional magazine Monti's News</strong> which aims to keep parents in touch with what's happening at the school, and contains articles of general interest on the Montessori Method written by the school staff. If you have a business or service that you would like to advertise in Monti's News please <a href="../../contact/">contact us via our contacts page</a>.</p>
 
         <p>If you're interested in learning more about how our school is run, our history, and perhaps joining our team, <?php perch_content('Link to Travis mum letter'); ?>.</p>
 

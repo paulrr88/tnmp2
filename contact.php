@@ -39,7 +39,7 @@
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
           <li class="vertical-top"><a href="../sitemap/">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="<?php perch_content('Food rating link'); ?>"><img src="../images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="../images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
         </ul>
@@ -110,7 +110,7 @@
 
         <p class="centre background-orange-light"><strong>Our Address:</strong></p>
 
-        <p class="centre background-orange-light">The School Manager<br />
+        <p class="centre background-orange-light">Principal<br />
         The New Montessori Pre-School<br />
         The Methodist Church<br />
         Tarring Road<br />
@@ -125,7 +125,7 @@
 
         <br />
 
-        <p class="centre">Or visit us in person (by appointment only).</p><br />
+        <p class="centre">Or visit us in person (by appointment only).<br />We're right next to Worthing Station!</p><br />
 
         <p class="centre"><strong><a href="<?php perch_content('Link to Google Maps'); ?>">Click here to see a map of our location</a></strong></p><br />
       </div><!--Content ends-->

@@ -39,7 +39,7 @@
       <!--Start of top information area--><div class="twelve columns" id="top">
         <ul class="nostyle">
           <li class="vertical-top"><a href="sitemap/">Sitemap</a></li>
-          <li><a href="http://ratings.food.gov.uk/business/en-GB/781921/The-New-Montessori-Pre-School-Worthing"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
+          <li><a href="<?php perch_content('Food rating link'); ?>"><img src="images/food.jpg" width="100" alt="Link to our food hygiene rating" /></a></li>
           <li><img src="images/accredited.jpg" width="70" alt="This school is Montessori MEAB Accredited" /></a></li>
 
         </ul>
