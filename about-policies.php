@@ -138,12 +138,12 @@
           <li><a href="#settling">Settling In Policy</a></li>
         </ul>
 
-        <ul class="contents background-blue">
+        <ul class="contents background-green-light">
           <li><?php perch_content('Link to Accreditation document'); ?></li>
           <li><?php perch_content('Link to OFSTED report'); ?></li>
         </ul>
 
-        <ul class="contents background-purple">
+        <ul class="contents background-orange-light">
           <?php perch_content('Policies C-E'); ?>
           <li><a href="#equal">Equal Opportunities</a></li>
           <?php perch_content('Policies H-S'); ?>
