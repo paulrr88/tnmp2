@@ -189,9 +189,9 @@
         	<li> Enabled the Pre-school to open afternoon and lunchtime sessions.</li>
         	<li> Opened a second morning class in January 2004</li>
         	<li> Been looking into purchasing our own building.</li>
-        	<li> April 2006– organised and arranged for Pre-school to move to Tarring
-        Road.</li>
-        	<li> Worked with local Council to ensure road safety signage on Tarring Road.</li>
+        	<li> April 2006– organised and arranged for Pre-school to move to Tarring Road.</li>
+            <li> 2016 - Worked with the Big Lottery to provide our pre-school with a new website, intercom system and new Kindles</li>
+            <li> 2017 - Achieved campaign to put a crossing on Tarring Road for all children</li>
         </ul>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
