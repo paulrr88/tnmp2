@@ -104,6 +104,7 @@
 
       <!--Content begins #content--><div class="twelve columns nomargin" id="content">
 
+
         <a name="top2"></a>
 
         <div id="aboutnav">
@@ -122,6 +123,7 @@
           </ul>
 
         </div>
+
 
         <h1 class="pretty-orange less-space">Our Team</h1>
 
@@ -189,7 +191,7 @@
         	<li> Enabled the Pre-school to open afternoon and lunchtime sessions.</li>
         	<li> Opened a second morning class in January 2004</li>
         	<li> Been looking into purchasing our own building.</li>
-        	<li> April 2006– organised and arranged for Pre-school to move to Tarring Road.</li>
+        	<li> April 2006 – organised and arranged for Pre-school to move to Tarring Road.</li>
             <li> 2016 - Worked with the Big Lottery to provide our pre-school with a new website, intercom system and new Kindles</li>
             <li> 2017 - Achieved campaign to put a crossing on Tarring Road for all children</li>
         </ul>
@@ -216,14 +218,12 @@
 
         <p><strong>Details of the next meeting arranged for the Fundraising Team will be displayed on our notice board</strong>, as well as being highlighted in our newsletters.</p>
 
-        <p>The Fundraising Team organises:</p>
+        <p>The Fundraising Team organises (depending on parents on the team):</p>
 
         <ul class="compact background-orange-light">
-          <li><strong>Tubes of Bubbles</strong>: Tubes are given out to the children; the children then fill the tube with coins and return to the Pre-school near to Easter.</li>
-          <li><strong>Sponsored wheels</strong>: Held in Victoria Park in May/June</li>
-          <li><strong>Teddy bear's picnic</strong>: Held in Victoria Park in June/July</li>
-          <li><strong>Winter Fayre/An Annual Raffle</strong>: Held at our Pre-schools Annual General Meeting in December</li>
-          <li><strong>Christmas gifts</strong>: Cards made by your child, calendars of your child, letters to Santa, Handprint Bags</li>
+            <li><strong>Summer Fayre</strong></li>
+            <li><strong>Winter Fayre/An Annual Raffle</strong>: Held at our Pre-schools Annual General Meeting in December</li>
+            <li><strong>Christmas gifts</strong> such as: cards made by your child, calendars of your child, letters to Santa, Handprint Bags</li>
         </ul>
 
 
@@ -285,7 +285,9 @@
   </div><!--Container ends-->
 
   
+
 <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
+
