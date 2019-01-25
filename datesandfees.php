@@ -208,23 +208,20 @@
 
         <p>If your employer offers Childcare Vouchers as part of a salary sacrifice scheme, you can use these to pay your fees. We are registered with various voucher schemes so please discuss your requirements with the the School Manager. You can find more information about voucher schemes and how they work with <a href="<?php perch_content('Link to Child Tax Credits gov website'); ?>">Tax Credits on the web site of HM Revenue and Customs</a>.</p>
 
-        <p class="background-purple">West Sussex County Council (WSCC) will fund:
-            
-            <ul>
-                <li><strong>up to fifteen hours per week</strong> for children who qualify for <strong>two year old funding</strong></li>
-                <li><strong>up to fifteen hours per week</strong> for children <strong>over three years of age</strong></li>
-                <li><strong>up to thirty hours per week</strong> for children <strong>over three years of age</strong></li>
-                <!--Waiting on Beki to explain this bit-->
-            </ul>
+        <p>West Sussex County Council (WSCC) will fund:</p>
 
-up to fifteen hours per week</strong> for children over three years of age as part of the government's Funding scheme, but we charge you directly for the additional cost of the Montessori education. <a href="../about/policies/">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.
-            
-        </p>
+        <ul class="compact background-purple">
+            <li><strong>up to fifteen hours per week</strong> for children who qualify for <strong>two year old funding</strong></li>
+            <li><strong>up to fifteen hours per week (universal)</strong> for children <strong>over three years of age</strong></li>
+            <li><strong>up to thirty hours per week (extended)</strong> also for children <strong>over three years of age</strong></li>
+        </ul>
+
+        <p>... as part of the government's Funding scheme, but we charge you directly for the additional cost of the Montessori education. <a href="../about/policies/">Our policies</a> do permit parents to take just the free entitlement if sufficient spaces are available, but prioritises those who want the Montessori education. However, WSCC funds a maximum of 38 weeks of the year, whereas we open for 43 including half-term holidays. Any sessions over and above those funded by WSCC must be paid for in full by you.</p>
 
         <p>To apply for your Funding you must complete a Parental Declaration, available from us, and show us your child's birth certificate as proof of age. The Funding payments are made directly to the school. <?php perch_content('Link to EYPP document'); ?>.</p>
     
-        <p>See also: this leaflet about Two Year Old Funding<br />
-            this leaflet about Thirty Hours Funding
+        <p>See also: <?php perch_content('Link to Two Year Old Funding document'); ?><br />
+            <?php perch_content('Link to Thirty Hours Funding document'); ?>
         </p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
