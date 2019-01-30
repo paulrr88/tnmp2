@@ -220,8 +220,10 @@
 
         <p>To apply for your Funding you must complete a Parental Declaration, available from us, and show us your child's birth certificate as proof of age. The Funding payments are made directly to the school. <?php perch_content('Link to EYPP document'); ?>.</p>
     
-        <p>See also: <?php perch_content('Link to Two Year Old Funding document'); ?><br />
-            <?php perch_content('Link to Thirty Hours Funding document'); ?>
+        <p class="background-orange-light"><strong>See also:</strong><br />
+            <?php perch_content('Link to Two Year Old Funding document'); ?><br />
+            <a href="<?php perch_content('Link to Childcare Choices website'); ?>">Childcare Choices website (details of all funding choices)</a><br />
+            <a href="<?php perch_content('Link to Childcare Calculator'); ?>">Childcare Calculator (calculates the help you could get with childcare costs)</a>
         </p>
 
         <p class="backtotop"><a href="#top">Back to top</a></p>
