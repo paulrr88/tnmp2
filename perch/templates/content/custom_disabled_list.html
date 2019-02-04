@@ -1,0 +1,21 @@
+<perch:help>
+    <p><strong>Instructions:</strong></p>
+    
+    <p>This is the list of disabled facilities that the church offers. Sections can be added or deleted as needed. Each section has a header with a bullet point list within it which can be edited.</p>
+    
+    <p><strong>To add a section of bullet points with a header:</strong> Click "Save &amp; add another" at the bottom of the page as usual.</p>
+    <p><strong>To add a bullet point:</strong> Click "Add an item" in the lower right corner underneath the bottom-most bullet point in a section.</p>
+    <p><strong>To delete a bullet point:</strong> Mouse over the number next to a bullet point's text below to get a red X to appear, click the red X to delete the bullet point.</p>
+    <p><strong>To reorder bullet points:</strong> Mouse over the number as above, but instead click and hold on the three lines underneath the red X and drag your mouse down/up to reorder.</p>
+    <p><strong>To delete an entire section:</strong> Find the red "Delete" button to the top right of the section you want to delete, and click Delete in the "Are you sure?" box that appears.</p>
+    
+    <p>As ever for any of this to take effect you need to click Save Changes at the bottom. If you make a mistake just click Cancel instead.</p>
+</perch:help>
+
+<h2 class="padding-2"><perch:content id="heading" type="text" label="Heading for section" required="true" title="true" /></h2>
+
+<ul class="padding-4-left padding-4-right">
+    <perch:repeater id="sections" label="Bullet points for this section">
+        <li><perch:content id="body" type="textarea" label="Text for this bullet point" required="true" /></li>
+    </perch:repeater>
+</ul>

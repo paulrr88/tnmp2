@@ -86,6 +86,13 @@
 		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/datesandfees.php",
 		"oF": 6
 		},
+	"\/faq.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/faq.php",
+		"oF": 6
+		},
 	"\/index.kit": {
 		"cB": 0,
 		"ft": 2048,
