@@ -16,10 +16,8 @@
 
 <ul class="sitemap">
     <li><a href="#bookmark">
-            <perch:repeater id="headings" label="Headings for questions (in order)">
-                <perch:content id="heading" type="text" label="Heading for section" required="true" title="true" />
-            </perch:repeater>
-        </a></li>
+        <perch:content id="heading" type="text" label="Heading for section" required="true" title="true" />
+    </a></li>
 </ul>
 
     <!--Seems like I could use repeater with the same id, use one for titles for FAQs and use the same repeater for contents list?? Is this possible??
@@ -42,9 +40,7 @@
 
 
 <h2 class="padding-2">
-    <perch:repeater id="headings" label="Headings for questions (in order)">
-        <perch:content id="heading" type="text" label="Heading for section" required="true" title="true" />
-    </perch:repeater>
+    <perch:content id="heading" type="text" label="Heading for section" required="true" title="true" />
 </h2>
 
 <perch:repeater id="sections" label="Bullet point sections for each heading (in order)">

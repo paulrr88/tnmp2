@@ -1,3 +1,4 @@
+ 
 
 
 <?php include('perch/runtime.php'); ?>
@@ -111,7 +112,22 @@
 
         <h1 class="title">The New Montessori Pre-school Frequently Asked Questions</h1>
         
-        <?php perch_content('FAQ'); ?>
+        <h3 class="title">Contents</h3>
+        
+        <ul class="sitemap">
+            <li><a href="#prep">How can I prepare my child for starting at The New Montessori Pre-school?</a></li>
+        </ul>
+        
+        <a name="prep"></a>
+        
+        <h2 class="title">How can I prepare my child for starting at The New Montessori Pre-school?</h2>
+        
+        <ul class="sitemap">
+            <li>Visit the Pre-school with your child. Observe the other children and how they order their day. Talk about how, when at Pre-school you can have drinks and snacks and make new friends.</li>
+            <li>Discuss the pre-school with your child. Talk about the staff you have met and the other children who were there.</li>
+            <li>Arm your child with practical information like how to hang up their coat. Dress your child comfortably in suitable clothes. Getting dirty is a big concern for young children. </li>
+            <li>Practice leaving your child with a trusted friend/grandparent. Make sure the child is aware of what is happening. Short separations are a good way for your child to develop the understanding and trust that is needed to ensure they have a good time when you are not there. </li>
+        </ul>
 
       <br />
       <br />
