@@ -113,6 +113,7 @@
 
           <ul class="pagenav">
             <li class="pagenav-li"><strong><a href="../../about/">What is Montessori?</a></strong></li>
+            <li class="pagenav-li"><strong><a href="../../faq/">Frequently Asked Questions</a></strong></li>
             <li class="pagenav-li noborder"><strong><a href="../../about/team/">Our Team</a></strong></li>
             <br /><br />
             <li class="pagenav-li"><a href="../../about/history/">History of Montessori and Our Pre-school</a></li>

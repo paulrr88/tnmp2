@@ -34,28 +34,28 @@
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/about-history.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/about-history.php",
 		"oF": 6
 		},
 	"\/about-method-extra.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/about-method-extra.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/about-method-extra.php",
 		"oF": 6
 		},
 	"\/about-method.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/about-method.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/about-method.php",
 		"oF": 6
 		},
 	"\/about-policies.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/about-policies.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/about-policies.php",
 		"oF": 6
 		},
 	"\/about-team.kit": {
@@ -69,14 +69,14 @@
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/about.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/about.php",
 		"oF": 7
 		},
 	"\/contact.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/contact.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/contact.php",
 		"oF": 6
 		},
 	"\/datesandfees.kit": {
@@ -104,14 +104,14 @@
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/mymontessori.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/mymontessori.php",
 		"oF": 6
 		},
 	"\/sitemap.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"oA": 0,
-		"oAP": "\/Applications\/MAMP\/htdocs\/sitemap.php",
+		"oAP": "\/Applications\/MAMP\/htdocs\/tnmp2\/sitemap.php",
 		"oF": 7
 		}
 	},
