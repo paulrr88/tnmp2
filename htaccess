@@ -1,0 +1,22 @@
+# Forces files of types .ico, .pdf, .flv, .jpg, .jpeg, .png, .gif, .js, .css, and .swf to update once a week
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^about/$ about.php
+RewriteRule ^about/history/$ about-history.php
+RewriteRule ^about/method/$ about-method.php
+RewriteRule ^about/method/learning/$ about-method-extra.php
+RewriteRule ^about/team/$ about-team.php
+RewriteRule ^about/policies/$ about-policies.php
+RewriteRule ^contact/$ contact.php
+RewriteRule ^datesandfees/$ datesandfees.php
+RewriteRule ^faq/$ faq.php
+RewriteRule ^mymontessorichild/$ mymontessori.php
+RewriteRule ^sitemap/$ sitemap.php [L]
+# This only worked because I created subfolders corresponding with rewrite rule on server, otherwise it wouldn't have it. Still works without subfolders on localhost. Doesn't work for live as can't go more than one folder down without getting an forbidden message.
+# super reduced down, no need for [L] until after last statement and caret ^ doesn't seem to be needed but is a good idea from what tutorials say as it prevents erroneous strings from being accepted for redirect
+</IfModule>
+DirectoryIndex index.php index.html index.htm index.cgi index.shtml index.wml
+AddDefaultCharset Off
